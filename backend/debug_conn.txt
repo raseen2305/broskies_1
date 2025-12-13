@@ -1,0 +1,5 @@
+
+            OS Env Var: mongodb://localhost:27017/
+            Settings URL: mongodb://localhost:27017/
+            Settings DB: git_Evaluator
+            

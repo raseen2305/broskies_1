@@ -1,0 +1,28 @@
+[Unit]
+Description=Update student rankings
+After=network.target mongodb.service
+
+[Service]
+Type=oneshot
+User=www-data
+Group=www-data
+WorkingDirectory=/var/www/your-project
+Environment="PATH=/usr/local/bin:/usr/bin:/bin"
+Environment="PYTHONPATH=/var/www/your-project"
+ExecStart=/usr/bin/python3 /var/www/your-project/backend/scripts/update_rankings_cron.py
+StandardOutput=append:/var/log/ranking-updates.log
+StandardError=append:/var/log/ranking-updates.log
+
+# Restart policy
+Restart=on-failure
+RestartSec=60
+
+# Resource limits
+MemoryLimit=512M
+CPUQuota=50%
+
+# Timeout
+TimeoutStartSec=300
+
+[Install]
+WantedBy=multi-user.target

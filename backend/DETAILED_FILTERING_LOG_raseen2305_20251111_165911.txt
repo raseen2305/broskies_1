@@ -1,0 +1,207 @@
+[16:58:18.672] [INFO] ================================================================================
+[16:58:18.672] [INFO] DETAILED REPOSITORY FILTERING TEST
+[16:58:18.672] [INFO] Username: raseen2305
+[16:58:18.672] [INFO] Timestamp: 2025-11-11T16:58:18.672459
+[16:58:18.672] [INFO] ================================================================================
+[16:58:18.672] [INFO] 
+[16:58:18.673] [INFO] STEP 1: Fetching user information from GitHub
+[16:58:19.230] [SUCCESS] User: THOSHIF RASEEN (@raseen2305)
+[16:58:19.233] [INFO] Public repos count: 9
+[16:58:19.233] [INFO] 
+[16:58:19.233] [INFO] STEP 2: Fetching ALL repositories from GitHub API
+[16:58:20.438] [SUCCESS] GitHub API returned 9 repositories
+[16:58:20.438] [INFO] 
+[16:58:20.438] [INFO] STEP 3: Analyzing each repository for filtering
+[16:58:20.438] [INFO] --------------------------------------------------------------------------------
+[16:58:20.438] [INFO] Repository #1: dummy
+[16:58:20.438] [INFO]   ├─ Full name: raseen2305/dummy
+[16:58:20.438] [INFO]   ├─ Updated: 2025-10-22 16:02:14
+[16:58:20.438] [INFO]   ├─ Language: Python
+[16:58:20.438] [INFO]   ├─ Stars: 0
+[16:58:20.438] [INFO]   ├─ Forks: 0
+[16:58:20.438] [INFO]   ├─ Size: 3 KB
+[16:58:20.438] [INFO]   ├─ Is Fork? False
+[16:58:20.438] [INFO]   ├─ Is Private? False
+[16:58:20.444] [INCLUDE]   └─ ✅ INCLUDED: Public non-fork repository
+[16:58:20.444] [INFO] 
+[16:58:20.444] [INFO] Repository #2: online-evaluation
+[16:58:20.444] [INFO]   ├─ Full name: raseen2305/online-evaluation
+[16:58:20.444] [INFO]   ├─ Updated: 2025-10-08 15:08:14
+[16:58:20.444] [INFO]   ├─ Language: Python
+[16:58:20.444] [INFO]   ├─ Stars: 0
+[16:58:20.444] [INFO]   ├─ Forks: 0
+[16:58:20.444] [INFO]   ├─ Size: 73808 KB
+[16:58:20.445] [INFO]   ├─ Is Fork? False
+[16:58:20.445] [INFO]   ├─ Is Private? False
+[16:58:20.445] [INCLUDE]   └─ ✅ INCLUDED: Public non-fork repository
+[16:58:20.445] [INFO] 
+[16:58:20.445] [INFO] Repository #3: Complaint-management-system
+[16:58:20.445] [INFO]   ├─ Full name: raseen2305/Complaint-management-system
+[16:58:20.446] [INFO]   ├─ Updated: 2025-09-21 18:56:25
+[16:58:20.446] [INFO]   ├─ Language: Python
+[16:58:20.446] [INFO]   ├─ Stars: 0
+[16:58:20.446] [INFO]   ├─ Forks: 0
+[16:58:20.446] [INFO]   ├─ Size: 67911 KB
+[16:58:20.446] [INFO]   ├─ Is Fork? False
+[16:58:20.446] [INFO]   ├─ Is Private? False
+[16:58:20.446] [INCLUDE]   └─ ✅ INCLUDED: Public non-fork repository
+[16:58:20.447] [INFO] 
+[16:58:20.447] [INFO] Repository #4: AI-scheduler
+[16:58:20.447] [INFO]   ├─ Full name: raseen2305/AI-scheduler
+[16:58:20.447] [INFO]   ├─ Updated: 2025-08-31 05:18:25
+[16:58:20.447] [INFO]   ├─ Language: TypeScript
+[16:58:20.447] [INFO]   ├─ Stars: 0
+[16:58:20.447] [INFO]   ├─ Forks: 0
+[16:58:20.447] [INFO]   ├─ Size: 14670 KB
+[16:58:20.447] [INFO]   ├─ Is Fork? False
+[16:58:20.447] [INFO]   ├─ Is Private? False
+[16:58:20.448] [INCLUDE]   └─ ✅ INCLUDED: Public non-fork repository
+[16:58:20.448] [INFO] 
+[16:58:20.448] [INFO] Repository #5: PasswordManager
+[16:58:20.448] [INFO]   ├─ Full name: raseen2305/PasswordManager
+[16:58:20.448] [INFO]   ├─ Updated: 2025-08-18 14:07:30
+[16:58:20.448] [INFO]   ├─ Language: None
+[16:58:20.448] [INFO]   ├─ Stars: 0
+[16:58:20.448] [INFO]   ├─ Forks: 0
+[16:58:20.448] [INFO]   ├─ Size: 4 KB
+[16:58:20.448] [INFO]   ├─ Is Fork? True
+[16:58:20.450] [INFO]   ├─ Is Private? False
+[16:58:20.450] [FILTER]   └─ ❌ FILTERED OUT: Repository is a fork
+[16:58:20.450] [INFO] 
+[16:58:20.450] [INFO] Repository #6: Postora
+[16:58:20.450] [INFO]   ├─ Full name: raseen2305/Postora
+[16:58:20.450] [INFO]   ├─ Updated: 2025-07-28 15:56:58
+[16:58:20.450] [INFO]   ├─ Language: TypeScript
+[16:58:20.450] [INFO]   ├─ Stars: 0
+[16:58:20.450] [INFO]   ├─ Forks: 0
+[16:58:20.450] [INFO]   ├─ Size: 689 KB
+[16:58:20.450] [INFO]   ├─ Is Fork? False
+[16:58:20.450] [INFO]   ├─ Is Private? False
+[16:58:20.450] [INCLUDE]   └─ ✅ INCLUDED: Public non-fork repository
+[16:58:20.451] [INFO] 
+[16:58:20.451] [INFO] Repository #7: amanah2
+[16:58:20.451] [INFO]   ├─ Full name: raseen2305/amanah2
+[16:58:20.451] [INFO]   ├─ Updated: 2025-06-09 06:51:26
+[16:58:20.451] [INFO]   ├─ Language: TypeScript
+[16:58:20.451] [INFO]   ├─ Stars: 0
+[16:58:20.451] [INFO]   ├─ Forks: 0
+[16:58:20.451] [INFO]   ├─ Size: 21106 KB
+[16:58:20.451] [INFO]   ├─ Is Fork? False
+[16:58:20.452] [INFO]   ├─ Is Private? False
+[16:58:20.452] [INCLUDE]   └─ ✅ INCLUDED: Public non-fork repository
+[16:58:20.452] [INFO] 
+[16:58:20.452] [INFO] Repository #8: amanah1
+[16:58:20.452] [INFO]   ├─ Full name: raseen2305/amanah1
+[16:58:20.452] [INFO]   ├─ Updated: 2025-05-29 17:10:39
+[16:58:20.452] [INFO]   ├─ Language: TypeScript
+[16:58:20.452] [INFO]   ├─ Stars: 0
+[16:58:20.452] [INFO]   ├─ Forks: 0
+[16:58:20.452] [INFO]   ├─ Size: 21013 KB
+[16:58:20.452] [INFO]   ├─ Is Fork? False
+[16:58:20.452] [INFO]   ├─ Is Private? False
+[16:58:20.452] [INCLUDE]   └─ ✅ INCLUDED: Public non-fork repository
+[16:58:20.452] [INFO] 
+[16:58:20.453] [INFO] Repository #9: Movie-Finder
+[16:58:20.453] [INFO]   ├─ Full name: raseen2305/Movie-Finder
+[16:58:20.453] [INFO]   ├─ Updated: 2025-04-29 15:31:53
+[16:58:20.453] [INFO]   ├─ Language: JavaScript
+[16:58:20.453] [INFO]   ├─ Stars: 0
+[16:58:20.453] [INFO]   ├─ Forks: 0
+[16:58:20.453] [INFO]   ├─ Size: 40 KB
+[16:58:20.453] [INFO]   ├─ Is Fork? False
+[16:58:20.455] [INFO]   ├─ Is Private? False
+[16:58:20.455] [INCLUDE]   └─ ✅ INCLUDED: Public non-fork repository
+[16:58:20.455] [INFO] 
+[16:58:20.455] [INFO] --------------------------------------------------------------------------------
+[16:58:20.455] [INFO] 
+[16:58:20.455] [INFO] STEP 4: Testing backend fetch_user_repositories service
+[16:58:20.455] [INFO] Calling fetch_user_repositories with:
+[16:58:20.456] [INFO]   ├─ include_forks: False
+[16:58:20.456] [INFO]   ├─ max_display_repos: 100
+[16:58:20.456] [INFO]   └─ evaluate_limit: 15
+[16:58:20.456] [INFO] 
+[16:59:11.770] [SUCCESS] Backend service results:
+[16:59:11.770] [INFO]   ├─ Total found: 9
+[16:59:11.770] [INFO]   ├─ Skipped forks: 1
+[16:59:11.770] [INFO]   ├─ Skipped private: 0
+[16:59:11.771] [INFO]   ├─ Total displayed: 8
+[16:59:11.771] [INFO]   ├─ Evaluated count: 8
+[16:59:11.771] [INFO]   ├─ Complete data: 8
+[16:59:11.771] [INFO]   └─ Partial data: 0
+[16:59:11.771] [INFO] 
+[16:59:11.771] [INFO] STEP 5: Verification
+[16:59:11.771] [INFO] --------------------------------------------------------------------------------
+[16:59:11.771] [INFO] Expected repositories (public non-fork): 8
+[16:59:11.771] [INFO] Actually returned by backend: 8
+[16:59:11.771] [SUCCESS] ✅ MATCH: All expected repositories were returned!
+[16:59:11.771] [INFO] 
+[16:59:11.771] [INFO] STEP 6: Repositories returned to frontend
+[16:59:11.772] [INFO] --------------------------------------------------------------------------------
+[16:59:11.772] [INFO] #1: dummy
+[16:59:11.772] [INFO]   ├─ 🎯 EVALUATED
+[16:59:11.772] [INFO]   ├─ ✅ COMPLETE
+[16:59:11.772] [INFO]   ├─ Language: Python
+[16:59:11.772] [INFO]   ├─ Stars: 0
+[16:59:11.772] [INFO]   └─ Updated: 2025-10-22T16:02:14+00:00
+[16:59:11.772] [INFO] 
+[16:59:11.772] [INFO] #2: online-evaluation
+[16:59:11.772] [INFO]   ├─ 🎯 EVALUATED
+[16:59:11.772] [INFO]   ├─ ✅ COMPLETE
+[16:59:11.772] [INFO]   ├─ Language: Python
+[16:59:11.772] [INFO]   ├─ Stars: 0
+[16:59:11.772] [INFO]   └─ Updated: 2025-10-08T15:08:14+00:00
+[16:59:11.772] [INFO] 
+[16:59:11.772] [INFO] #3: Complaint-management-system
+[16:59:11.774] [INFO]   ├─ 🎯 EVALUATED
+[16:59:11.774] [INFO]   ├─ ✅ COMPLETE
+[16:59:11.774] [INFO]   ├─ Language: Python
+[16:59:11.774] [INFO]   ├─ Stars: 0
+[16:59:11.774] [INFO]   └─ Updated: 2025-09-21T18:56:25+00:00
+[16:59:11.774] [INFO] 
+[16:59:11.774] [INFO] #4: AI-scheduler
+[16:59:11.774] [INFO]   ├─ 🎯 EVALUATED
+[16:59:11.774] [INFO]   ├─ ✅ COMPLETE
+[16:59:11.774] [INFO]   ├─ Language: TypeScript
+[16:59:11.775] [INFO]   ├─ Stars: 0
+[16:59:11.775] [INFO]   └─ Updated: 2025-08-31T05:18:25+00:00
+[16:59:11.775] [INFO] 
+[16:59:11.775] [INFO] #5: Postora
+[16:59:11.775] [INFO]   ├─ 🎯 EVALUATED
+[16:59:11.775] [INFO]   ├─ ✅ COMPLETE
+[16:59:11.775] [INFO]   ├─ Language: TypeScript
+[16:59:11.775] [INFO]   ├─ Stars: 0
+[16:59:11.775] [INFO]   └─ Updated: 2025-07-28T15:56:58+00:00
+[16:59:11.775] [INFO] 
+[16:59:11.775] [INFO] #6: amanah2
+[16:59:11.775] [INFO]   ├─ 🎯 EVALUATED
+[16:59:11.776] [INFO]   ├─ ✅ COMPLETE
+[16:59:11.776] [INFO]   ├─ Language: TypeScript
+[16:59:11.776] [INFO]   ├─ Stars: 0
+[16:59:11.776] [INFO]   └─ Updated: 2025-06-09T06:51:26+00:00
+[16:59:11.776] [INFO] 
+[16:59:11.776] [INFO] #7: amanah1
+[16:59:11.776] [INFO]   ├─ 🎯 EVALUATED
+[16:59:11.776] [INFO]   ├─ ✅ COMPLETE
+[16:59:11.776] [INFO]   ├─ Language: TypeScript
+[16:59:11.776] [INFO]   ├─ Stars: 0
+[16:59:11.776] [INFO]   └─ Updated: 2025-05-29T17:10:39+00:00
+[16:59:11.776] [INFO] 
+[16:59:11.776] [INFO] #8: Movie-Finder
+[16:59:11.776] [INFO]   ├─ 🎯 EVALUATED
+[16:59:11.776] [INFO]   ├─ ✅ COMPLETE
+[16:59:11.776] [INFO]   ├─ Language: JavaScript
+[16:59:11.776] [INFO]   ├─ Stars: 0
+[16:59:11.777] [INFO]   └─ Updated: 2025-04-29T15:31:53+00:00
+[16:59:11.777] [INFO] 
+[16:59:11.777] [INFO] ================================================================================
+[16:59:11.777] [INFO] SUMMARY
+[16:59:11.777] [INFO] ================================================================================
+[16:59:11.777] [INFO] Total repositories from GitHub: 9
+[16:59:11.777] [FILTER] Filtered out (forks): 1
+[16:59:11.777] [FILTER] Filtered out (private): 0
+[16:59:11.777] [INCLUDE] Expected to include: 8
+[16:59:11.777] [SUCCESS] Actually returned: 8
+[16:59:11.777] [INFO] 
+[16:59:11.777] [SUCCESS] ✅ No errors encountered
+[16:59:11.777] [INFO] 
+[16:59:11.778] [INFO] ================================================================================

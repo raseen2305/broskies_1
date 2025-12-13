@@ -1,0 +1,171 @@
+[17:06:23.241] [INFO] ================================================================================
+[17:06:23.241] [INFO] EVALUATION FLOW TEST: Fetching → Evaluation → Frontend
+[17:06:23.241] [INFO] Username: raseen2305
+[17:06:23.241] [INFO] Timestamp: 2025-11-11T17:06:23.241060
+[17:06:23.241] [INFO] ================================================================================
+[17:06:23.241] [INFO] 
+[17:06:23.241] [INFO] PHASE 1: FETCHING REPOSITORIES
+[17:06:23.241] [INFO] --------------------------------------------------------------------------------
+[17:07:14.153] [SUCCESS] ✅ Fetched 8 repositories
+[17:07:14.153] [INFO]    Total found: 9
+[17:07:14.153] [INFO]    Filtered (forks): 1
+[17:07:14.153] [INFO]    Filtered (private): 0
+[17:07:14.153] [INFO]    Marked for evaluation: 8
+[17:07:14.153] [INFO]    Display only: 0
+[17:07:14.153] [INFO] 
+[17:07:14.154] [INFO] PHASE 2: CATEGORIZING REPOSITORIES
+[17:07:14.154] [INFO] --------------------------------------------------------------------------------
+[17:07:14.154] [EVALUATE] # 1 🎯 EVALUATE: dummy (Python)
+[17:07:14.156] [INFO]      ├─ Complete data: True
+[17:07:14.156] [INFO]      └─ Will be scored
+[17:07:14.156] [EVALUATE] # 2 🎯 EVALUATE: online-evaluation (Python)
+[17:07:14.156] [INFO]      ├─ Complete data: True
+[17:07:14.157] [INFO]      └─ Will be scored
+[17:07:14.157] [EVALUATE] # 3 🎯 EVALUATE: Complaint-management-system (Python)
+[17:07:14.157] [INFO]      ├─ Complete data: True
+[17:07:14.157] [INFO]      └─ Will be scored
+[17:07:14.157] [EVALUATE] # 4 🎯 EVALUATE: AI-scheduler (TypeScript)
+[17:07:14.157] [INFO]      ├─ Complete data: True
+[17:07:14.157] [INFO]      └─ Will be scored
+[17:07:14.157] [EVALUATE] # 5 🎯 EVALUATE: Postora (TypeScript)
+[17:07:14.157] [INFO]      ├─ Complete data: True
+[17:07:14.157] [INFO]      └─ Will be scored
+[17:07:14.157] [EVALUATE] # 6 🎯 EVALUATE: amanah2 (TypeScript)
+[17:07:14.157] [INFO]      ├─ Complete data: True
+[17:07:14.158] [INFO]      └─ Will be scored
+[17:07:14.158] [EVALUATE] # 7 🎯 EVALUATE: amanah1 (TypeScript)
+[17:07:14.158] [INFO]      ├─ Complete data: True
+[17:07:14.158] [INFO]      └─ Will be scored
+[17:07:14.158] [EVALUATE] # 8 🎯 EVALUATE: Movie-Finder (JavaScript)
+[17:07:14.158] [INFO]      ├─ Complete data: True
+[17:07:14.158] [INFO]      └─ Will be scored
+[17:07:14.158] [INFO] 
+[17:07:14.158] [INFO] 📊 Categorization Summary:
+[17:07:14.158] [EVALUATE]    Repositories to evaluate: 8
+[17:07:14.158] [SKIP]    Repositories display-only: 0
+[17:07:14.158] [INFO] 
+[17:07:14.158] [INFO] PHASE 3: EVALUATION FILTERING CHECK
+[17:07:14.158] [INFO] --------------------------------------------------------------------------------
+[17:07:14.158] [SUCCESS] ✅ PASS: dummy
+[17:07:14.158] [INFO]    ├─ Language: Python
+[17:07:14.158] [INFO]    ├─ Size: 3 KB
+[17:07:14.158] [INFO]    └─ Will be evaluated
+[17:07:14.158] [SUCCESS] ✅ PASS: online-evaluation
+[17:07:14.158] [INFO]    ├─ Language: Python
+[17:07:14.158] [INFO]    ├─ Size: 73808 KB
+[17:07:14.159] [INFO]    └─ Will be evaluated
+[17:07:14.159] [SUCCESS] ✅ PASS: Complaint-management-system
+[17:07:14.159] [INFO]    ├─ Language: Python
+[17:07:14.159] [INFO]    ├─ Size: 67911 KB
+[17:07:14.159] [INFO]    └─ Will be evaluated
+[17:07:14.159] [SUCCESS] ✅ PASS: AI-scheduler
+[17:07:14.159] [INFO]    ├─ Language: TypeScript
+[17:07:14.159] [INFO]    ├─ Size: 14670 KB
+[17:07:14.159] [INFO]    └─ Will be evaluated
+[17:07:14.159] [SUCCESS] ✅ PASS: Postora
+[17:07:14.159] [INFO]    ├─ Language: TypeScript
+[17:07:14.159] [INFO]    ├─ Size: 689 KB
+[17:07:14.159] [INFO]    └─ Will be evaluated
+[17:07:14.159] [SUCCESS] ✅ PASS: amanah2
+[17:07:14.159] [INFO]    ├─ Language: TypeScript
+[17:07:14.159] [INFO]    ├─ Size: 21106 KB
+[17:07:14.160] [INFO]    └─ Will be evaluated
+[17:07:14.160] [SUCCESS] ✅ PASS: amanah1
+[17:07:14.160] [INFO]    ├─ Language: TypeScript
+[17:07:14.160] [INFO]    ├─ Size: 21013 KB
+[17:07:14.160] [INFO]    └─ Will be evaluated
+[17:07:14.160] [SUCCESS] ✅ PASS: Movie-Finder
+[17:07:14.160] [INFO]    ├─ Language: JavaScript
+[17:07:14.160] [INFO]    ├─ Size: 40 KB
+[17:07:14.160] [INFO]    └─ Will be evaluated
+[17:07:14.160] [INFO] 
+[17:07:14.160] [INFO] 📊 Evaluation Filtering Summary:
+[17:07:14.160] [SUCCESS]    Passed evaluation criteria: 8
+[17:07:14.160] [FILTER]    Filtered during evaluation: 0
+[17:07:14.160] [INFO] 
+[17:07:14.160] [INFO] PHASE 4: EVALUATION SIMULATION
+[17:07:14.162] [INFO] --------------------------------------------------------------------------------
+[17:07:14.162] [INFO] Simulating evaluation for 8 repositories...
+[17:07:14.162] [INFO] 
+[17:07:14.162] [INFO] 📊 Evaluated: dummy
+[17:07:14.162] [INFO]    ├─ Language: Python
+[17:07:14.162] [INFO]    ├─ Stars: 0
+[17:07:14.162] [INFO]    └─ Mock Score: 85.0
+[17:07:14.162] [INFO] 📊 Evaluated: online-evaluation
+[17:07:14.162] [INFO]    ├─ Language: Python
+[17:07:14.162] [INFO]    ├─ Stars: 0
+[17:07:14.162] [INFO]    └─ Mock Score: 85.0
+[17:07:14.162] [INFO] 📊 Evaluated: Complaint-management-system
+[17:07:14.162] [INFO]    ├─ Language: Python
+[17:07:14.163] [INFO]    ├─ Stars: 0
+[17:07:14.163] [INFO]    └─ Mock Score: 85.0
+[17:07:14.163] [INFO] 📊 Evaluated: AI-scheduler
+[17:07:14.163] [INFO]    ├─ Language: TypeScript
+[17:07:14.163] [INFO]    ├─ Stars: 0
+[17:07:14.163] [INFO]    └─ Mock Score: 85.0
+[17:07:14.163] [INFO] 📊 Evaluated: Postora
+[17:07:14.163] [INFO]    ├─ Language: TypeScript
+[17:07:14.163] [INFO]    ├─ Stars: 0
+[17:07:14.163] [INFO]    └─ Mock Score: 85.0
+[17:07:14.163] [INFO] 📊 Evaluated: amanah2
+[17:07:14.163] [INFO]    ├─ Language: TypeScript
+[17:07:14.163] [INFO]    ├─ Stars: 0
+[17:07:14.164] [INFO]    └─ Mock Score: 85.0
+[17:07:14.164] [INFO] 📊 Evaluated: amanah1
+[17:07:14.164] [INFO]    ├─ Language: TypeScript
+[17:07:14.164] [INFO]    ├─ Stars: 0
+[17:07:14.164] [INFO]    └─ Mock Score: 85.0
+[17:07:14.164] [INFO] 📊 Evaluated: Movie-Finder
+[17:07:14.164] [INFO]    ├─ Language: JavaScript
+[17:07:14.164] [INFO]    ├─ Stars: 0
+[17:07:14.164] [INFO]    └─ Mock Score: 85.0
+[17:07:14.164] [INFO] 
+[17:07:14.164] [INFO] PHASE 5: FRONTEND DATA PREPARATION
+[17:07:14.164] [INFO] --------------------------------------------------------------------------------
+[17:07:14.164] [SUCCESS] 📦 Frontend Data Prepared:
+[17:07:14.165] [INFO]    Evaluated repos: 8
+[17:07:14.165] [INFO]    Display-only repos: 0
+[17:07:14.165] [INFO]    Overall score based on: 8 repos
+[17:07:14.165] [INFO] 
+[17:07:14.165] [INFO] PHASE 6: FINAL VERIFICATION
+[17:07:14.165] [INFO] --------------------------------------------------------------------------------
+[17:07:14.165] [INFO] 📊 Repository Flow Summary:
+[17:07:14.165] [INFO] 
+[17:07:14.165] [INFO] 1️⃣  Fetched from GitHub: 8
+[17:07:14.165] [EVALUATE]     ├─ Marked for evaluation: 8
+[17:07:14.165] [SKIP]     └─ Display only: 0
+[17:07:14.165] [INFO] 
+[17:07:14.165] [INFO] 2️⃣  Evaluation Phase:
+[17:07:14.166] [SUCCESS]     ├─ Passed evaluation: 8
+[17:07:14.166] [FILTER]     └─ Filtered: 0
+[17:07:14.166] [INFO] 
+[17:07:14.166] [INFO] 3️⃣  Sent to Frontend:
+[17:07:14.166] [SUCCESS]     ├─ Evaluated & scored: 8
+[17:07:14.166] [INFO]     └─ Display only: 0
+[17:07:14.166] [INFO] 
+[17:07:14.166] [SUCCESS] ✅ SUCCESS: No repositories filtered during evaluation!
+[17:07:14.166] [INFO] 
+[17:07:14.166] [INFO] PHASE 7: DETAILED BREAKDOWN
+[17:07:14.166] [INFO] --------------------------------------------------------------------------------
+[17:07:14.166] [INFO] 📋 Repositories sent to frontend (evaluated):
+[17:07:14.166] [INFO]     1. dummy (Python) - Score: 85.0
+[17:07:14.166] [INFO]     2. online-evaluation (Python) - Score: 85.0
+[17:07:14.166] [INFO]     3. Complaint-management-system (Python) - Score: 85.0
+[17:07:14.166] [INFO]     4. AI-scheduler (TypeScript) - Score: 85.0
+[17:07:14.166] [INFO]     5. Postora (TypeScript) - Score: 85.0
+[17:07:14.167] [INFO]     6. amanah2 (TypeScript) - Score: 85.0
+[17:07:14.167] [INFO]     7. amanah1 (TypeScript) - Score: 85.0
+[17:07:14.167] [INFO]     8. Movie-Finder (JavaScript) - Score: 85.0
+[17:07:14.167] [INFO] 
+[17:07:14.167] [INFO] 
+[17:07:14.167] [INFO] ================================================================================
+[17:07:14.167] [INFO] SUMMARY
+[17:07:14.167] [INFO] ================================================================================
+[17:07:14.167] [INFO] Total repositories fetched: 8
+[17:07:14.167] [INFO] Total sent to frontend: 8
+[17:07:14.167] [SUCCESS]   ├─ Evaluated & scored: 8
+[17:07:14.167] [INFO]   └─ Display only: 0
+[17:07:14.168] [INFO] 
+[17:07:14.168] [SUCCESS] ✅ No repositories lost during evaluation
+[17:07:14.168] [INFO] 
+[17:07:14.168] [INFO] ================================================================================

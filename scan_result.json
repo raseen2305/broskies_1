@@ -1,0 +1,7913 @@
+{
+  "userId": "external_raseen2305",
+  "username": "raseen2305",
+  "overallScore": 36.8,
+  "overallScore_unavailable_reason": null,
+  "analysis_available": true,
+  "analysis_type": "metadata_based",
+  "repositoryCount": 9,
+  "lastScanDate": "2025-11-07T07:10:18.547550",
+  "languages": [
+    {
+      "language": "TypeScript",
+      "percentage": 44.4,
+      "repositories": 4,
+      "stars": 0
+    },
+    {
+      "language": "Python",
+      "percentage": 33.3,
+      "repositories": 3,
+      "stars": 0
+    },
+    {
+      "language": "JavaScript",
+      "percentage": 11.1,
+      "repositories": 1,
+      "stars": 0
+    }
+  ],
+  "techStack": [
+    {
+      "name": "Python",
+      "category": "Programming Language",
+      "confidence": 60,
+      "repositories": 3,
+      "experience_level": "Intermediate"
+    },
+    {
+      "name": "TypeScript",
+      "category": "Programming Language",
+      "confidence": 80,
+      "repositories": 4,
+      "experience_level": "Intermediate"
+    },
+    {
+      "name": "JavaScript",
+      "category": "Programming Language",
+      "confidence": 20,
+      "repositories": 1,
+      "experience_level": "Beginner"
+    }
+  ],
+  "roadmap": [
+    {
+      "id": "cloud-devops-fundamentals",
+      "title": "Cloud Computing & DevOps Essentials",
+      "description": "Master containerization, CI/CD, and cloud deployment",
+      "priority": "High",
+      "category": "DevOps",
+      "estimatedTime": "2-3 months",
+      "difficulty": "Intermediate",
+      "skills": [
+        "Docker & Kubernetes",
+        "CI/CD Pipelines",
+        "AWS/Azure/GCP",
+        "Infrastructure as Code",
+        "Monitoring"
+      ],
+      "prerequisites": [
+        "Basic command line",
+        "Git knowledge"
+      ],
+      "milestones": [
+        "Containerize Application",
+        "Set up CI/CD Pipeline",
+        "Deploy to Cloud",
+        "Implement Monitoring"
+      ],
+      "resources": [
+        {
+          "type": "course",
+          "name": "Docker Mastery",
+          "description": "Complete containerization"
+        },
+        {
+          "type": "hands-on",
+          "name": "AWS Free Tier Projects",
+          "description": "Real cloud experience"
+        },
+        {
+          "type": "certification",
+          "name": "AWS Cloud Practitioner",
+          "description": "Industry recognition"
+        }
+      ],
+      "market_demand": "Very High",
+      "salary_impact": "+20-35%"
+    },
+    {
+      "id": "js-backend-mastery",
+      "title": "Node.js Backend Development",
+      "description": "Build scalable APIs and microservices with Node.js ecosystem",
+      "priority": "High",
+      "category": "Backend Development",
+      "estimatedTime": "2-3 months",
+      "difficulty": "Intermediate",
+      "skills": [
+        "Express.js/Fastify",
+        "Database Integration",
+        "Authentication & Security",
+        "API Design",
+        "Testing"
+      ],
+      "prerequisites": [
+        "JavaScript",
+        "Basic HTTP concepts"
+      ],
+      "milestones": [
+        "Build REST API",
+        "Add Database Integration",
+        "Implement Authentication",
+        "Deploy with Docker"
+      ],
+      "resources": [
+        {
+          "type": "course",
+          "name": "Node.js Complete Guide",
+          "description": "Backend fundamentals"
+        },
+        {
+          "type": "project",
+          "name": "E-commerce API",
+          "description": "Real-world project"
+        },
+        {
+          "type": "documentation",
+          "name": "Express.js Docs",
+          "url": "https://expressjs.com/"
+        }
+      ],
+      "market_demand": "High",
+      "salary_impact": "+20-30%"
+    },
+    {
+      "id": "js-frontend-mastery",
+      "title": "Master Modern Frontend Development",
+      "description": "Build production-ready web applications with React ecosystem",
+      "priority": "High",
+      "category": "Frontend Development",
+      "estimatedTime": "3-4 months",
+      "difficulty": "Intermediate",
+      "skills": [
+        "React/Next.js",
+        "TypeScript",
+        "State Management (Redux/Zustand)",
+        "Testing (Jest/RTL)",
+        "CSS-in-JS"
+      ],
+      "prerequisites": [
+        "JavaScript ES6+",
+        "HTML/CSS"
+      ],
+      "milestones": [
+        "Build a Todo App with React",
+        "Create a Dashboard with Charts",
+        "Deploy to Production",
+        "Add Authentication & Testing"
+      ],
+      "resources": [
+        {
+          "type": "course",
+          "name": "React Official Tutorial",
+          "url": "https://react.dev/learn"
+        },
+        {
+          "type": "project",
+          "name": "Build 5 React Projects",
+          "description": "Hands-on practice"
+        },
+        {
+          "type": "book",
+          "name": "Fullstack React",
+          "description": "Comprehensive guide"
+        }
+      ],
+      "market_demand": "Very High",
+      "salary_impact": "+15-25%"
+    },
+    {
+      "id": "database-mastery",
+      "title": "Database Design & Management",
+      "description": "Master both SQL and NoSQL databases for scalable applications",
+      "priority": "Medium",
+      "category": "Database",
+      "estimatedTime": "1-2 months",
+      "difficulty": "Beginner to Intermediate",
+      "skills": [
+        "SQL Mastery",
+        "Database Design",
+        "PostgreSQL/MySQL",
+        "MongoDB",
+        "Performance Optimization"
+      ],
+      "prerequisites": [
+        "Basic programming knowledge"
+      ],
+      "milestones": [
+        "Design Normalized Database",
+        "Write Complex Queries",
+        "Optimize Performance",
+        "Implement Backup Strategy"
+      ],
+      "resources": [
+        {
+          "type": "course",
+          "name": "SQL Complete Course",
+          "description": "From basics to advanced"
+        },
+        {
+          "type": "practice",
+          "name": "LeetCode Database Problems",
+          "description": "Hands-on practice"
+        },
+        {
+          "type": "project",
+          "name": "Database Design Project",
+          "description": "Real-world application"
+        }
+      ],
+      "market_demand": "High",
+      "salary_impact": "+15-25%"
+    }
+  ],
+  "roadmap_unavailable_reason": null,
+  "githubProfile": {
+    "username": "raseen2305",
+    "name": "THOSHIF RASEEN",
+    "bio": "Just a guy trying to build something awesome (and not go broke)!",
+    "location": null,
+    "company": null,
+    "blog": "raseen.netlify.app",
+    "public_repos": 9,
+    "followers": 0,
+    "following": 0,
+    "created_at": "2024-02-09T17:31:27+00:00",
+    "avatar_url": "https://avatars.githubusercontent.com/u/159570097?v=4",
+    "email": null,
+    "twitter_username": null,
+    "public_gists": 0,
+    "hireable": null,
+    "type": "User",
+    "site_admin": false
+  },
+  "skillAssessment": {},
+  "insights": {},
+  "profileCompleteness": {},
+  "nextSteps": [],
+  "repositories": [
+    {
+      "id": 1081318837,
+      "name": "dummy",
+      "description": "dummy",
+      "language": "Python",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "watchers_count": 0,
+      "size": 3,
+      "topics": [],
+      "created_at": "2025-10-22T16:00:58+00:00",
+      "updated_at": "2025-10-22T16:02:14+00:00",
+      "pushed_at": "2025-10-22T16:02:10+00:00",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "default_branch": "main",
+      "analysis_available": true,
+      "analysis_type": "metadata_based",
+      "analysis_note": "Basic analysis based on public repository metadata - not full code analysis",
+      "analysis": {
+        "acid_scores": {
+          "atomicity": 70,
+          "consistency": 60,
+          "isolation": 65,
+          "durability": 60,
+          "overall": 63.8
+        },
+        "quality_metrics": {
+          "readability": 60.0,
+          "maintainability": 70,
+          "security": 60,
+          "test_coverage": 40,
+          "documentation": 75
+        },
+        "overall_score": 58.3,
+        "basic_quality_score": 58.3,
+        "community_indicators": {
+          "stars": 0,
+          "forks": 0,
+          "community_score": 30
+        },
+        "documentation_indicators": {
+          "has_description": true,
+          "has_topics": false,
+          "has_license": false,
+          "documentation_score": 75
+        },
+        "maintenance_indicators": {
+          "recently_updated": true,
+          "maintenance_score": 70
+        }
+      },
+      "limitations": [
+        "ACID scores estimated from public metadata (not full code analysis)",
+        "Quality metrics based on repository indicators",
+        "No security vulnerability scanning",
+        "No detailed code complexity analysis"
+      ]
+    },
+    {
+      "id": 1072322046,
+      "name": "online-evaluation",
+      "description": "",
+      "language": "Python",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "watchers_count": 0,
+      "size": 73808,
+      "topics": [],
+      "created_at": "2025-10-08T15:00:50+00:00",
+      "updated_at": "2025-10-08T15:08:14+00:00",
+      "pushed_at": "2025-10-08T15:07:53+00:00",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "default_branch": "master",
+      "analysis_available": true,
+      "analysis_type": "metadata_based",
+      "analysis_note": "Basic analysis based on public repository metadata - not full code analysis",
+      "analysis": {
+        "acid_scores": {
+          "atomicity": 50,
+          "consistency": 60,
+          "isolation": 65,
+          "durability": 60,
+          "overall": 58.8
+        },
+        "quality_metrics": {
+          "readability": 40.0,
+          "maintainability": 70,
+          "security": 60,
+          "test_coverage": 40,
+          "documentation": 50
+        },
+        "overall_score": 50.0,
+        "basic_quality_score": 50.0,
+        "community_indicators": {
+          "stars": 0,
+          "forks": 0,
+          "community_score": 30
+        },
+        "documentation_indicators": {
+          "has_description": false,
+          "has_topics": false,
+          "has_license": false,
+          "documentation_score": 50
+        },
+        "maintenance_indicators": {
+          "recently_updated": true,
+          "maintenance_score": 70
+        }
+      },
+      "limitations": [
+        "ACID scores estimated from public metadata (not full code analysis)",
+        "Quality metrics based on repository indicators",
+        "No security vulnerability scanning",
+        "No detailed code complexity analysis"
+      ]
+    },
+    {
+      "id": 1061342287,
+      "name": "Complaint-management-system",
+      "description": "A robust complaint management system where user can raise a ticket and categorize them, also it is integrated with IBM Watson ai chatbot. It also has a ADMIN dashboard to manage access and complaints",
+      "language": "Python",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "watchers_count": 0,
+      "size": 67911,
+      "topics": [],
+      "created_at": "2025-09-21T18:07:01+00:00",
+      "updated_at": "2025-09-21T18:56:25+00:00",
+      "pushed_at": "2025-09-21T18:56:22+00:00",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "default_branch": "master",
+      "analysis_available": true,
+      "analysis_type": "metadata_based",
+      "analysis_note": "Basic analysis based on public repository metadata - not full code analysis",
+      "analysis": {
+        "acid_scores": {
+          "atomicity": 70,
+          "consistency": 60,
+          "isolation": 65,
+          "durability": 60,
+          "overall": 63.8
+        },
+        "quality_metrics": {
+          "readability": 60.0,
+          "maintainability": 70,
+          "security": 60,
+          "test_coverage": 40,
+          "documentation": 75
+        },
+        "overall_score": 58.3,
+        "basic_quality_score": 58.3,
+        "community_indicators": {
+          "stars": 0,
+          "forks": 0,
+          "community_score": 30
+        },
+        "documentation_indicators": {
+          "has_description": true,
+          "has_topics": false,
+          "has_license": false,
+          "documentation_score": 75
+        },
+        "maintenance_indicators": {
+          "recently_updated": true,
+          "maintenance_score": 70
+        }
+      },
+      "limitations": [
+        "ACID scores estimated from public metadata (not full code analysis)",
+        "Quality metrics based on repository indicators",
+        "No security vulnerability scanning",
+        "No detailed code complexity analysis"
+      ]
+    },
+    {
+      "id": 1047732487,
+      "name": "AI-scheduler",
+      "description": "AI content creator and scheduler",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "watchers_count": 0,
+      "size": 14670,
+      "topics": [],
+      "created_at": "2025-08-31T05:12:10+00:00",
+      "updated_at": "2025-08-31T05:18:25+00:00",
+      "pushed_at": "2025-08-31T05:18:21+00:00",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "default_branch": "master",
+      "analysis_available": true,
+      "analysis_type": "metadata_based",
+      "analysis_note": "Basic analysis based on public repository metadata - not full code analysis",
+      "analysis": {
+        "acid_scores": {
+          "atomicity": 70,
+          "consistency": 60,
+          "isolation": 65,
+          "durability": 60,
+          "overall": 63.8
+        },
+        "quality_metrics": {
+          "readability": 60.0,
+          "maintainability": 70,
+          "security": 60,
+          "test_coverage": 40,
+          "documentation": 75
+        },
+        "overall_score": 58.3,
+        "basic_quality_score": 58.3,
+        "community_indicators": {
+          "stars": 0,
+          "forks": 0,
+          "community_score": 30
+        },
+        "documentation_indicators": {
+          "has_description": true,
+          "has_topics": false,
+          "has_license": false,
+          "documentation_score": 75
+        },
+        "maintenance_indicators": {
+          "recently_updated": true,
+          "maintenance_score": 70
+        }
+      },
+      "limitations": [
+        "ACID scores estimated from public metadata (not full code analysis)",
+        "Quality metrics based on repository indicators",
+        "No security vulnerability scanning",
+        "No detailed code complexity analysis"
+      ]
+    },
+    {
+      "id": 1040136771,
+      "name": "PasswordManager",
+      "description": "",
+      "language": null,
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "watchers_count": 0,
+      "size": 4,
+      "topics": [],
+      "created_at": "2025-08-18T14:07:30+00:00",
+      "updated_at": "2025-08-18T14:07:30+00:00",
+      "pushed_at": "2021-04-06T10:08:26+00:00",
+      "private": false,
+      "fork": true,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "default_branch": "main",
+      "analysis_available": true,
+      "analysis_type": "metadata_based",
+      "analysis_note": "Basic analysis based on public repository metadata - not full code analysis",
+      "analysis": {
+        "acid_scores": {
+          "atomicity": 40,
+          "consistency": 45,
+          "isolation": 50,
+          "durability": 35,
+          "overall": 42.5
+        },
+        "quality_metrics": {
+          "readability": 40.0,
+          "maintainability": 40,
+          "security": 50,
+          "test_coverage": 40,
+          "documentation": 50
+        },
+        "overall_score": 40.0,
+        "basic_quality_score": 40.0,
+        "community_indicators": {
+          "stars": 0,
+          "forks": 0,
+          "community_score": 30
+        },
+        "documentation_indicators": {
+          "has_description": false,
+          "has_topics": false,
+          "has_license": false,
+          "documentation_score": 50
+        },
+        "maintenance_indicators": {
+          "recently_updated": false,
+          "maintenance_score": 40
+        }
+      },
+      "limitations": [
+        "ACID scores estimated from public metadata (not full code analysis)",
+        "Quality metrics based on repository indicators",
+        "No security vulnerability scanning",
+        "No detailed code complexity analysis"
+      ]
+    },
+    {
+      "id": 1027837743,
+      "name": "Postora",
+      "description": "",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "watchers_count": 0,
+      "size": 689,
+      "topics": [],
+      "created_at": "2025-07-28T15:54:57+00:00",
+      "updated_at": "2025-07-28T15:56:58+00:00",
+      "pushed_at": "2025-07-28T15:56:54+00:00",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "default_branch": "master",
+      "analysis_available": true,
+      "analysis_type": "metadata_based",
+      "analysis_note": "Basic analysis based on public repository metadata - not full code analysis",
+      "analysis": {
+        "acid_scores": {
+          "atomicity": 50,
+          "consistency": 60,
+          "isolation": 65,
+          "durability": 60,
+          "overall": 58.8
+        },
+        "quality_metrics": {
+          "readability": 40.0,
+          "maintainability": 70,
+          "security": 60,
+          "test_coverage": 40,
+          "documentation": 50
+        },
+        "overall_score": 50.0,
+        "basic_quality_score": 50.0,
+        "community_indicators": {
+          "stars": 0,
+          "forks": 0,
+          "community_score": 30
+        },
+        "documentation_indicators": {
+          "has_description": false,
+          "has_topics": false,
+          "has_license": false,
+          "documentation_score": 50
+        },
+        "maintenance_indicators": {
+          "recently_updated": true,
+          "maintenance_score": 70
+        }
+      },
+      "limitations": [
+        "ACID scores estimated from public metadata (not full code analysis)",
+        "Quality metrics based on repository indicators",
+        "No security vulnerability scanning",
+        "No detailed code complexity analysis"
+      ]
+    },
+    {
+      "id": 996952805,
+      "name": "amanah2",
+      "description": "",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "watchers_count": 0,
+      "size": 21106,
+      "topics": [],
+      "created_at": "2025-06-05T18:05:07+00:00",
+      "updated_at": "2025-06-09T06:51:26+00:00",
+      "pushed_at": "2025-06-09T06:51:23+00:00",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "default_branch": "master",
+      "analysis_available": true,
+      "analysis_type": "metadata_based",
+      "analysis_note": "Basic analysis based on public repository metadata - not full code analysis",
+      "analysis": {
+        "acid_scores": {
+          "atomicity": 50,
+          "consistency": 60,
+          "isolation": 65,
+          "durability": 60,
+          "overall": 58.8
+        },
+        "quality_metrics": {
+          "readability": 40.0,
+          "maintainability": 70,
+          "security": 60,
+          "test_coverage": 40,
+          "documentation": 50
+        },
+        "overall_score": 50.0,
+        "basic_quality_score": 50.0,
+        "community_indicators": {
+          "stars": 0,
+          "forks": 0,
+          "community_score": 30
+        },
+        "documentation_indicators": {
+          "has_description": false,
+          "has_topics": false,
+          "has_license": false,
+          "documentation_score": 50
+        },
+        "maintenance_indicators": {
+          "recently_updated": true,
+          "maintenance_score": 70
+        }
+      },
+      "limitations": [
+        "ACID scores estimated from public metadata (not full code analysis)",
+        "Quality metrics based on repository indicators",
+        "No security vulnerability scanning",
+        "No detailed code complexity analysis"
+      ]
+    },
+    {
+      "id": 992734228,
+      "name": "amanah1",
+      "description": "",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "watchers_count": 0,
+      "size": 21013,
+      "topics": [],
+      "created_at": "2025-05-29T16:17:54+00:00",
+      "updated_at": "2025-05-29T17:10:39+00:00",
+      "pushed_at": "2025-05-29T17:10:35+00:00",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "default_branch": "master",
+      "analysis_available": true,
+      "analysis_type": "metadata_based",
+      "analysis_note": "Basic analysis based on public repository metadata - not full code analysis",
+      "analysis": {
+        "acid_scores": {
+          "atomicity": 50,
+          "consistency": 60,
+          "isolation": 65,
+          "durability": 60,
+          "overall": 58.8
+        },
+        "quality_metrics": {
+          "readability": 40.0,
+          "maintainability": 70,
+          "security": 60,
+          "test_coverage": 40,
+          "documentation": 50
+        },
+        "overall_score": 50.0,
+        "basic_quality_score": 50.0,
+        "community_indicators": {
+          "stars": 0,
+          "forks": 0,
+          "community_score": 30
+        },
+        "documentation_indicators": {
+          "has_description": false,
+          "has_topics": false,
+          "has_license": false,
+          "documentation_score": 50
+        },
+        "maintenance_indicators": {
+          "recently_updated": true,
+          "maintenance_score": 70
+        }
+      },
+      "limitations": [
+        "ACID scores estimated from public metadata (not full code analysis)",
+        "Quality metrics based on repository indicators",
+        "No security vulnerability scanning",
+        "No detailed code complexity analysis"
+      ]
+    },
+    {
+      "id": 974971086,
+      "name": "Movie-Finder",
+      "description": "this web app displays popular movies in card allowing the user to watch the trailer of the specific film while hovering on the car , also displays a detailed description of the film and other useful informations",
+      "language": "JavaScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "watchers_count": 0,
+      "size": 40,
+      "topics": [],
+      "created_at": "2025-04-29T15:23:32+00:00",
+      "updated_at": "2025-04-29T15:31:53+00:00",
+      "pushed_at": "2025-04-29T15:31:49+00:00",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "default_branch": "master",
+      "analysis_available": true,
+      "analysis_type": "metadata_based",
+      "analysis_note": "Basic analysis based on public repository metadata - not full code analysis",
+      "analysis": {
+        "acid_scores": {
+          "atomicity": 70,
+          "consistency": 60,
+          "isolation": 65,
+          "durability": 60,
+          "overall": 63.8
+        },
+        "quality_metrics": {
+          "readability": 60.0,
+          "maintainability": 70,
+          "security": 60,
+          "test_coverage": 40,
+          "documentation": 75
+        },
+        "overall_score": 58.3,
+        "basic_quality_score": 58.3,
+        "community_indicators": {
+          "stars": 0,
+          "forks": 0,
+          "community_score": 30
+        },
+        "documentation_indicators": {
+          "has_description": true,
+          "has_topics": false,
+          "has_license": false,
+          "documentation_score": 75
+        },
+        "maintenance_indicators": {
+          "recently_updated": true,
+          "maintenance_score": 70
+        }
+      },
+      "limitations": [
+        "ACID scores estimated from public metadata (not full code analysis)",
+        "Quality metrics based on repository indicators",
+        "No security vulnerability scanning",
+        "No detailed code complexity analysis"
+      ]
+    }
+  ],
+  "repositoryDetails": [
+    {
+      "id": 1081318837,
+      "name": "dummy",
+      "description": "dummy",
+      "language": "Python",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "watchers_count": 0,
+      "size": 3,
+      "topics": [],
+      "created_at": "2025-10-22T16:00:58+00:00",
+      "updated_at": "2025-10-22T16:02:14+00:00",
+      "pushed_at": "2025-10-22T16:02:10+00:00",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "default_branch": "main",
+      "analysis_available": true,
+      "analysis_type": "metadata_based",
+      "analysis_note": "Basic analysis based on public repository metadata - not full code analysis",
+      "analysis": {
+        "acid_scores": {
+          "atomicity": 70,
+          "consistency": 60,
+          "isolation": 65,
+          "durability": 60,
+          "overall": 63.8
+        },
+        "quality_metrics": {
+          "readability": 60.0,
+          "maintainability": 70,
+          "security": 60,
+          "test_coverage": 40,
+          "documentation": 75
+        },
+        "overall_score": 58.3,
+        "basic_quality_score": 58.3,
+        "community_indicators": {
+          "stars": 0,
+          "forks": 0,
+          "community_score": 30
+        },
+        "documentation_indicators": {
+          "has_description": true,
+          "has_topics": false,
+          "has_license": false,
+          "documentation_score": 75
+        },
+        "maintenance_indicators": {
+          "recently_updated": true,
+          "maintenance_score": 70
+        }
+      },
+      "limitations": [
+        "ACID scores estimated from public metadata (not full code analysis)",
+        "Quality metrics based on repository indicators",
+        "No security vulnerability scanning",
+        "No detailed code complexity analysis"
+      ]
+    },
+    {
+      "id": 1072322046,
+      "name": "online-evaluation",
+      "description": "",
+      "language": "Python",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "watchers_count": 0,
+      "size": 73808,
+      "topics": [],
+      "created_at": "2025-10-08T15:00:50+00:00",
+      "updated_at": "2025-10-08T15:08:14+00:00",
+      "pushed_at": "2025-10-08T15:07:53+00:00",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "default_branch": "master",
+      "analysis_available": true,
+      "analysis_type": "metadata_based",
+      "analysis_note": "Basic analysis based on public repository metadata - not full code analysis",
+      "analysis": {
+        "acid_scores": {
+          "atomicity": 50,
+          "consistency": 60,
+          "isolation": 65,
+          "durability": 60,
+          "overall": 58.8
+        },
+        "quality_metrics": {
+          "readability": 40.0,
+          "maintainability": 70,
+          "security": 60,
+          "test_coverage": 40,
+          "documentation": 50
+        },
+        "overall_score": 50.0,
+        "basic_quality_score": 50.0,
+        "community_indicators": {
+          "stars": 0,
+          "forks": 0,
+          "community_score": 30
+        },
+        "documentation_indicators": {
+          "has_description": false,
+          "has_topics": false,
+          "has_license": false,
+          "documentation_score": 50
+        },
+        "maintenance_indicators": {
+          "recently_updated": true,
+          "maintenance_score": 70
+        }
+      },
+      "limitations": [
+        "ACID scores estimated from public metadata (not full code analysis)",
+        "Quality metrics based on repository indicators",
+        "No security vulnerability scanning",
+        "No detailed code complexity analysis"
+      ]
+    },
+    {
+      "id": 1061342287,
+      "name": "Complaint-management-system",
+      "description": "A robust complaint management system where user can raise a ticket and categorize them, also it is integrated with IBM Watson ai chatbot. It also has a ADMIN dashboard to manage access and complaints",
+      "language": "Python",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "watchers_count": 0,
+      "size": 67911,
+      "topics": [],
+      "created_at": "2025-09-21T18:07:01+00:00",
+      "updated_at": "2025-09-21T18:56:25+00:00",
+      "pushed_at": "2025-09-21T18:56:22+00:00",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "default_branch": "master",
+      "analysis_available": true,
+      "analysis_type": "metadata_based",
+      "analysis_note": "Basic analysis based on public repository metadata - not full code analysis",
+      "analysis": {
+        "acid_scores": {
+          "atomicity": 70,
+          "consistency": 60,
+          "isolation": 65,
+          "durability": 60,
+          "overall": 63.8
+        },
+        "quality_metrics": {
+          "readability": 60.0,
+          "maintainability": 70,
+          "security": 60,
+          "test_coverage": 40,
+          "documentation": 75
+        },
+        "overall_score": 58.3,
+        "basic_quality_score": 58.3,
+        "community_indicators": {
+          "stars": 0,
+          "forks": 0,
+          "community_score": 30
+        },
+        "documentation_indicators": {
+          "has_description": true,
+          "has_topics": false,
+          "has_license": false,
+          "documentation_score": 75
+        },
+        "maintenance_indicators": {
+          "recently_updated": true,
+          "maintenance_score": 70
+        }
+      },
+      "limitations": [
+        "ACID scores estimated from public metadata (not full code analysis)",
+        "Quality metrics based on repository indicators",
+        "No security vulnerability scanning",
+        "No detailed code complexity analysis"
+      ]
+    },
+    {
+      "id": 1047732487,
+      "name": "AI-scheduler",
+      "description": "AI content creator and scheduler",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "watchers_count": 0,
+      "size": 14670,
+      "topics": [],
+      "created_at": "2025-08-31T05:12:10+00:00",
+      "updated_at": "2025-08-31T05:18:25+00:00",
+      "pushed_at": "2025-08-31T05:18:21+00:00",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "default_branch": "master",
+      "analysis_available": true,
+      "analysis_type": "metadata_based",
+      "analysis_note": "Basic analysis based on public repository metadata - not full code analysis",
+      "analysis": {
+        "acid_scores": {
+          "atomicity": 70,
+          "consistency": 60,
+          "isolation": 65,
+          "durability": 60,
+          "overall": 63.8
+        },
+        "quality_metrics": {
+          "readability": 60.0,
+          "maintainability": 70,
+          "security": 60,
+          "test_coverage": 40,
+          "documentation": 75
+        },
+        "overall_score": 58.3,
+        "basic_quality_score": 58.3,
+        "community_indicators": {
+          "stars": 0,
+          "forks": 0,
+          "community_score": 30
+        },
+        "documentation_indicators": {
+          "has_description": true,
+          "has_topics": false,
+          "has_license": false,
+          "documentation_score": 75
+        },
+        "maintenance_indicators": {
+          "recently_updated": true,
+          "maintenance_score": 70
+        }
+      },
+      "limitations": [
+        "ACID scores estimated from public metadata (not full code analysis)",
+        "Quality metrics based on repository indicators",
+        "No security vulnerability scanning",
+        "No detailed code complexity analysis"
+      ]
+    },
+    {
+      "id": 1040136771,
+      "name": "PasswordManager",
+      "description": "",
+      "language": null,
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "watchers_count": 0,
+      "size": 4,
+      "topics": [],
+      "created_at": "2025-08-18T14:07:30+00:00",
+      "updated_at": "2025-08-18T14:07:30+00:00",
+      "pushed_at": "2021-04-06T10:08:26+00:00",
+      "private": false,
+      "fork": true,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "default_branch": "main",
+      "analysis_available": true,
+      "analysis_type": "metadata_based",
+      "analysis_note": "Basic analysis based on public repository metadata - not full code analysis",
+      "analysis": {
+        "acid_scores": {
+          "atomicity": 40,
+          "consistency": 45,
+          "isolation": 50,
+          "durability": 35,
+          "overall": 42.5
+        },
+        "quality_metrics": {
+          "readability": 40.0,
+          "maintainability": 40,
+          "security": 50,
+          "test_coverage": 40,
+          "documentation": 50
+        },
+        "overall_score": 40.0,
+        "basic_quality_score": 40.0,
+        "community_indicators": {
+          "stars": 0,
+          "forks": 0,
+          "community_score": 30
+        },
+        "documentation_indicators": {
+          "has_description": false,
+          "has_topics": false,
+          "has_license": false,
+          "documentation_score": 50
+        },
+        "maintenance_indicators": {
+          "recently_updated": false,
+          "maintenance_score": 40
+        }
+      },
+      "limitations": [
+        "ACID scores estimated from public metadata (not full code analysis)",
+        "Quality metrics based on repository indicators",
+        "No security vulnerability scanning",
+        "No detailed code complexity analysis"
+      ]
+    },
+    {
+      "id": 1027837743,
+      "name": "Postora",
+      "description": "",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "watchers_count": 0,
+      "size": 689,
+      "topics": [],
+      "created_at": "2025-07-28T15:54:57+00:00",
+      "updated_at": "2025-07-28T15:56:58+00:00",
+      "pushed_at": "2025-07-28T15:56:54+00:00",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "default_branch": "master",
+      "analysis_available": true,
+      "analysis_type": "metadata_based",
+      "analysis_note": "Basic analysis based on public repository metadata - not full code analysis",
+      "analysis": {
+        "acid_scores": {
+          "atomicity": 50,
+          "consistency": 60,
+          "isolation": 65,
+          "durability": 60,
+          "overall": 58.8
+        },
+        "quality_metrics": {
+          "readability": 40.0,
+          "maintainability": 70,
+          "security": 60,
+          "test_coverage": 40,
+          "documentation": 50
+        },
+        "overall_score": 50.0,
+        "basic_quality_score": 50.0,
+        "community_indicators": {
+          "stars": 0,
+          "forks": 0,
+          "community_score": 30
+        },
+        "documentation_indicators": {
+          "has_description": false,
+          "has_topics": false,
+          "has_license": false,
+          "documentation_score": 50
+        },
+        "maintenance_indicators": {
+          "recently_updated": true,
+          "maintenance_score": 70
+        }
+      },
+      "limitations": [
+        "ACID scores estimated from public metadata (not full code analysis)",
+        "Quality metrics based on repository indicators",
+        "No security vulnerability scanning",
+        "No detailed code complexity analysis"
+      ]
+    },
+    {
+      "id": 996952805,
+      "name": "amanah2",
+      "description": "",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "watchers_count": 0,
+      "size": 21106,
+      "topics": [],
+      "created_at": "2025-06-05T18:05:07+00:00",
+      "updated_at": "2025-06-09T06:51:26+00:00",
+      "pushed_at": "2025-06-09T06:51:23+00:00",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "default_branch": "master",
+      "analysis_available": true,
+      "analysis_type": "metadata_based",
+      "analysis_note": "Basic analysis based on public repository metadata - not full code analysis",
+      "analysis": {
+        "acid_scores": {
+          "atomicity": 50,
+          "consistency": 60,
+          "isolation": 65,
+          "durability": 60,
+          "overall": 58.8
+        },
+        "quality_metrics": {
+          "readability": 40.0,
+          "maintainability": 70,
+          "security": 60,
+          "test_coverage": 40,
+          "documentation": 50
+        },
+        "overall_score": 50.0,
+        "basic_quality_score": 50.0,
+        "community_indicators": {
+          "stars": 0,
+          "forks": 0,
+          "community_score": 30
+        },
+        "documentation_indicators": {
+          "has_description": false,
+          "has_topics": false,
+          "has_license": false,
+          "documentation_score": 50
+        },
+        "maintenance_indicators": {
+          "recently_updated": true,
+          "maintenance_score": 70
+        }
+      },
+      "limitations": [
+        "ACID scores estimated from public metadata (not full code analysis)",
+        "Quality metrics based on repository indicators",
+        "No security vulnerability scanning",
+        "No detailed code complexity analysis"
+      ]
+    },
+    {
+      "id": 992734228,
+      "name": "amanah1",
+      "description": "",
+      "language": "TypeScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "watchers_count": 0,
+      "size": 21013,
+      "topics": [],
+      "created_at": "2025-05-29T16:17:54+00:00",
+      "updated_at": "2025-05-29T17:10:39+00:00",
+      "pushed_at": "2025-05-29T17:10:35+00:00",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "default_branch": "master",
+      "analysis_available": true,
+      "analysis_type": "metadata_based",
+      "analysis_note": "Basic analysis based on public repository metadata - not full code analysis",
+      "analysis": {
+        "acid_scores": {
+          "atomicity": 50,
+          "consistency": 60,
+          "isolation": 65,
+          "durability": 60,
+          "overall": 58.8
+        },
+        "quality_metrics": {
+          "readability": 40.0,
+          "maintainability": 70,
+          "security": 60,
+          "test_coverage": 40,
+          "documentation": 50
+        },
+        "overall_score": 50.0,
+        "basic_quality_score": 50.0,
+        "community_indicators": {
+          "stars": 0,
+          "forks": 0,
+          "community_score": 30
+        },
+        "documentation_indicators": {
+          "has_description": false,
+          "has_topics": false,
+          "has_license": false,
+          "documentation_score": 50
+        },
+        "maintenance_indicators": {
+          "recently_updated": true,
+          "maintenance_score": 70
+        }
+      },
+      "limitations": [
+        "ACID scores estimated from public metadata (not full code analysis)",
+        "Quality metrics based on repository indicators",
+        "No security vulnerability scanning",
+        "No detailed code complexity analysis"
+      ]
+    },
+    {
+      "id": 974971086,
+      "name": "Movie-Finder",
+      "description": "this web app displays popular movies in card allowing the user to watch the trailer of the specific film while hovering on the car , also displays a detailed description of the film and other useful informations",
+      "language": "JavaScript",
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "watchers_count": 0,
+      "size": 40,
+      "topics": [],
+      "created_at": "2025-04-29T15:23:32+00:00",
+      "updated_at": "2025-04-29T15:31:53+00:00",
+      "pushed_at": "2025-04-29T15:31:49+00:00",
+      "private": false,
+      "fork": false,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": null,
+      "default_branch": "master",
+      "analysis_available": true,
+      "analysis_type": "metadata_based",
+      "analysis_note": "Basic analysis based on public repository metadata - not full code analysis",
+      "analysis": {
+        "acid_scores": {
+          "atomicity": 70,
+          "consistency": 60,
+          "isolation": 65,
+          "durability": 60,
+          "overall": 63.8
+        },
+        "quality_metrics": {
+          "readability": 60.0,
+          "maintainability": 70,
+          "security": 60,
+          "test_coverage": 40,
+          "documentation": 75
+        },
+        "overall_score": 58.3,
+        "basic_quality_score": 58.3,
+        "community_indicators": {
+          "stars": 0,
+          "forks": 0,
+          "community_score": 30
+        },
+        "documentation_indicators": {
+          "has_description": true,
+          "has_topics": false,
+          "has_license": false,
+          "documentation_score": 75
+        },
+        "maintenance_indicators": {
+          "recently_updated": true,
+          "maintenance_score": 70
+        }
+      },
+      "limitations": [
+        "ACID scores estimated from public metadata (not full code analysis)",
+        "Quality metrics based on repository indicators",
+        "No security vulnerability scanning",
+        "No detailed code complexity analysis"
+      ]
+    }
+  ],
+  "isExternalScan": true,
+  "scanType": "external_user",
+  "scanMetadata": {
+    "scanDate": "2025-11-07T07:10:18.547550",
+    "scanDuration": "real_time",
+    "dataSource": "github_api",
+    "analysisDepth": "comprehensive",
+    "repositoriesAnalyzed": 9,
+    "totalRepositories": 9
+  },
+  "comprehensiveData": {
+    "contribution_stats": {
+      "total_contributions": 39,
+      "total_commits": 30,
+      "total_issues": 0,
+      "total_pull_requests": 0,
+      "total_reviews": 0,
+      "total_repositories": 9,
+      "contributed_to_count": 0,
+      "calendar_data": [
+        {
+          "date": "2024-11-07",
+          "count": 0,
+          "weekday": 4,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2024-11-08",
+          "count": 0,
+          "weekday": 5,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2024-11-09",
+          "count": 0,
+          "weekday": 6,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2024-11-10",
+          "count": 0,
+          "weekday": 0,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2024-11-11",
+          "count": 0,
+          "weekday": 1,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2024-11-12",
+          "count": 0,
+          "weekday": 2,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2024-11-13",
+          "count": 0,
+          "weekday": 3,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2024-11-14",
+          "count": 0,
+          "weekday": 4,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2024-11-15",
+          "count": 0,
+          "weekday": 5,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2024-11-16",
+          "count": 0,
+          "weekday": 6,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2024-11-17",
+          "count": 0,
+          "weekday": 0,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2024-11-18",
+          "count": 0,
+          "weekday": 1,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2024-11-19",
+          "count": 0,
+          "weekday": 2,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2024-11-20",
+          "count": 0,
+          "weekday": 3,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2024-11-21",
+          "count": 0,
+          "weekday": 4,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2024-11-22",
+          "count": 0,
+          "weekday": 5,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2024-11-23",
+          "count": 0,
+          "weekday": 6,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2024-11-24",
+          "count": 0,
+          "weekday": 0,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2024-11-25",
+          "count": 0,
+          "weekday": 1,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2024-11-26",
+          "count": 0,
+          "weekday": 2,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2024-11-27",
+          "count": 0,
+          "weekday": 3,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2024-11-28",
+          "count": 0,
+          "weekday": 4,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2024-11-29",
+          "count": 0,
+          "weekday": 5,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2024-11-30",
+          "count": 0,
+          "weekday": 6,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2024-12-01",
+          "count": 0,
+          "weekday": 0,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2024-12-02",
+          "count": 0,
+          "weekday": 1,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2024-12-03",
+          "count": 0,
+          "weekday": 2,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2024-12-04",
+          "count": 0,
+          "weekday": 3,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2024-12-05",
+          "count": 0,
+          "weekday": 4,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2024-12-06",
+          "count": 0,
+          "weekday": 5,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2024-12-07",
+          "count": 0,
+          "weekday": 6,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2024-12-08",
+          "count": 0,
+          "weekday": 0,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2024-12-09",
+          "count": 0,
+          "weekday": 1,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2024-12-10",
+          "count": 0,
+          "weekday": 2,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2024-12-11",
+          "count": 0,
+          "weekday": 3,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2024-12-12",
+          "count": 0,
+          "weekday": 4,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2024-12-13",
+          "count": 0,
+          "weekday": 5,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2024-12-14",
+          "count": 0,
+          "weekday": 6,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2024-12-15",
+          "count": 0,
+          "weekday": 0,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2024-12-16",
+          "count": 0,
+          "weekday": 1,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2024-12-17",
+          "count": 0,
+          "weekday": 2,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2024-12-18",
+          "count": 0,
+          "weekday": 3,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2024-12-19",
+          "count": 0,
+          "weekday": 4,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2024-12-20",
+          "count": 0,
+          "weekday": 5,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2024-12-21",
+          "count": 0,
+          "weekday": 6,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2024-12-22",
+          "count": 0,
+          "weekday": 0,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2024-12-23",
+          "count": 0,
+          "weekday": 1,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2024-12-24",
+          "count": 0,
+          "weekday": 2,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2024-12-25",
+          "count": 0,
+          "weekday": 3,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2024-12-26",
+          "count": 0,
+          "weekday": 4,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2024-12-27",
+          "count": 0,
+          "weekday": 5,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2024-12-28",
+          "count": 0,
+          "weekday": 6,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2024-12-29",
+          "count": 0,
+          "weekday": 0,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2024-12-30",
+          "count": 0,
+          "weekday": 1,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2024-12-31",
+          "count": 0,
+          "weekday": 2,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-01-01",
+          "count": 0,
+          "weekday": 3,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-01-02",
+          "count": 0,
+          "weekday": 4,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-01-03",
+          "count": 0,
+          "weekday": 5,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-01-04",
+          "count": 0,
+          "weekday": 6,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-01-05",
+          "count": 0,
+          "weekday": 0,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-01-06",
+          "count": 0,
+          "weekday": 1,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-01-07",
+          "count": 0,
+          "weekday": 2,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-01-08",
+          "count": 0,
+          "weekday": 3,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-01-09",
+          "count": 0,
+          "weekday": 4,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-01-10",
+          "count": 0,
+          "weekday": 5,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-01-11",
+          "count": 0,
+          "weekday": 6,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-01-12",
+          "count": 0,
+          "weekday": 0,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-01-13",
+          "count": 0,
+          "weekday": 1,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-01-14",
+          "count": 0,
+          "weekday": 2,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-01-15",
+          "count": 0,
+          "weekday": 3,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-01-16",
+          "count": 0,
+          "weekday": 4,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-01-17",
+          "count": 0,
+          "weekday": 5,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-01-18",
+          "count": 0,
+          "weekday": 6,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-01-19",
+          "count": 0,
+          "weekday": 0,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-01-20",
+          "count": 0,
+          "weekday": 1,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-01-21",
+          "count": 0,
+          "weekday": 2,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-01-22",
+          "count": 0,
+          "weekday": 3,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-01-23",
+          "count": 0,
+          "weekday": 4,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-01-24",
+          "count": 0,
+          "weekday": 5,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-01-25",
+          "count": 0,
+          "weekday": 6,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-01-26",
+          "count": 0,
+          "weekday": 0,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-01-27",
+          "count": 0,
+          "weekday": 1,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-01-28",
+          "count": 0,
+          "weekday": 2,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-01-29",
+          "count": 0,
+          "weekday": 3,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-01-30",
+          "count": 0,
+          "weekday": 4,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-01-31",
+          "count": 0,
+          "weekday": 5,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-02-01",
+          "count": 0,
+          "weekday": 6,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-02-02",
+          "count": 0,
+          "weekday": 0,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-02-03",
+          "count": 0,
+          "weekday": 1,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-02-04",
+          "count": 0,
+          "weekday": 2,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-02-05",
+          "count": 0,
+          "weekday": 3,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-02-06",
+          "count": 0,
+          "weekday": 4,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-02-07",
+          "count": 0,
+          "weekday": 5,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-02-08",
+          "count": 0,
+          "weekday": 6,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-02-09",
+          "count": 0,
+          "weekday": 0,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-02-10",
+          "count": 0,
+          "weekday": 1,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-02-11",
+          "count": 0,
+          "weekday": 2,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-02-12",
+          "count": 0,
+          "weekday": 3,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-02-13",
+          "count": 0,
+          "weekday": 4,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-02-14",
+          "count": 0,
+          "weekday": 5,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-02-15",
+          "count": 0,
+          "weekday": 6,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-02-16",
+          "count": 0,
+          "weekday": 0,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-02-17",
+          "count": 0,
+          "weekday": 1,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-02-18",
+          "count": 0,
+          "weekday": 2,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-02-19",
+          "count": 0,
+          "weekday": 3,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-02-20",
+          "count": 0,
+          "weekday": 4,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-02-21",
+          "count": 0,
+          "weekday": 5,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-02-22",
+          "count": 0,
+          "weekday": 6,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-02-23",
+          "count": 0,
+          "weekday": 0,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-02-24",
+          "count": 0,
+          "weekday": 1,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-02-25",
+          "count": 0,
+          "weekday": 2,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-02-26",
+          "count": 0,
+          "weekday": 3,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-02-27",
+          "count": 0,
+          "weekday": 4,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-02-28",
+          "count": 0,
+          "weekday": 5,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-03-01",
+          "count": 0,
+          "weekday": 6,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-03-02",
+          "count": 0,
+          "weekday": 0,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-03-03",
+          "count": 0,
+          "weekday": 1,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-03-04",
+          "count": 0,
+          "weekday": 2,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-03-05",
+          "count": 0,
+          "weekday": 3,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-03-06",
+          "count": 0,
+          "weekday": 4,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-03-07",
+          "count": 0,
+          "weekday": 5,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-03-08",
+          "count": 0,
+          "weekday": 6,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-03-09",
+          "count": 0,
+          "weekday": 0,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-03-10",
+          "count": 0,
+          "weekday": 1,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-03-11",
+          "count": 0,
+          "weekday": 2,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-03-12",
+          "count": 0,
+          "weekday": 3,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-03-13",
+          "count": 0,
+          "weekday": 4,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-03-14",
+          "count": 0,
+          "weekday": 5,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-03-15",
+          "count": 0,
+          "weekday": 6,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-03-16",
+          "count": 0,
+          "weekday": 0,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-03-17",
+          "count": 0,
+          "weekday": 1,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-03-18",
+          "count": 0,
+          "weekday": 2,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-03-19",
+          "count": 0,
+          "weekday": 3,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-03-20",
+          "count": 0,
+          "weekday": 4,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-03-21",
+          "count": 0,
+          "weekday": 5,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-03-22",
+          "count": 0,
+          "weekday": 6,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-03-23",
+          "count": 0,
+          "weekday": 0,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-03-24",
+          "count": 0,
+          "weekday": 1,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-03-25",
+          "count": 0,
+          "weekday": 2,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-03-26",
+          "count": 0,
+          "weekday": 3,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-03-27",
+          "count": 0,
+          "weekday": 4,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-03-28",
+          "count": 0,
+          "weekday": 5,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-03-29",
+          "count": 0,
+          "weekday": 6,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-03-30",
+          "count": 0,
+          "weekday": 0,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-03-31",
+          "count": 0,
+          "weekday": 1,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-04-01",
+          "count": 0,
+          "weekday": 2,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-04-02",
+          "count": 0,
+          "weekday": 3,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-04-03",
+          "count": 0,
+          "weekday": 4,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-04-04",
+          "count": 0,
+          "weekday": 5,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-04-05",
+          "count": 0,
+          "weekday": 6,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-04-06",
+          "count": 0,
+          "weekday": 0,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-04-07",
+          "count": 0,
+          "weekday": 1,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-04-08",
+          "count": 0,
+          "weekday": 2,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-04-09",
+          "count": 0,
+          "weekday": 3,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-04-10",
+          "count": 0,
+          "weekday": 4,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-04-11",
+          "count": 0,
+          "weekday": 5,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-04-12",
+          "count": 0,
+          "weekday": 6,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-04-13",
+          "count": 0,
+          "weekday": 0,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-04-14",
+          "count": 0,
+          "weekday": 1,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-04-15",
+          "count": 0,
+          "weekday": 2,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-04-16",
+          "count": 0,
+          "weekday": 3,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-04-17",
+          "count": 0,
+          "weekday": 4,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-04-18",
+          "count": 0,
+          "weekday": 5,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-04-19",
+          "count": 0,
+          "weekday": 6,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-04-20",
+          "count": 0,
+          "weekday": 0,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-04-21",
+          "count": 0,
+          "weekday": 1,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-04-22",
+          "count": 0,
+          "weekday": 2,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-04-23",
+          "count": 0,
+          "weekday": 3,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-04-24",
+          "count": 0,
+          "weekday": 4,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-04-25",
+          "count": 0,
+          "weekday": 5,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-04-26",
+          "count": 0,
+          "weekday": 6,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-04-27",
+          "count": 0,
+          "weekday": 0,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-04-28",
+          "count": 0,
+          "weekday": 1,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-04-29",
+          "count": 2,
+          "weekday": 2,
+          "level": 1,
+          "color": "#9be9a8"
+        },
+        {
+          "date": "2025-04-30",
+          "count": 0,
+          "weekday": 3,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-05-01",
+          "count": 0,
+          "weekday": 4,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-05-02",
+          "count": 0,
+          "weekday": 5,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-05-03",
+          "count": 0,
+          "weekday": 6,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-05-04",
+          "count": 0,
+          "weekday": 0,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-05-05",
+          "count": 0,
+          "weekday": 1,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-05-06",
+          "count": 0,
+          "weekday": 2,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-05-07",
+          "count": 0,
+          "weekday": 3,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-05-08",
+          "count": 0,
+          "weekday": 4,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-05-09",
+          "count": 0,
+          "weekday": 5,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-05-10",
+          "count": 0,
+          "weekday": 6,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-05-11",
+          "count": 0,
+          "weekday": 0,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-05-12",
+          "count": 0,
+          "weekday": 1,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-05-13",
+          "count": 0,
+          "weekday": 2,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-05-14",
+          "count": 0,
+          "weekday": 3,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-05-15",
+          "count": 0,
+          "weekday": 4,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-05-16",
+          "count": 0,
+          "weekday": 5,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-05-17",
+          "count": 0,
+          "weekday": 6,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-05-18",
+          "count": 0,
+          "weekday": 0,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-05-19",
+          "count": 0,
+          "weekday": 1,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-05-20",
+          "count": 0,
+          "weekday": 2,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-05-21",
+          "count": 0,
+          "weekday": 3,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-05-22",
+          "count": 0,
+          "weekday": 4,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-05-23",
+          "count": 0,
+          "weekday": 5,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-05-24",
+          "count": 0,
+          "weekday": 6,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-05-25",
+          "count": 0,
+          "weekday": 0,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-05-26",
+          "count": 0,
+          "weekday": 1,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-05-27",
+          "count": 0,
+          "weekday": 2,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-05-28",
+          "count": 0,
+          "weekday": 3,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-05-29",
+          "count": 2,
+          "weekday": 4,
+          "level": 1,
+          "color": "#9be9a8"
+        },
+        {
+          "date": "2025-05-30",
+          "count": 0,
+          "weekday": 5,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-05-31",
+          "count": 0,
+          "weekday": 6,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-06-01",
+          "count": 0,
+          "weekday": 0,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-06-02",
+          "count": 0,
+          "weekday": 1,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-06-03",
+          "count": 0,
+          "weekday": 2,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-06-04",
+          "count": 0,
+          "weekday": 3,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-06-05",
+          "count": 3,
+          "weekday": 4,
+          "level": 1,
+          "color": "#40c463"
+        },
+        {
+          "date": "2025-06-06",
+          "count": 0,
+          "weekday": 5,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-06-07",
+          "count": 0,
+          "weekday": 6,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-06-08",
+          "count": 0,
+          "weekday": 0,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-06-09",
+          "count": 11,
+          "weekday": 1,
+          "level": 4,
+          "color": "#216e39"
+        },
+        {
+          "date": "2025-06-10",
+          "count": 0,
+          "weekday": 2,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-06-11",
+          "count": 0,
+          "weekday": 3,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-06-12",
+          "count": 0,
+          "weekday": 4,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-06-13",
+          "count": 0,
+          "weekday": 5,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-06-14",
+          "count": 0,
+          "weekday": 6,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-06-15",
+          "count": 0,
+          "weekday": 0,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-06-16",
+          "count": 0,
+          "weekday": 1,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-06-17",
+          "count": 0,
+          "weekday": 2,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-06-18",
+          "count": 0,
+          "weekday": 3,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-06-19",
+          "count": 0,
+          "weekday": 4,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-06-20",
+          "count": 0,
+          "weekday": 5,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-06-21",
+          "count": 0,
+          "weekday": 6,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-06-22",
+          "count": 0,
+          "weekday": 0,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-06-23",
+          "count": 0,
+          "weekday": 1,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-06-24",
+          "count": 0,
+          "weekday": 2,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-06-25",
+          "count": 0,
+          "weekday": 3,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-06-26",
+          "count": 0,
+          "weekday": 4,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-06-27",
+          "count": 0,
+          "weekday": 5,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-06-28",
+          "count": 0,
+          "weekday": 6,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-06-29",
+          "count": 0,
+          "weekday": 0,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-06-30",
+          "count": 0,
+          "weekday": 1,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-07-01",
+          "count": 0,
+          "weekday": 2,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-07-02",
+          "count": 0,
+          "weekday": 3,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-07-03",
+          "count": 0,
+          "weekday": 4,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-07-04",
+          "count": 0,
+          "weekday": 5,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-07-05",
+          "count": 0,
+          "weekday": 6,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-07-06",
+          "count": 0,
+          "weekday": 0,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-07-07",
+          "count": 0,
+          "weekday": 1,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-07-08",
+          "count": 0,
+          "weekday": 2,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-07-09",
+          "count": 0,
+          "weekday": 3,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-07-10",
+          "count": 0,
+          "weekday": 4,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-07-11",
+          "count": 0,
+          "weekday": 5,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-07-12",
+          "count": 0,
+          "weekday": 6,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-07-13",
+          "count": 0,
+          "weekday": 0,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-07-14",
+          "count": 0,
+          "weekday": 1,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-07-15",
+          "count": 0,
+          "weekday": 2,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-07-16",
+          "count": 0,
+          "weekday": 3,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-07-17",
+          "count": 0,
+          "weekday": 4,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-07-18",
+          "count": 0,
+          "weekday": 5,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-07-19",
+          "count": 0,
+          "weekday": 6,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-07-20",
+          "count": 0,
+          "weekday": 0,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-07-21",
+          "count": 0,
+          "weekday": 1,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-07-22",
+          "count": 0,
+          "weekday": 2,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-07-23",
+          "count": 0,
+          "weekday": 3,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-07-24",
+          "count": 0,
+          "weekday": 4,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-07-25",
+          "count": 0,
+          "weekday": 5,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-07-26",
+          "count": 0,
+          "weekday": 6,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-07-27",
+          "count": 0,
+          "weekday": 0,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-07-28",
+          "count": 2,
+          "weekday": 1,
+          "level": 1,
+          "color": "#9be9a8"
+        },
+        {
+          "date": "2025-07-29",
+          "count": 0,
+          "weekday": 2,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-07-30",
+          "count": 0,
+          "weekday": 3,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-07-31",
+          "count": 0,
+          "weekday": 4,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-08-01",
+          "count": 0,
+          "weekday": 5,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-08-02",
+          "count": 0,
+          "weekday": 6,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-08-03",
+          "count": 0,
+          "weekday": 0,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-08-04",
+          "count": 0,
+          "weekday": 1,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-08-05",
+          "count": 0,
+          "weekday": 2,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-08-06",
+          "count": 0,
+          "weekday": 3,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-08-07",
+          "count": 0,
+          "weekday": 4,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-08-08",
+          "count": 0,
+          "weekday": 5,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-08-09",
+          "count": 0,
+          "weekday": 6,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-08-10",
+          "count": 0,
+          "weekday": 0,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-08-11",
+          "count": 0,
+          "weekday": 1,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-08-12",
+          "count": 0,
+          "weekday": 2,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-08-13",
+          "count": 0,
+          "weekday": 3,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-08-14",
+          "count": 0,
+          "weekday": 4,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-08-15",
+          "count": 0,
+          "weekday": 5,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-08-16",
+          "count": 0,
+          "weekday": 6,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-08-17",
+          "count": 0,
+          "weekday": 0,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-08-18",
+          "count": 1,
+          "weekday": 1,
+          "level": 1,
+          "color": "#9be9a8"
+        },
+        {
+          "date": "2025-08-19",
+          "count": 0,
+          "weekday": 2,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-08-20",
+          "count": 0,
+          "weekday": 3,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-08-21",
+          "count": 0,
+          "weekday": 4,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-08-22",
+          "count": 0,
+          "weekday": 5,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-08-23",
+          "count": 0,
+          "weekday": 6,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-08-24",
+          "count": 0,
+          "weekday": 0,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-08-25",
+          "count": 0,
+          "weekday": 1,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-08-26",
+          "count": 0,
+          "weekday": 2,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-08-27",
+          "count": 0,
+          "weekday": 3,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-08-28",
+          "count": 0,
+          "weekday": 4,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-08-29",
+          "count": 0,
+          "weekday": 5,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-08-30",
+          "count": 0,
+          "weekday": 6,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-08-31",
+          "count": 2,
+          "weekday": 0,
+          "level": 1,
+          "color": "#9be9a8"
+        },
+        {
+          "date": "2025-09-01",
+          "count": 0,
+          "weekday": 1,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-09-02",
+          "count": 0,
+          "weekday": 2,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-09-03",
+          "count": 0,
+          "weekday": 3,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-09-04",
+          "count": 0,
+          "weekday": 4,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-09-05",
+          "count": 0,
+          "weekday": 5,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-09-06",
+          "count": 0,
+          "weekday": 6,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-09-07",
+          "count": 0,
+          "weekday": 0,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-09-08",
+          "count": 0,
+          "weekday": 1,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-09-09",
+          "count": 0,
+          "weekday": 2,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-09-10",
+          "count": 0,
+          "weekday": 3,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-09-11",
+          "count": 0,
+          "weekday": 4,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-09-12",
+          "count": 0,
+          "weekday": 5,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-09-13",
+          "count": 0,
+          "weekday": 6,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-09-14",
+          "count": 0,
+          "weekday": 0,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-09-15",
+          "count": 0,
+          "weekday": 1,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-09-16",
+          "count": 0,
+          "weekday": 2,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-09-17",
+          "count": 0,
+          "weekday": 3,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-09-18",
+          "count": 0,
+          "weekday": 4,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-09-19",
+          "count": 0,
+          "weekday": 5,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-09-20",
+          "count": 0,
+          "weekday": 6,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-09-21",
+          "count": 2,
+          "weekday": 0,
+          "level": 1,
+          "color": "#9be9a8"
+        },
+        {
+          "date": "2025-09-22",
+          "count": 9,
+          "weekday": 1,
+          "level": 3,
+          "color": "#216e39"
+        },
+        {
+          "date": "2025-09-23",
+          "count": 0,
+          "weekday": 2,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-09-24",
+          "count": 0,
+          "weekday": 3,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-09-25",
+          "count": 0,
+          "weekday": 4,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-09-26",
+          "count": 0,
+          "weekday": 5,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-09-27",
+          "count": 0,
+          "weekday": 6,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-09-28",
+          "count": 0,
+          "weekday": 0,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-09-29",
+          "count": 0,
+          "weekday": 1,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-09-30",
+          "count": 0,
+          "weekday": 2,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-10-01",
+          "count": 0,
+          "weekday": 3,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-10-02",
+          "count": 0,
+          "weekday": 4,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-10-03",
+          "count": 0,
+          "weekday": 5,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-10-04",
+          "count": 0,
+          "weekday": 6,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-10-05",
+          "count": 0,
+          "weekday": 0,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-10-06",
+          "count": 0,
+          "weekday": 1,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-10-07",
+          "count": 0,
+          "weekday": 2,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-10-08",
+          "count": 3,
+          "weekday": 3,
+          "level": 1,
+          "color": "#40c463"
+        },
+        {
+          "date": "2025-10-09",
+          "count": 0,
+          "weekday": 4,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-10-10",
+          "count": 0,
+          "weekday": 5,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-10-11",
+          "count": 0,
+          "weekday": 6,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-10-12",
+          "count": 0,
+          "weekday": 0,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-10-13",
+          "count": 0,
+          "weekday": 1,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-10-14",
+          "count": 0,
+          "weekday": 2,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-10-15",
+          "count": 0,
+          "weekday": 3,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-10-16",
+          "count": 0,
+          "weekday": 4,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-10-17",
+          "count": 0,
+          "weekday": 5,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-10-18",
+          "count": 0,
+          "weekday": 6,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-10-19",
+          "count": 0,
+          "weekday": 0,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-10-20",
+          "count": 0,
+          "weekday": 1,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-10-21",
+          "count": 0,
+          "weekday": 2,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-10-22",
+          "count": 2,
+          "weekday": 3,
+          "level": 1,
+          "color": "#9be9a8"
+        },
+        {
+          "date": "2025-10-23",
+          "count": 0,
+          "weekday": 4,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-10-24",
+          "count": 0,
+          "weekday": 5,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-10-25",
+          "count": 0,
+          "weekday": 6,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-10-26",
+          "count": 0,
+          "weekday": 0,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-10-27",
+          "count": 0,
+          "weekday": 1,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-10-28",
+          "count": 0,
+          "weekday": 2,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-10-29",
+          "count": 0,
+          "weekday": 3,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-10-30",
+          "count": 0,
+          "weekday": 4,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-10-31",
+          "count": 0,
+          "weekday": 5,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-11-01",
+          "count": 0,
+          "weekday": 6,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-11-02",
+          "count": 0,
+          "weekday": 0,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-11-03",
+          "count": 0,
+          "weekday": 1,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-11-04",
+          "count": 0,
+          "weekday": 2,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-11-05",
+          "count": 0,
+          "weekday": 3,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-11-06",
+          "count": 0,
+          "weekday": 4,
+          "level": 0,
+          "color": "#ebedf0"
+        },
+        {
+          "date": "2025-11-07",
+          "count": 0,
+          "weekday": 5,
+          "level": 0,
+          "color": "#ebedf0"
+        }
+      ],
+      "contribution_streaks": {
+        "current_streak": 0,
+        "longest_streak": 2,
+        "streak_ranges": [
+          {
+            "start": "2025-09-21",
+            "end": "2025-09-22",
+            "length": 2
+          },
+          {
+            "start": "2025-04-29",
+            "end": "2025-04-29",
+            "length": 1
+          },
+          {
+            "start": "2025-05-29",
+            "end": "2025-05-29",
+            "length": 1
+          },
+          {
+            "start": "2025-06-05",
+            "end": "2025-06-05",
+            "length": 1
+          },
+          {
+            "start": "2025-06-09",
+            "end": "2025-06-09",
+            "length": 1
+          },
+          {
+            "start": "2025-07-28",
+            "end": "2025-07-28",
+            "length": 1
+          },
+          {
+            "start": "2025-08-18",
+            "end": "2025-08-18",
+            "length": 1
+          },
+          {
+            "start": "2025-08-31",
+            "end": "2025-08-31",
+            "length": 1
+          },
+          {
+            "start": "2025-10-08",
+            "end": "2025-10-08",
+            "length": 1
+          },
+          {
+            "start": "2025-10-22",
+            "end": "2025-10-22",
+            "length": 1
+          }
+        ]
+      },
+      "contribution_patterns": {
+        "weekday_averages": {
+          "Monday": 0.44,
+          "Tuesday": 0.04,
+          "Wednesday": 0.1,
+          "Thursday": 0.09,
+          "Friday": 0.0,
+          "Saturday": 0.0,
+          "Sunday": 0.08
+        },
+        "most_active_day": {
+          "day": "Monday",
+          "average_contributions": 0.44
+        },
+        "monthly_trends": {
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 2,
+          "2025-05": 2,
+          "2025-06": 14,
+          "2025-07": 2,
+          "2025-08": 3,
+          "2025-09": 11,
+          "2025-10": 5,
+          "2025-11": 0
+        },
+        "total_active_days": 11,
+        "total_days": 366
+      },
+      "contribution_levels": {
+        "0": 355,
+        "2": 6,
+        "3": 2,
+        "11": 1,
+        "1": 1,
+        "9": 1
+      },
+      "commit_repositories": [
+        {
+          "name": "amanah2",
+          "owner": "raseen2305",
+          "url": "https://github.com/raseen2305/amanah2",
+          "language": "TypeScript",
+          "language_color": "#3178c6",
+          "contributions": 13
+        },
+        {
+          "name": "Complaint-management-system",
+          "owner": "raseen2305",
+          "url": "https://github.com/raseen2305/Complaint-management-system",
+          "language": "Python",
+          "language_color": "#3572A5",
+          "contributions": 10
+        },
+        {
+          "name": "online-evaluation",
+          "owner": "raseen2305",
+          "url": "https://github.com/raseen2305/online-evaluation",
+          "language": "Python",
+          "language_color": "#3572A5",
+          "contributions": 2
+        },
+        {
+          "name": "dummy",
+          "owner": "raseen2305",
+          "url": "https://github.com/raseen2305/dummy",
+          "language": "Python",
+          "language_color": "#3572A5",
+          "contributions": 1
+        },
+        {
+          "name": "AI-scheduler",
+          "owner": "raseen2305",
+          "url": "https://github.com/raseen2305/AI-scheduler",
+          "language": "TypeScript",
+          "language_color": "#3178c6",
+          "contributions": 1
+        },
+        {
+          "name": "Postora",
+          "owner": "raseen2305",
+          "url": "https://github.com/raseen2305/Postora",
+          "language": "TypeScript",
+          "language_color": "#3178c6",
+          "contributions": 1
+        },
+        {
+          "name": "amanah1",
+          "owner": "raseen2305",
+          "url": "https://github.com/raseen2305/amanah1",
+          "language": "TypeScript",
+          "language_color": "#3178c6",
+          "contributions": 1
+        },
+        {
+          "name": "Movie-Finder",
+          "owner": "raseen2305",
+          "url": "https://github.com/raseen2305/Movie-Finder",
+          "language": "JavaScript",
+          "language_color": "#f1e05a",
+          "contributions": 1
+        }
+      ],
+      "pull_request_repositories": [],
+      "contributed_repositories": [],
+      "data_source": "graphql",
+      "query_date": "2025-11-07T12:39:59.596847"
+    },
+    "activity_calendar": {
+      "note": "Activity calendar data included in contribution_stats",
+      "available": true
+    },
+    "collaboration_metrics": {
+      "followers": 0,
+      "following": 0,
+      "public_gists": 0,
+      "organizations_count": 0,
+      "contributed_repositories": 0,
+      "pull_requests_opened": 0,
+      "issues_opened": 0,
+      "code_reviews_given": 0
+    },
+    "language_statistics": {
+      "total_languages": 14,
+      "language_breakdown": {
+        "Python": {
+          "repositories": 3,
+          "total_bytes": 88015169,
+          "stars": 0,
+          "forks": 0,
+          "percentage": 93.58
+        },
+        "TypeScript": {
+          "repositories": 4,
+          "total_bytes": 1723166,
+          "stars": 0,
+          "forks": 0,
+          "percentage": 1.83
+        },
+        "JavaScript": {
+          "repositories": 1,
+          "total_bytes": 1249302,
+          "stars": 0,
+          "forks": 0,
+          "percentage": 1.33
+        },
+        "CSS": {
+          "repositories": 0,
+          "total_bytes": 1239479,
+          "stars": 0,
+          "forks": 0,
+          "percentage": 1.32
+        },
+        "SCSS": {
+          "repositories": 0,
+          "total_bytes": 863854,
+          "stars": 0,
+          "forks": 0,
+          "percentage": 0.92
+        },
+        "HTML": {
+          "repositories": 0,
+          "total_bytes": 522491,
+          "stars": 0,
+          "forks": 0,
+          "percentage": 0.56
+        },
+        "C++": {
+          "repositories": 0,
+          "total_bytes": 272317,
+          "stars": 0,
+          "forks": 0,
+          "percentage": 0.29
+        },
+        "C": {
+          "repositories": 0,
+          "total_bytes": 68635,
+          "stars": 0,
+          "forks": 0,
+          "percentage": 0.07
+        },
+        "PowerShell": {
+          "repositories": 0,
+          "total_bytes": 64109,
+          "stars": 0,
+          "forks": 0,
+          "percentage": 0.07
+        },
+        "Cython": {
+          "repositories": 0,
+          "total_bytes": 23444,
+          "stars": 0,
+          "forks": 0,
+          "percentage": 0.02
+        },
+        "Roff": {
+          "repositories": 0,
+          "total_bytes": 7889,
+          "stars": 0,
+          "forks": 0,
+          "percentage": 0.01
+        },
+        "Batchfile": {
+          "repositories": 0,
+          "total_bytes": 4216,
+          "stars": 0,
+          "forks": 0,
+          "percentage": 0.0
+        },
+        "Assembly": {
+          "repositories": 0,
+          "total_bytes": 3086,
+          "stars": 0,
+          "forks": 0,
+          "percentage": 0.0
+        },
+        "Shell": {
+          "repositories": 0,
+          "total_bytes": 946,
+          "stars": 0,
+          "forks": 0,
+          "percentage": 0.0
+        }
+      },
+      "primary_language": "Python",
+      "language_diversity_score": 0.51
+    },
+    "achievement_metrics": {
+      "total_stars_earned": 0,
+      "total_forks_earned": 0,
+      "repositories_with_stars": 0,
+      "repositories_with_forks": 0,
+      "popular_repositories": 0,
+      "highly_popular_repositories": 0,
+      "account_age_years": 1.7,
+      "repositories_per_year": 5.17,
+      "consistency_score": 50.0
+    },
+    "social_metrics": {
+      "followers": 0,
+      "following": 0,
+      "follower_following_ratio": 0.0,
+      "social_presence": {
+        "has_bio": true,
+        "has_company": false,
+        "has_location": false,
+        "has_blog": true,
+        "has_twitter": false,
+        "has_email": false
+      },
+      "profile_completeness": 42.9
+    },
+    "recent_activity": {
+      "total_recent_events": 2,
+      "event_summary": {
+        "CreateEvent": 2
+      },
+      "recent_repositories": [
+        "raseen2305/dummy",
+        "raseen2305/online-evaluation"
+      ],
+      "last_activity_date": "2025-10-22T16:02:11+00:00",
+      "activity_frequency": "high"
+    },
+    "organizations": [],
+    "repository_overview": {
+      "total_repositories": 9,
+      "original_repositories": 8,
+      "forked_repositories": 1,
+      "total_stars": 0,
+      "total_forks": 0,
+      "total_watchers": 0,
+      "languages": {
+        "Python": 3,
+        "TypeScript": 4,
+        "JavaScript": 1
+      },
+      "topics": {},
+      "repository_sizes": [
+        3,
+        73808,
+        67911,
+        14670,
+        4,
+        689,
+        21106,
+        21013,
+        40
+      ],
+      "creation_timeline": {
+        "2025": 9
+      },
+      "most_starred": null,
+      "most_forked": null,
+      "recently_updated": [
+        {
+          "name": "dummy",
+          "updated_at": "2025-10-22T16:02:14+00:00",
+          "language": "Python",
+          "stars": 0
+        },
+        {
+          "name": "online-evaluation",
+          "updated_at": "2025-10-08T15:08:14+00:00",
+          "language": "Python",
+          "stars": 0
+        }
+      ],
+      "average_repository_size": 22138.222222222223,
+      "repositories": [
+        {
+          "id": 1081318837,
+          "name": "dummy",
+          "full_name": "raseen2305/dummy",
+          "description": "dummy",
+          "language": "Python",
+          "stargazers_count": 0,
+          "forks_count": 0,
+          "watchers_count": 0,
+          "size": 3,
+          "created_at": "2025-10-22T16:00:58+00:00",
+          "updated_at": "2025-10-22T16:02:14+00:00",
+          "pushed_at": "2025-10-22T16:02:10+00:00",
+          "html_url": "https://github.com/raseen2305/dummy",
+          "clone_url": "https://github.com/raseen2305/dummy.git",
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "disabled": false,
+          "topics": [],
+          "license": null,
+          "default_branch": "main",
+          "open_issues_count": 0,
+          "evaluate_for_scoring": true
+        },
+        {
+          "id": 1072322046,
+          "name": "online-evaluation",
+          "full_name": "raseen2305/online-evaluation",
+          "description": "",
+          "language": "Python",
+          "stargazers_count": 0,
+          "forks_count": 0,
+          "watchers_count": 0,
+          "size": 73808,
+          "created_at": "2025-10-08T15:00:50+00:00",
+          "updated_at": "2025-10-08T15:08:14+00:00",
+          "pushed_at": "2025-10-08T15:07:53+00:00",
+          "html_url": "https://github.com/raseen2305/online-evaluation",
+          "clone_url": "https://github.com/raseen2305/online-evaluation.git",
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "disabled": false,
+          "topics": [],
+          "license": null,
+          "default_branch": "master",
+          "open_issues_count": 0,
+          "evaluate_for_scoring": true
+        },
+        {
+          "id": 1061342287,
+          "name": "Complaint-management-system",
+          "full_name": "raseen2305/Complaint-management-system",
+          "description": "A robust complaint management system where user can raise a ticket and categorize them, also it is integrated with IBM Watson ai chatbot. It also has a ADMIN dashboard to manage access and complaints",
+          "language": "Python",
+          "stargazers_count": 0,
+          "forks_count": 0,
+          "watchers_count": 0,
+          "size": 67911,
+          "created_at": "2025-09-21T18:07:01+00:00",
+          "updated_at": "2025-09-21T18:56:25+00:00",
+          "pushed_at": "2025-09-21T18:56:22+00:00",
+          "html_url": "https://github.com/raseen2305/Complaint-management-system",
+          "clone_url": "https://github.com/raseen2305/Complaint-management-system.git",
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "disabled": false,
+          "topics": [],
+          "license": null,
+          "default_branch": "master",
+          "open_issues_count": 0,
+          "evaluate_for_scoring": true
+        },
+        {
+          "id": 1047732487,
+          "name": "AI-scheduler",
+          "full_name": "raseen2305/AI-scheduler",
+          "description": "AI content creator and scheduler",
+          "language": "TypeScript",
+          "stargazers_count": 0,
+          "forks_count": 0,
+          "watchers_count": 0,
+          "size": 14670,
+          "created_at": "2025-08-31T05:12:10+00:00",
+          "updated_at": "2025-08-31T05:18:25+00:00",
+          "pushed_at": "2025-08-31T05:18:21+00:00",
+          "html_url": "https://github.com/raseen2305/AI-scheduler",
+          "clone_url": "https://github.com/raseen2305/AI-scheduler.git",
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "disabled": false,
+          "topics": [],
+          "license": null,
+          "default_branch": "master",
+          "open_issues_count": 0,
+          "evaluate_for_scoring": true
+        },
+        {
+          "id": 1040136771,
+          "name": "PasswordManager",
+          "full_name": "raseen2305/PasswordManager",
+          "description": "",
+          "language": null,
+          "stargazers_count": 0,
+          "forks_count": 0,
+          "watchers_count": 0,
+          "size": 4,
+          "created_at": "2025-08-18T14:07:30+00:00",
+          "updated_at": "2025-08-18T14:07:30+00:00",
+          "pushed_at": "2021-04-06T10:08:26+00:00",
+          "html_url": "https://github.com/raseen2305/PasswordManager",
+          "clone_url": "https://github.com/raseen2305/PasswordManager.git",
+          "private": false,
+          "fork": true,
+          "archived": false,
+          "disabled": false,
+          "topics": [],
+          "license": null,
+          "default_branch": "main",
+          "open_issues_count": 0,
+          "evaluate_for_scoring": true
+        },
+        {
+          "id": 1027837743,
+          "name": "Postora",
+          "full_name": "raseen2305/Postora",
+          "description": "",
+          "language": "TypeScript",
+          "stargazers_count": 0,
+          "forks_count": 0,
+          "watchers_count": 0,
+          "size": 689,
+          "created_at": "2025-07-28T15:54:57+00:00",
+          "updated_at": "2025-07-28T15:56:58+00:00",
+          "pushed_at": "2025-07-28T15:56:54+00:00",
+          "html_url": "https://github.com/raseen2305/Postora",
+          "clone_url": "https://github.com/raseen2305/Postora.git",
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "disabled": false,
+          "topics": [],
+          "license": null,
+          "default_branch": "master",
+          "open_issues_count": 0,
+          "evaluate_for_scoring": true
+        },
+        {
+          "id": 996952805,
+          "name": "amanah2",
+          "full_name": "raseen2305/amanah2",
+          "description": "",
+          "language": "TypeScript",
+          "stargazers_count": 0,
+          "forks_count": 0,
+          "watchers_count": 0,
+          "size": 21106,
+          "created_at": "2025-06-05T18:05:07+00:00",
+          "updated_at": "2025-06-09T06:51:26+00:00",
+          "pushed_at": "2025-06-09T06:51:23+00:00",
+          "html_url": "https://github.com/raseen2305/amanah2",
+          "clone_url": "https://github.com/raseen2305/amanah2.git",
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "disabled": false,
+          "topics": [],
+          "license": null,
+          "default_branch": "master",
+          "open_issues_count": 0,
+          "evaluate_for_scoring": true
+        },
+        {
+          "id": 992734228,
+          "name": "amanah1",
+          "full_name": "raseen2305/amanah1",
+          "description": "",
+          "language": "TypeScript",
+          "stargazers_count": 0,
+          "forks_count": 0,
+          "watchers_count": 0,
+          "size": 21013,
+          "created_at": "2025-05-29T16:17:54+00:00",
+          "updated_at": "2025-05-29T17:10:39+00:00",
+          "pushed_at": "2025-05-29T17:10:35+00:00",
+          "html_url": "https://github.com/raseen2305/amanah1",
+          "clone_url": "https://github.com/raseen2305/amanah1.git",
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "disabled": false,
+          "topics": [],
+          "license": null,
+          "default_branch": "master",
+          "open_issues_count": 0,
+          "evaluate_for_scoring": true
+        },
+        {
+          "id": 974971086,
+          "name": "Movie-Finder",
+          "full_name": "raseen2305/Movie-Finder",
+          "description": "this web app displays popular movies in card allowing the user to watch the trailer of the specific film while hovering on the car , also displays a detailed description of the film and other useful informations",
+          "language": "JavaScript",
+          "stargazers_count": 0,
+          "forks_count": 0,
+          "watchers_count": 0,
+          "size": 40,
+          "created_at": "2025-04-29T15:23:32+00:00",
+          "updated_at": "2025-04-29T15:31:53+00:00",
+          "pushed_at": "2025-04-29T15:31:49+00:00",
+          "html_url": "https://github.com/raseen2305/Movie-Finder",
+          "clone_url": "https://github.com/raseen2305/Movie-Finder.git",
+          "private": false,
+          "fork": false,
+          "archived": false,
+          "disabled": false,
+          "topics": [],
+          "license": null,
+          "default_branch": "master",
+          "open_issues_count": 0,
+          "evaluate_for_scoring": true
+        }
+      ],
+      "evaluated_repositories_count": 9,
+      "total_displayed_repositories": 9
+    },
+    "pull_request_analysis": {
+      "summary": {
+        "total_pull_requests": 0,
+        "merged_pull_requests": 0,
+        "closed_pull_requests": 0,
+        "open_pull_requests": 0,
+        "merge_rate": 0.0,
+        "repositories_with_prs": 0
+      },
+      "metrics": {
+        "average_review_time": 0.0,
+        "average_merge_time": 0.0,
+        "reviews_per_pr": 0.0,
+        "comments_per_pr": 0.0,
+        "lines_changed_per_pr": 0.0
+      },
+      "collaboration": {
+        "unique_reviewers": [],
+        "frequent_collaborators": [],
+        "review_participation_rate": 0.0,
+        "cross_repository_collaboration": 0
+      },
+      "patterns": {
+        "pr_size_distribution": {
+          "small": 0,
+          "medium": 0,
+          "large": 0,
+          "xl": 0
+        },
+        "merge_day_patterns": {},
+        "review_response_times": [],
+        "most_active_repositories": []
+      },
+      "quality_indicators": {
+        "prs_with_tests": 0,
+        "prs_with_documentation": 0,
+        "prs_with_multiple_reviewers": 0,
+        "breaking_change_rate": 0.0
+      },
+      "repository_breakdown": []
+    },
+    "issue_analysis": {
+      "summary": {
+        "total_issues": 0,
+        "open_issues": 0,
+        "closed_issues": 0,
+        "resolution_rate": 0.0,
+        "repositories_with_issues": 0,
+        "issues_created": 0,
+        "issues_participated": 0
+      },
+      "metrics": {
+        "average_resolution_time": 0.0,
+        "average_response_time": 0.0,
+        "comments_per_issue": 0.0,
+        "assignees_per_issue": 0.0,
+        "labels_per_issue": 0.0
+      },
+      "patterns": {
+        "issue_types": {},
+        "priority_distribution": {},
+        "resolution_day_patterns": {},
+        "creation_trends": {},
+        "top_labels": []
+      },
+      "collaboration": {
+        "unique_assignees": [],
+        "frequent_collaborators": [],
+        "cross_repository_participation": 0,
+        "community_engagement_score": 0.0
+      },
+      "quality_indicators": {
+        "issues_with_labels": 0,
+        "issues_with_assignees": 0,
+        "issues_with_milestones": 0,
+        "duplicate_issue_rate": 0.0,
+        "stale_issue_rate": 0.0
+      },
+      "repository_breakdown": []
+    }
+  },
+  "contributionStats": {
+    "total_contributions": 39,
+    "total_commits": 30,
+    "total_issues": 0,
+    "total_pull_requests": 0,
+    "total_reviews": 0,
+    "total_repositories": 9,
+    "contributed_to_count": 0,
+    "calendar_data": [
+      {
+        "date": "2024-11-07",
+        "count": 0,
+        "weekday": 4,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2024-11-08",
+        "count": 0,
+        "weekday": 5,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2024-11-09",
+        "count": 0,
+        "weekday": 6,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2024-11-10",
+        "count": 0,
+        "weekday": 0,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2024-11-11",
+        "count": 0,
+        "weekday": 1,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2024-11-12",
+        "count": 0,
+        "weekday": 2,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2024-11-13",
+        "count": 0,
+        "weekday": 3,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2024-11-14",
+        "count": 0,
+        "weekday": 4,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2024-11-15",
+        "count": 0,
+        "weekday": 5,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2024-11-16",
+        "count": 0,
+        "weekday": 6,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2024-11-17",
+        "count": 0,
+        "weekday": 0,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2024-11-18",
+        "count": 0,
+        "weekday": 1,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2024-11-19",
+        "count": 0,
+        "weekday": 2,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2024-11-20",
+        "count": 0,
+        "weekday": 3,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2024-11-21",
+        "count": 0,
+        "weekday": 4,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2024-11-22",
+        "count": 0,
+        "weekday": 5,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2024-11-23",
+        "count": 0,
+        "weekday": 6,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2024-11-24",
+        "count": 0,
+        "weekday": 0,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2024-11-25",
+        "count": 0,
+        "weekday": 1,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2024-11-26",
+        "count": 0,
+        "weekday": 2,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2024-11-27",
+        "count": 0,
+        "weekday": 3,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2024-11-28",
+        "count": 0,
+        "weekday": 4,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2024-11-29",
+        "count": 0,
+        "weekday": 5,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2024-11-30",
+        "count": 0,
+        "weekday": 6,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2024-12-01",
+        "count": 0,
+        "weekday": 0,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2024-12-02",
+        "count": 0,
+        "weekday": 1,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2024-12-03",
+        "count": 0,
+        "weekday": 2,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2024-12-04",
+        "count": 0,
+        "weekday": 3,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2024-12-05",
+        "count": 0,
+        "weekday": 4,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2024-12-06",
+        "count": 0,
+        "weekday": 5,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2024-12-07",
+        "count": 0,
+        "weekday": 6,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2024-12-08",
+        "count": 0,
+        "weekday": 0,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2024-12-09",
+        "count": 0,
+        "weekday": 1,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2024-12-10",
+        "count": 0,
+        "weekday": 2,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2024-12-11",
+        "count": 0,
+        "weekday": 3,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2024-12-12",
+        "count": 0,
+        "weekday": 4,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2024-12-13",
+        "count": 0,
+        "weekday": 5,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2024-12-14",
+        "count": 0,
+        "weekday": 6,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2024-12-15",
+        "count": 0,
+        "weekday": 0,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2024-12-16",
+        "count": 0,
+        "weekday": 1,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2024-12-17",
+        "count": 0,
+        "weekday": 2,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2024-12-18",
+        "count": 0,
+        "weekday": 3,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2024-12-19",
+        "count": 0,
+        "weekday": 4,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2024-12-20",
+        "count": 0,
+        "weekday": 5,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2024-12-21",
+        "count": 0,
+        "weekday": 6,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2024-12-22",
+        "count": 0,
+        "weekday": 0,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2024-12-23",
+        "count": 0,
+        "weekday": 1,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2024-12-24",
+        "count": 0,
+        "weekday": 2,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2024-12-25",
+        "count": 0,
+        "weekday": 3,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2024-12-26",
+        "count": 0,
+        "weekday": 4,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2024-12-27",
+        "count": 0,
+        "weekday": 5,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2024-12-28",
+        "count": 0,
+        "weekday": 6,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2024-12-29",
+        "count": 0,
+        "weekday": 0,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2024-12-30",
+        "count": 0,
+        "weekday": 1,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2024-12-31",
+        "count": 0,
+        "weekday": 2,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-01-01",
+        "count": 0,
+        "weekday": 3,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-01-02",
+        "count": 0,
+        "weekday": 4,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-01-03",
+        "count": 0,
+        "weekday": 5,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-01-04",
+        "count": 0,
+        "weekday": 6,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-01-05",
+        "count": 0,
+        "weekday": 0,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-01-06",
+        "count": 0,
+        "weekday": 1,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-01-07",
+        "count": 0,
+        "weekday": 2,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-01-08",
+        "count": 0,
+        "weekday": 3,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-01-09",
+        "count": 0,
+        "weekday": 4,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-01-10",
+        "count": 0,
+        "weekday": 5,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-01-11",
+        "count": 0,
+        "weekday": 6,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-01-12",
+        "count": 0,
+        "weekday": 0,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-01-13",
+        "count": 0,
+        "weekday": 1,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-01-14",
+        "count": 0,
+        "weekday": 2,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-01-15",
+        "count": 0,
+        "weekday": 3,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-01-16",
+        "count": 0,
+        "weekday": 4,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-01-17",
+        "count": 0,
+        "weekday": 5,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-01-18",
+        "count": 0,
+        "weekday": 6,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-01-19",
+        "count": 0,
+        "weekday": 0,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-01-20",
+        "count": 0,
+        "weekday": 1,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-01-21",
+        "count": 0,
+        "weekday": 2,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-01-22",
+        "count": 0,
+        "weekday": 3,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-01-23",
+        "count": 0,
+        "weekday": 4,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-01-24",
+        "count": 0,
+        "weekday": 5,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-01-25",
+        "count": 0,
+        "weekday": 6,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-01-26",
+        "count": 0,
+        "weekday": 0,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-01-27",
+        "count": 0,
+        "weekday": 1,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-01-28",
+        "count": 0,
+        "weekday": 2,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-01-29",
+        "count": 0,
+        "weekday": 3,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-01-30",
+        "count": 0,
+        "weekday": 4,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-01-31",
+        "count": 0,
+        "weekday": 5,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-02-01",
+        "count": 0,
+        "weekday": 6,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-02-02",
+        "count": 0,
+        "weekday": 0,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-02-03",
+        "count": 0,
+        "weekday": 1,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-02-04",
+        "count": 0,
+        "weekday": 2,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-02-05",
+        "count": 0,
+        "weekday": 3,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-02-06",
+        "count": 0,
+        "weekday": 4,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-02-07",
+        "count": 0,
+        "weekday": 5,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-02-08",
+        "count": 0,
+        "weekday": 6,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-02-09",
+        "count": 0,
+        "weekday": 0,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-02-10",
+        "count": 0,
+        "weekday": 1,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-02-11",
+        "count": 0,
+        "weekday": 2,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-02-12",
+        "count": 0,
+        "weekday": 3,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-02-13",
+        "count": 0,
+        "weekday": 4,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-02-14",
+        "count": 0,
+        "weekday": 5,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-02-15",
+        "count": 0,
+        "weekday": 6,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-02-16",
+        "count": 0,
+        "weekday": 0,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-02-17",
+        "count": 0,
+        "weekday": 1,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-02-18",
+        "count": 0,
+        "weekday": 2,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-02-19",
+        "count": 0,
+        "weekday": 3,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-02-20",
+        "count": 0,
+        "weekday": 4,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-02-21",
+        "count": 0,
+        "weekday": 5,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-02-22",
+        "count": 0,
+        "weekday": 6,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-02-23",
+        "count": 0,
+        "weekday": 0,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-02-24",
+        "count": 0,
+        "weekday": 1,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-02-25",
+        "count": 0,
+        "weekday": 2,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-02-26",
+        "count": 0,
+        "weekday": 3,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-02-27",
+        "count": 0,
+        "weekday": 4,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-02-28",
+        "count": 0,
+        "weekday": 5,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-03-01",
+        "count": 0,
+        "weekday": 6,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-03-02",
+        "count": 0,
+        "weekday": 0,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-03-03",
+        "count": 0,
+        "weekday": 1,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-03-04",
+        "count": 0,
+        "weekday": 2,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-03-05",
+        "count": 0,
+        "weekday": 3,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-03-06",
+        "count": 0,
+        "weekday": 4,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-03-07",
+        "count": 0,
+        "weekday": 5,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-03-08",
+        "count": 0,
+        "weekday": 6,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-03-09",
+        "count": 0,
+        "weekday": 0,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-03-10",
+        "count": 0,
+        "weekday": 1,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-03-11",
+        "count": 0,
+        "weekday": 2,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-03-12",
+        "count": 0,
+        "weekday": 3,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-03-13",
+        "count": 0,
+        "weekday": 4,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-03-14",
+        "count": 0,
+        "weekday": 5,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-03-15",
+        "count": 0,
+        "weekday": 6,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-03-16",
+        "count": 0,
+        "weekday": 0,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-03-17",
+        "count": 0,
+        "weekday": 1,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-03-18",
+        "count": 0,
+        "weekday": 2,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-03-19",
+        "count": 0,
+        "weekday": 3,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-03-20",
+        "count": 0,
+        "weekday": 4,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-03-21",
+        "count": 0,
+        "weekday": 5,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-03-22",
+        "count": 0,
+        "weekday": 6,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-03-23",
+        "count": 0,
+        "weekday": 0,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-03-24",
+        "count": 0,
+        "weekday": 1,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-03-25",
+        "count": 0,
+        "weekday": 2,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-03-26",
+        "count": 0,
+        "weekday": 3,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-03-27",
+        "count": 0,
+        "weekday": 4,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-03-28",
+        "count": 0,
+        "weekday": 5,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-03-29",
+        "count": 0,
+        "weekday": 6,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-03-30",
+        "count": 0,
+        "weekday": 0,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-03-31",
+        "count": 0,
+        "weekday": 1,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-04-01",
+        "count": 0,
+        "weekday": 2,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-04-02",
+        "count": 0,
+        "weekday": 3,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-04-03",
+        "count": 0,
+        "weekday": 4,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-04-04",
+        "count": 0,
+        "weekday": 5,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-04-05",
+        "count": 0,
+        "weekday": 6,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-04-06",
+        "count": 0,
+        "weekday": 0,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-04-07",
+        "count": 0,
+        "weekday": 1,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-04-08",
+        "count": 0,
+        "weekday": 2,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-04-09",
+        "count": 0,
+        "weekday": 3,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-04-10",
+        "count": 0,
+        "weekday": 4,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-04-11",
+        "count": 0,
+        "weekday": 5,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-04-12",
+        "count": 0,
+        "weekday": 6,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-04-13",
+        "count": 0,
+        "weekday": 0,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-04-14",
+        "count": 0,
+        "weekday": 1,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-04-15",
+        "count": 0,
+        "weekday": 2,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-04-16",
+        "count": 0,
+        "weekday": 3,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-04-17",
+        "count": 0,
+        "weekday": 4,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-04-18",
+        "count": 0,
+        "weekday": 5,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-04-19",
+        "count": 0,
+        "weekday": 6,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-04-20",
+        "count": 0,
+        "weekday": 0,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-04-21",
+        "count": 0,
+        "weekday": 1,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-04-22",
+        "count": 0,
+        "weekday": 2,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-04-23",
+        "count": 0,
+        "weekday": 3,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-04-24",
+        "count": 0,
+        "weekday": 4,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-04-25",
+        "count": 0,
+        "weekday": 5,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-04-26",
+        "count": 0,
+        "weekday": 6,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-04-27",
+        "count": 0,
+        "weekday": 0,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-04-28",
+        "count": 0,
+        "weekday": 1,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-04-29",
+        "count": 2,
+        "weekday": 2,
+        "level": 1,
+        "color": "#9be9a8"
+      },
+      {
+        "date": "2025-04-30",
+        "count": 0,
+        "weekday": 3,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-05-01",
+        "count": 0,
+        "weekday": 4,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-05-02",
+        "count": 0,
+        "weekday": 5,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-05-03",
+        "count": 0,
+        "weekday": 6,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-05-04",
+        "count": 0,
+        "weekday": 0,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-05-05",
+        "count": 0,
+        "weekday": 1,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-05-06",
+        "count": 0,
+        "weekday": 2,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-05-07",
+        "count": 0,
+        "weekday": 3,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-05-08",
+        "count": 0,
+        "weekday": 4,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-05-09",
+        "count": 0,
+        "weekday": 5,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-05-10",
+        "count": 0,
+        "weekday": 6,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-05-11",
+        "count": 0,
+        "weekday": 0,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-05-12",
+        "count": 0,
+        "weekday": 1,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-05-13",
+        "count": 0,
+        "weekday": 2,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-05-14",
+        "count": 0,
+        "weekday": 3,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-05-15",
+        "count": 0,
+        "weekday": 4,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-05-16",
+        "count": 0,
+        "weekday": 5,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-05-17",
+        "count": 0,
+        "weekday": 6,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-05-18",
+        "count": 0,
+        "weekday": 0,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-05-19",
+        "count": 0,
+        "weekday": 1,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-05-20",
+        "count": 0,
+        "weekday": 2,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-05-21",
+        "count": 0,
+        "weekday": 3,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-05-22",
+        "count": 0,
+        "weekday": 4,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-05-23",
+        "count": 0,
+        "weekday": 5,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-05-24",
+        "count": 0,
+        "weekday": 6,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-05-25",
+        "count": 0,
+        "weekday": 0,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-05-26",
+        "count": 0,
+        "weekday": 1,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-05-27",
+        "count": 0,
+        "weekday": 2,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-05-28",
+        "count": 0,
+        "weekday": 3,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-05-29",
+        "count": 2,
+        "weekday": 4,
+        "level": 1,
+        "color": "#9be9a8"
+      },
+      {
+        "date": "2025-05-30",
+        "count": 0,
+        "weekday": 5,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-05-31",
+        "count": 0,
+        "weekday": 6,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-06-01",
+        "count": 0,
+        "weekday": 0,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-06-02",
+        "count": 0,
+        "weekday": 1,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-06-03",
+        "count": 0,
+        "weekday": 2,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-06-04",
+        "count": 0,
+        "weekday": 3,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-06-05",
+        "count": 3,
+        "weekday": 4,
+        "level": 1,
+        "color": "#40c463"
+      },
+      {
+        "date": "2025-06-06",
+        "count": 0,
+        "weekday": 5,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-06-07",
+        "count": 0,
+        "weekday": 6,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-06-08",
+        "count": 0,
+        "weekday": 0,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-06-09",
+        "count": 11,
+        "weekday": 1,
+        "level": 4,
+        "color": "#216e39"
+      },
+      {
+        "date": "2025-06-10",
+        "count": 0,
+        "weekday": 2,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-06-11",
+        "count": 0,
+        "weekday": 3,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-06-12",
+        "count": 0,
+        "weekday": 4,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-06-13",
+        "count": 0,
+        "weekday": 5,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-06-14",
+        "count": 0,
+        "weekday": 6,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-06-15",
+        "count": 0,
+        "weekday": 0,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-06-16",
+        "count": 0,
+        "weekday": 1,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-06-17",
+        "count": 0,
+        "weekday": 2,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-06-18",
+        "count": 0,
+        "weekday": 3,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-06-19",
+        "count": 0,
+        "weekday": 4,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-06-20",
+        "count": 0,
+        "weekday": 5,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-06-21",
+        "count": 0,
+        "weekday": 6,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-06-22",
+        "count": 0,
+        "weekday": 0,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-06-23",
+        "count": 0,
+        "weekday": 1,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-06-24",
+        "count": 0,
+        "weekday": 2,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-06-25",
+        "count": 0,
+        "weekday": 3,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-06-26",
+        "count": 0,
+        "weekday": 4,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-06-27",
+        "count": 0,
+        "weekday": 5,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-06-28",
+        "count": 0,
+        "weekday": 6,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-06-29",
+        "count": 0,
+        "weekday": 0,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-06-30",
+        "count": 0,
+        "weekday": 1,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-07-01",
+        "count": 0,
+        "weekday": 2,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-07-02",
+        "count": 0,
+        "weekday": 3,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-07-03",
+        "count": 0,
+        "weekday": 4,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-07-04",
+        "count": 0,
+        "weekday": 5,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-07-05",
+        "count": 0,
+        "weekday": 6,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-07-06",
+        "count": 0,
+        "weekday": 0,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-07-07",
+        "count": 0,
+        "weekday": 1,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-07-08",
+        "count": 0,
+        "weekday": 2,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-07-09",
+        "count": 0,
+        "weekday": 3,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-07-10",
+        "count": 0,
+        "weekday": 4,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-07-11",
+        "count": 0,
+        "weekday": 5,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-07-12",
+        "count": 0,
+        "weekday": 6,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-07-13",
+        "count": 0,
+        "weekday": 0,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-07-14",
+        "count": 0,
+        "weekday": 1,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-07-15",
+        "count": 0,
+        "weekday": 2,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-07-16",
+        "count": 0,
+        "weekday": 3,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-07-17",
+        "count": 0,
+        "weekday": 4,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-07-18",
+        "count": 0,
+        "weekday": 5,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-07-19",
+        "count": 0,
+        "weekday": 6,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-07-20",
+        "count": 0,
+        "weekday": 0,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-07-21",
+        "count": 0,
+        "weekday": 1,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-07-22",
+        "count": 0,
+        "weekday": 2,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-07-23",
+        "count": 0,
+        "weekday": 3,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-07-24",
+        "count": 0,
+        "weekday": 4,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-07-25",
+        "count": 0,
+        "weekday": 5,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-07-26",
+        "count": 0,
+        "weekday": 6,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-07-27",
+        "count": 0,
+        "weekday": 0,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-07-28",
+        "count": 2,
+        "weekday": 1,
+        "level": 1,
+        "color": "#9be9a8"
+      },
+      {
+        "date": "2025-07-29",
+        "count": 0,
+        "weekday": 2,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-07-30",
+        "count": 0,
+        "weekday": 3,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-07-31",
+        "count": 0,
+        "weekday": 4,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-08-01",
+        "count": 0,
+        "weekday": 5,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-08-02",
+        "count": 0,
+        "weekday": 6,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-08-03",
+        "count": 0,
+        "weekday": 0,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-08-04",
+        "count": 0,
+        "weekday": 1,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-08-05",
+        "count": 0,
+        "weekday": 2,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-08-06",
+        "count": 0,
+        "weekday": 3,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-08-07",
+        "count": 0,
+        "weekday": 4,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-08-08",
+        "count": 0,
+        "weekday": 5,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-08-09",
+        "count": 0,
+        "weekday": 6,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-08-10",
+        "count": 0,
+        "weekday": 0,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-08-11",
+        "count": 0,
+        "weekday": 1,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-08-12",
+        "count": 0,
+        "weekday": 2,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-08-13",
+        "count": 0,
+        "weekday": 3,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-08-14",
+        "count": 0,
+        "weekday": 4,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-08-15",
+        "count": 0,
+        "weekday": 5,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-08-16",
+        "count": 0,
+        "weekday": 6,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-08-17",
+        "count": 0,
+        "weekday": 0,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-08-18",
+        "count": 1,
+        "weekday": 1,
+        "level": 1,
+        "color": "#9be9a8"
+      },
+      {
+        "date": "2025-08-19",
+        "count": 0,
+        "weekday": 2,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-08-20",
+        "count": 0,
+        "weekday": 3,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-08-21",
+        "count": 0,
+        "weekday": 4,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-08-22",
+        "count": 0,
+        "weekday": 5,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-08-23",
+        "count": 0,
+        "weekday": 6,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-08-24",
+        "count": 0,
+        "weekday": 0,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-08-25",
+        "count": 0,
+        "weekday": 1,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-08-26",
+        "count": 0,
+        "weekday": 2,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-08-27",
+        "count": 0,
+        "weekday": 3,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-08-28",
+        "count": 0,
+        "weekday": 4,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-08-29",
+        "count": 0,
+        "weekday": 5,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-08-30",
+        "count": 0,
+        "weekday": 6,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-08-31",
+        "count": 2,
+        "weekday": 0,
+        "level": 1,
+        "color": "#9be9a8"
+      },
+      {
+        "date": "2025-09-01",
+        "count": 0,
+        "weekday": 1,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-09-02",
+        "count": 0,
+        "weekday": 2,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-09-03",
+        "count": 0,
+        "weekday": 3,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-09-04",
+        "count": 0,
+        "weekday": 4,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-09-05",
+        "count": 0,
+        "weekday": 5,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-09-06",
+        "count": 0,
+        "weekday": 6,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-09-07",
+        "count": 0,
+        "weekday": 0,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-09-08",
+        "count": 0,
+        "weekday": 1,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-09-09",
+        "count": 0,
+        "weekday": 2,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-09-10",
+        "count": 0,
+        "weekday": 3,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-09-11",
+        "count": 0,
+        "weekday": 4,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-09-12",
+        "count": 0,
+        "weekday": 5,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-09-13",
+        "count": 0,
+        "weekday": 6,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-09-14",
+        "count": 0,
+        "weekday": 0,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-09-15",
+        "count": 0,
+        "weekday": 1,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-09-16",
+        "count": 0,
+        "weekday": 2,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-09-17",
+        "count": 0,
+        "weekday": 3,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-09-18",
+        "count": 0,
+        "weekday": 4,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-09-19",
+        "count": 0,
+        "weekday": 5,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-09-20",
+        "count": 0,
+        "weekday": 6,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-09-21",
+        "count": 2,
+        "weekday": 0,
+        "level": 1,
+        "color": "#9be9a8"
+      },
+      {
+        "date": "2025-09-22",
+        "count": 9,
+        "weekday": 1,
+        "level": 3,
+        "color": "#216e39"
+      },
+      {
+        "date": "2025-09-23",
+        "count": 0,
+        "weekday": 2,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-09-24",
+        "count": 0,
+        "weekday": 3,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-09-25",
+        "count": 0,
+        "weekday": 4,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-09-26",
+        "count": 0,
+        "weekday": 5,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-09-27",
+        "count": 0,
+        "weekday": 6,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-09-28",
+        "count": 0,
+        "weekday": 0,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-09-29",
+        "count": 0,
+        "weekday": 1,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-09-30",
+        "count": 0,
+        "weekday": 2,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-10-01",
+        "count": 0,
+        "weekday": 3,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-10-02",
+        "count": 0,
+        "weekday": 4,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-10-03",
+        "count": 0,
+        "weekday": 5,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-10-04",
+        "count": 0,
+        "weekday": 6,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-10-05",
+        "count": 0,
+        "weekday": 0,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-10-06",
+        "count": 0,
+        "weekday": 1,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-10-07",
+        "count": 0,
+        "weekday": 2,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-10-08",
+        "count": 3,
+        "weekday": 3,
+        "level": 1,
+        "color": "#40c463"
+      },
+      {
+        "date": "2025-10-09",
+        "count": 0,
+        "weekday": 4,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-10-10",
+        "count": 0,
+        "weekday": 5,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-10-11",
+        "count": 0,
+        "weekday": 6,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-10-12",
+        "count": 0,
+        "weekday": 0,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-10-13",
+        "count": 0,
+        "weekday": 1,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-10-14",
+        "count": 0,
+        "weekday": 2,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-10-15",
+        "count": 0,
+        "weekday": 3,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-10-16",
+        "count": 0,
+        "weekday": 4,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-10-17",
+        "count": 0,
+        "weekday": 5,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-10-18",
+        "count": 0,
+        "weekday": 6,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-10-19",
+        "count": 0,
+        "weekday": 0,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-10-20",
+        "count": 0,
+        "weekday": 1,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-10-21",
+        "count": 0,
+        "weekday": 2,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-10-22",
+        "count": 2,
+        "weekday": 3,
+        "level": 1,
+        "color": "#9be9a8"
+      },
+      {
+        "date": "2025-10-23",
+        "count": 0,
+        "weekday": 4,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-10-24",
+        "count": 0,
+        "weekday": 5,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-10-25",
+        "count": 0,
+        "weekday": 6,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-10-26",
+        "count": 0,
+        "weekday": 0,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-10-27",
+        "count": 0,
+        "weekday": 1,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-10-28",
+        "count": 0,
+        "weekday": 2,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-10-29",
+        "count": 0,
+        "weekday": 3,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-10-30",
+        "count": 0,
+        "weekday": 4,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-10-31",
+        "count": 0,
+        "weekday": 5,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-11-01",
+        "count": 0,
+        "weekday": 6,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-11-02",
+        "count": 0,
+        "weekday": 0,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-11-03",
+        "count": 0,
+        "weekday": 1,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-11-04",
+        "count": 0,
+        "weekday": 2,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-11-05",
+        "count": 0,
+        "weekday": 3,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-11-06",
+        "count": 0,
+        "weekday": 4,
+        "level": 0,
+        "color": "#ebedf0"
+      },
+      {
+        "date": "2025-11-07",
+        "count": 0,
+        "weekday": 5,
+        "level": 0,
+        "color": "#ebedf0"
+      }
+    ],
+    "contribution_streaks": {
+      "current_streak": 0,
+      "longest_streak": 2,
+      "streak_ranges": [
+        {
+          "start": "2025-09-21",
+          "end": "2025-09-22",
+          "length": 2
+        },
+        {
+          "start": "2025-04-29",
+          "end": "2025-04-29",
+          "length": 1
+        },
+        {
+          "start": "2025-05-29",
+          "end": "2025-05-29",
+          "length": 1
+        },
+        {
+          "start": "2025-06-05",
+          "end": "2025-06-05",
+          "length": 1
+        },
+        {
+          "start": "2025-06-09",
+          "end": "2025-06-09",
+          "length": 1
+        },
+        {
+          "start": "2025-07-28",
+          "end": "2025-07-28",
+          "length": 1
+        },
+        {
+          "start": "2025-08-18",
+          "end": "2025-08-18",
+          "length": 1
+        },
+        {
+          "start": "2025-08-31",
+          "end": "2025-08-31",
+          "length": 1
+        },
+        {
+          "start": "2025-10-08",
+          "end": "2025-10-08",
+          "length": 1
+        },
+        {
+          "start": "2025-10-22",
+          "end": "2025-10-22",
+          "length": 1
+        }
+      ]
+    },
+    "contribution_patterns": {
+      "weekday_averages": {
+        "Monday": 0.44,
+        "Tuesday": 0.04,
+        "Wednesday": 0.1,
+        "Thursday": 0.09,
+        "Friday": 0.0,
+        "Saturday": 0.0,
+        "Sunday": 0.08
+      },
+      "most_active_day": {
+        "day": "Monday",
+        "average_contributions": 0.44
+      },
+      "monthly_trends": {
+        "2024-11": 0,
+        "2024-12": 0,
+        "2025-01": 0,
+        "2025-02": 0,
+        "2025-03": 0,
+        "2025-04": 2,
+        "2025-05": 2,
+        "2025-06": 14,
+        "2025-07": 2,
+        "2025-08": 3,
+        "2025-09": 11,
+        "2025-10": 5,
+        "2025-11": 0
+      },
+      "total_active_days": 11,
+      "total_days": 366
+    },
+    "contribution_levels": {
+      "0": 355,
+      "2": 6,
+      "3": 2,
+      "11": 1,
+      "1": 1,
+      "9": 1
+    },
+    "commit_repositories": [
+      {
+        "name": "amanah2",
+        "owner": "raseen2305",
+        "url": "https://github.com/raseen2305/amanah2",
+        "language": "TypeScript",
+        "language_color": "#3178c6",
+        "contributions": 13
+      },
+      {
+        "name": "Complaint-management-system",
+        "owner": "raseen2305",
+        "url": "https://github.com/raseen2305/Complaint-management-system",
+        "language": "Python",
+        "language_color": "#3572A5",
+        "contributions": 10
+      },
+      {
+        "name": "online-evaluation",
+        "owner": "raseen2305",
+        "url": "https://github.com/raseen2305/online-evaluation",
+        "language": "Python",
+        "language_color": "#3572A5",
+        "contributions": 2
+      },
+      {
+        "name": "dummy",
+        "owner": "raseen2305",
+        "url": "https://github.com/raseen2305/dummy",
+        "language": "Python",
+        "language_color": "#3572A5",
+        "contributions": 1
+      },
+      {
+        "name": "AI-scheduler",
+        "owner": "raseen2305",
+        "url": "https://github.com/raseen2305/AI-scheduler",
+        "language": "TypeScript",
+        "language_color": "#3178c6",
+        "contributions": 1
+      },
+      {
+        "name": "Postora",
+        "owner": "raseen2305",
+        "url": "https://github.com/raseen2305/Postora",
+        "language": "TypeScript",
+        "language_color": "#3178c6",
+        "contributions": 1
+      },
+      {
+        "name": "amanah1",
+        "owner": "raseen2305",
+        "url": "https://github.com/raseen2305/amanah1",
+        "language": "TypeScript",
+        "language_color": "#3178c6",
+        "contributions": 1
+      },
+      {
+        "name": "Movie-Finder",
+        "owner": "raseen2305",
+        "url": "https://github.com/raseen2305/Movie-Finder",
+        "language": "JavaScript",
+        "language_color": "#f1e05a",
+        "contributions": 1
+      }
+    ],
+    "pull_request_repositories": [],
+    "contributed_repositories": [],
+    "data_source": "graphql",
+    "query_date": "2025-11-07T12:39:59.596847"
+  },
+  "activityCalendar": {
+    "note": "Activity calendar data included in contribution_stats",
+    "available": true
+  },
+  "collaborationMetrics": {
+    "followers": 0,
+    "following": 0,
+    "public_gists": 0,
+    "organizations_count": 0,
+    "contributed_repositories": 0,
+    "pull_requests_opened": 0,
+    "issues_opened": 0,
+    "code_reviews_given": 0
+  },
+  "languageStatistics": {
+    "total_languages": 14,
+    "language_breakdown": {
+      "Python": {
+        "repositories": 3,
+        "total_bytes": 88015169,
+        "stars": 0,
+        "forks": 0,
+        "percentage": 93.58
+      },
+      "TypeScript": {
+        "repositories": 4,
+        "total_bytes": 1723166,
+        "stars": 0,
+        "forks": 0,
+        "percentage": 1.83
+      },
+      "JavaScript": {
+        "repositories": 1,
+        "total_bytes": 1249302,
+        "stars": 0,
+        "forks": 0,
+        "percentage": 1.33
+      },
+      "CSS": {
+        "repositories": 0,
+        "total_bytes": 1239479,
+        "stars": 0,
+        "forks": 0,
+        "percentage": 1.32
+      },
+      "SCSS": {
+        "repositories": 0,
+        "total_bytes": 863854,
+        "stars": 0,
+        "forks": 0,
+        "percentage": 0.92
+      },
+      "HTML": {
+        "repositories": 0,
+        "total_bytes": 522491,
+        "stars": 0,
+        "forks": 0,
+        "percentage": 0.56
+      },
+      "C++": {
+        "repositories": 0,
+        "total_bytes": 272317,
+        "stars": 0,
+        "forks": 0,
+        "percentage": 0.29
+      },
+      "C": {
+        "repositories": 0,
+        "total_bytes": 68635,
+        "stars": 0,
+        "forks": 0,
+        "percentage": 0.07
+      },
+      "PowerShell": {
+        "repositories": 0,
+        "total_bytes": 64109,
+        "stars": 0,
+        "forks": 0,
+        "percentage": 0.07
+      },
+      "Cython": {
+        "repositories": 0,
+        "total_bytes": 23444,
+        "stars": 0,
+        "forks": 0,
+        "percentage": 0.02
+      },
+      "Roff": {
+        "repositories": 0,
+        "total_bytes": 7889,
+        "stars": 0,
+        "forks": 0,
+        "percentage": 0.01
+      },
+      "Batchfile": {
+        "repositories": 0,
+        "total_bytes": 4216,
+        "stars": 0,
+        "forks": 0,
+        "percentage": 0.0
+      },
+      "Assembly": {
+        "repositories": 0,
+        "total_bytes": 3086,
+        "stars": 0,
+        "forks": 0,
+        "percentage": 0.0
+      },
+      "Shell": {
+        "repositories": 0,
+        "total_bytes": 946,
+        "stars": 0,
+        "forks": 0,
+        "percentage": 0.0
+      }
+    },
+    "primary_language": "Python",
+    "language_diversity_score": 0.51
+  },
+  "achievementMetrics": {
+    "total_stars_earned": 0,
+    "total_forks_earned": 0,
+    "repositories_with_stars": 0,
+    "repositories_with_forks": 0,
+    "popular_repositories": 0,
+    "highly_popular_repositories": 0,
+    "account_age_years": 1.7,
+    "repositories_per_year": 5.17,
+    "consistency_score": 50.0
+  },
+  "socialMetrics": {
+    "followers": 0,
+    "following": 0,
+    "follower_following_ratio": 0.0,
+    "social_presence": {
+      "has_bio": true,
+      "has_company": false,
+      "has_location": false,
+      "has_blog": true,
+      "has_twitter": false,
+      "has_email": false
+    },
+    "profile_completeness": 42.9
+  },
+  "recentActivity": {
+    "total_recent_events": 2,
+    "event_summary": {
+      "CreateEvent": 2
+    },
+    "recent_repositories": [
+      "raseen2305/dummy",
+      "raseen2305/online-evaluation"
+    ],
+    "last_activity_date": "2025-10-22T16:02:11+00:00",
+    "activity_frequency": "high"
+  },
+  "organizations": [],
+  "repositoryOverview": {
+    "total_repositories": 9,
+    "original_repositories": 8,
+    "forked_repositories": 1,
+    "total_stars": 0,
+    "total_forks": 0,
+    "total_watchers": 0,
+    "languages": {
+      "Python": 3,
+      "TypeScript": 4,
+      "JavaScript": 1
+    },
+    "topics": {},
+    "repository_sizes": [
+      3,
+      73808,
+      67911,
+      14670,
+      4,
+      689,
+      21106,
+      21013,
+      40
+    ],
+    "creation_timeline": {
+      "2025": 9
+    },
+    "most_starred": null,
+    "most_forked": null,
+    "recently_updated": [
+      {
+        "name": "dummy",
+        "updated_at": "2025-10-22T16:02:14+00:00",
+        "language": "Python",
+        "stars": 0
+      },
+      {
+        "name": "online-evaluation",
+        "updated_at": "2025-10-08T15:08:14+00:00",
+        "language": "Python",
+        "stars": 0
+      }
+    ],
+    "average_repository_size": 22138.222222222223,
+    "repositories": [
+      {
+        "id": 1081318837,
+        "name": "dummy",
+        "full_name": "raseen2305/dummy",
+        "description": "dummy",
+        "language": "Python",
+        "stargazers_count": 0,
+        "forks_count": 0,
+        "watchers_count": 0,
+        "size": 3,
+        "created_at": "2025-10-22T16:00:58+00:00",
+        "updated_at": "2025-10-22T16:02:14+00:00",
+        "pushed_at": "2025-10-22T16:02:10+00:00",
+        "html_url": "https://github.com/raseen2305/dummy",
+        "clone_url": "https://github.com/raseen2305/dummy.git",
+        "private": false,
+        "fork": false,
+        "archived": false,
+        "disabled": false,
+        "topics": [],
+        "license": null,
+        "default_branch": "main",
+        "open_issues_count": 0,
+        "evaluate_for_scoring": true
+      },
+      {
+        "id": 1072322046,
+        "name": "online-evaluation",
+        "full_name": "raseen2305/online-evaluation",
+        "description": "",
+        "language": "Python",
+        "stargazers_count": 0,
+        "forks_count": 0,
+        "watchers_count": 0,
+        "size": 73808,
+        "created_at": "2025-10-08T15:00:50+00:00",
+        "updated_at": "2025-10-08T15:08:14+00:00",
+        "pushed_at": "2025-10-08T15:07:53+00:00",
+        "html_url": "https://github.com/raseen2305/online-evaluation",
+        "clone_url": "https://github.com/raseen2305/online-evaluation.git",
+        "private": false,
+        "fork": false,
+        "archived": false,
+        "disabled": false,
+        "topics": [],
+        "license": null,
+        "default_branch": "master",
+        "open_issues_count": 0,
+        "evaluate_for_scoring": true
+      },
+      {
+        "id": 1061342287,
+        "name": "Complaint-management-system",
+        "full_name": "raseen2305/Complaint-management-system",
+        "description": "A robust complaint management system where user can raise a ticket and categorize them, also it is integrated with IBM Watson ai chatbot. It also has a ADMIN dashboard to manage access and complaints",
+        "language": "Python",
+        "stargazers_count": 0,
+        "forks_count": 0,
+        "watchers_count": 0,
+        "size": 67911,
+        "created_at": "2025-09-21T18:07:01+00:00",
+        "updated_at": "2025-09-21T18:56:25+00:00",
+        "pushed_at": "2025-09-21T18:56:22+00:00",
+        "html_url": "https://github.com/raseen2305/Complaint-management-system",
+        "clone_url": "https://github.com/raseen2305/Complaint-management-system.git",
+        "private": false,
+        "fork": false,
+        "archived": false,
+        "disabled": false,
+        "topics": [],
+        "license": null,
+        "default_branch": "master",
+        "open_issues_count": 0,
+        "evaluate_for_scoring": true
+      },
+      {
+        "id": 1047732487,
+        "name": "AI-scheduler",
+        "full_name": "raseen2305/AI-scheduler",
+        "description": "AI content creator and scheduler",
+        "language": "TypeScript",
+        "stargazers_count": 0,
+        "forks_count": 0,
+        "watchers_count": 0,
+        "size": 14670,
+        "created_at": "2025-08-31T05:12:10+00:00",
+        "updated_at": "2025-08-31T05:18:25+00:00",
+        "pushed_at": "2025-08-31T05:18:21+00:00",
+        "html_url": "https://github.com/raseen2305/AI-scheduler",
+        "clone_url": "https://github.com/raseen2305/AI-scheduler.git",
+        "private": false,
+        "fork": false,
+        "archived": false,
+        "disabled": false,
+        "topics": [],
+        "license": null,
+        "default_branch": "master",
+        "open_issues_count": 0,
+        "evaluate_for_scoring": true
+      },
+      {
+        "id": 1040136771,
+        "name": "PasswordManager",
+        "full_name": "raseen2305/PasswordManager",
+        "description": "",
+        "language": null,
+        "stargazers_count": 0,
+        "forks_count": 0,
+        "watchers_count": 0,
+        "size": 4,
+        "created_at": "2025-08-18T14:07:30+00:00",
+        "updated_at": "2025-08-18T14:07:30+00:00",
+        "pushed_at": "2021-04-06T10:08:26+00:00",
+        "html_url": "https://github.com/raseen2305/PasswordManager",
+        "clone_url": "https://github.com/raseen2305/PasswordManager.git",
+        "private": false,
+        "fork": true,
+        "archived": false,
+        "disabled": false,
+        "topics": [],
+        "license": null,
+        "default_branch": "main",
+        "open_issues_count": 0,
+        "evaluate_for_scoring": true
+      },
+      {
+        "id": 1027837743,
+        "name": "Postora",
+        "full_name": "raseen2305/Postora",
+        "description": "",
+        "language": "TypeScript",
+        "stargazers_count": 0,
+        "forks_count": 0,
+        "watchers_count": 0,
+        "size": 689,
+        "created_at": "2025-07-28T15:54:57+00:00",
+        "updated_at": "2025-07-28T15:56:58+00:00",
+        "pushed_at": "2025-07-28T15:56:54+00:00",
+        "html_url": "https://github.com/raseen2305/Postora",
+        "clone_url": "https://github.com/raseen2305/Postora.git",
+        "private": false,
+        "fork": false,
+        "archived": false,
+        "disabled": false,
+        "topics": [],
+        "license": null,
+        "default_branch": "master",
+        "open_issues_count": 0,
+        "evaluate_for_scoring": true
+      },
+      {
+        "id": 996952805,
+        "name": "amanah2",
+        "full_name": "raseen2305/amanah2",
+        "description": "",
+        "language": "TypeScript",
+        "stargazers_count": 0,
+        "forks_count": 0,
+        "watchers_count": 0,
+        "size": 21106,
+        "created_at": "2025-06-05T18:05:07+00:00",
+        "updated_at": "2025-06-09T06:51:26+00:00",
+        "pushed_at": "2025-06-09T06:51:23+00:00",
+        "html_url": "https://github.com/raseen2305/amanah2",
+        "clone_url": "https://github.com/raseen2305/amanah2.git",
+        "private": false,
+        "fork": false,
+        "archived": false,
+        "disabled": false,
+        "topics": [],
+        "license": null,
+        "default_branch": "master",
+        "open_issues_count": 0,
+        "evaluate_for_scoring": true
+      },
+      {
+        "id": 992734228,
+        "name": "amanah1",
+        "full_name": "raseen2305/amanah1",
+        "description": "",
+        "language": "TypeScript",
+        "stargazers_count": 0,
+        "forks_count": 0,
+        "watchers_count": 0,
+        "size": 21013,
+        "created_at": "2025-05-29T16:17:54+00:00",
+        "updated_at": "2025-05-29T17:10:39+00:00",
+        "pushed_at": "2025-05-29T17:10:35+00:00",
+        "html_url": "https://github.com/raseen2305/amanah1",
+        "clone_url": "https://github.com/raseen2305/amanah1.git",
+        "private": false,
+        "fork": false,
+        "archived": false,
+        "disabled": false,
+        "topics": [],
+        "license": null,
+        "default_branch": "master",
+        "open_issues_count": 0,
+        "evaluate_for_scoring": true
+      },
+      {
+        "id": 974971086,
+        "name": "Movie-Finder",
+        "full_name": "raseen2305/Movie-Finder",
+        "description": "this web app displays popular movies in card allowing the user to watch the trailer of the specific film while hovering on the car , also displays a detailed description of the film and other useful informations",
+        "language": "JavaScript",
+        "stargazers_count": 0,
+        "forks_count": 0,
+        "watchers_count": 0,
+        "size": 40,
+        "created_at": "2025-04-29T15:23:32+00:00",
+        "updated_at": "2025-04-29T15:31:53+00:00",
+        "pushed_at": "2025-04-29T15:31:49+00:00",
+        "html_url": "https://github.com/raseen2305/Movie-Finder",
+        "clone_url": "https://github.com/raseen2305/Movie-Finder.git",
+        "private": false,
+        "fork": false,
+        "archived": false,
+        "disabled": false,
+        "topics": [],
+        "license": null,
+        "default_branch": "master",
+        "open_issues_count": 0,
+        "evaluate_for_scoring": true
+      }
+    ],
+    "evaluated_repositories_count": 9,
+    "total_displayed_repositories": 9
+  },
+  "pullRequestAnalysis": {
+    "summary": {
+      "total_pull_requests": 0,
+      "merged_pull_requests": 0,
+      "closed_pull_requests": 0,
+      "open_pull_requests": 0,
+      "merge_rate": 0.0,
+      "repositories_with_prs": 0
+    },
+    "metrics": {
+      "average_review_time": 0.0,
+      "average_merge_time": 0.0,
+      "reviews_per_pr": 0.0,
+      "comments_per_pr": 0.0,
+      "lines_changed_per_pr": 0.0
+    },
+    "collaboration": {
+      "unique_reviewers": [],
+      "frequent_collaborators": [],
+      "review_participation_rate": 0.0,
+      "cross_repository_collaboration": 0
+    },
+    "patterns": {
+      "pr_size_distribution": {
+        "small": 0,
+        "medium": 0,
+        "large": 0,
+        "xl": 0
+      },
+      "merge_day_patterns": {},
+      "review_response_times": [],
+      "most_active_repositories": []
+    },
+    "quality_indicators": {
+      "prs_with_tests": 0,
+      "prs_with_documentation": 0,
+      "prs_with_multiple_reviewers": 0,
+      "breaking_change_rate": 0.0
+    },
+    "repository_breakdown": []
+  },
+  "issueAnalysis": {
+    "summary": {
+      "total_issues": 0,
+      "open_issues": 0,
+      "closed_issues": 0,
+      "resolution_rate": 0.0,
+      "repositories_with_issues": 0,
+      "issues_created": 0,
+      "issues_participated": 0
+    },
+    "metrics": {
+      "average_resolution_time": 0.0,
+      "average_response_time": 0.0,
+      "comments_per_issue": 0.0,
+      "assignees_per_issue": 0.0,
+      "labels_per_issue": 0.0
+    },
+    "patterns": {
+      "issue_types": {},
+      "priority_distribution": {},
+      "resolution_day_patterns": {},
+      "creation_trends": {},
+      "top_labels": []
+    },
+    "collaboration": {
+      "unique_assignees": [],
+      "frequent_collaborators": [],
+      "cross_repository_participation": 0,
+      "community_engagement_score": 0.0
+    },
+    "quality_indicators": {
+      "issues_with_labels": 0,
+      "issues_with_assignees": 0,
+      "issues_with_milestones": 0,
+      "duplicate_issue_rate": 0.0,
+      "stale_issue_rate": 0.0
+    },
+    "repository_breakdown": []
+  },
+  "_metadata": {
+    "cached": true,
+    "cache_timestamp": "2025-11-07T07:12:41.075491",
+    "scan_type": "external_cached"
+  }
+}

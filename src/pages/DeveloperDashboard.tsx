@@ -10,10 +10,7 @@ import ContributionCalendar from "../components/dashboard/ContributionCalendar";
 import PullRequestAnalysis from "../components/dashboard/PullRequestAnalysis";
 import IssueAnalysis from "../components/dashboard/IssueAnalysis";
 import RankingsPage from "./RankingsPage";
-<<<<<<< HEAD
-=======
 import AuthDebugPanel from "../components/AuthDebugPanel";
->>>>>>> d5e7869ebe813aaf39e98e4cc56498e93f572085
 
 interface ScanResults {
   userInfo: any;
@@ -159,12 +156,8 @@ const DeveloperDashboard: React.FC<DeveloperDashboardProps> = ({
     try {
       setIsLoadingProfile(true);
 
-<<<<<<< HEAD
       // Check if user is authenticated
       const authToken = localStorage.getItem("auth_token");
-=======
-      // Check if user is authenticated and has GitHub username
->>>>>>> d5e7869ebe813aaf39e98e4cc56498e93f572085
       let authUser: any = {};
       try {
         authUser = JSON.parse(localStorage.getItem("auth_user") || "{}");
@@ -172,7 +165,6 @@ const DeveloperDashboard: React.FC<DeveloperDashboardProps> = ({
         console.error("Failed to parse auth_user from localStorage:", error);
       }
 
-<<<<<<< HEAD
       if (authToken && authUser?.githubUsername) {
         // User is authenticated - try to fetch existing dashboard data
         console.log(
@@ -214,16 +206,6 @@ const DeveloperDashboard: React.FC<DeveloperDashboardProps> = ({
             `Welcome back, ${authUser.githubUsername}! Ready to analyze your GitHub repositories?`
           );
         }
-=======
-      if (authUser?.githubUsername) {
-        // User is authenticated but no scan results - offer to scan their profile
-        console.log(
-          "🔍 Authenticated user without scan results, offering to scan profile"
-        );
-        setError(
-          `Welcome back, ${authUser.githubUsername}! Ready to analyze your GitHub repositories?`
-        );
->>>>>>> d5e7869ebe813aaf39e98e4cc56498e93f572085
       } else {
         // No authenticated user - general welcome message
         console.log("🚫 No authenticated user, showing general welcome");
@@ -419,12 +401,6 @@ const DeveloperDashboard: React.FC<DeveloperDashboardProps> = ({
           element={<IssueAnalysis scanResults={scanResults} />}
         />
       </Routes>
-<<<<<<< HEAD
-=======
-      
-      {/* Development Authentication Debug Panel */}
-      <AuthDebugPanel />
->>>>>>> d5e7869ebe813aaf39e98e4cc56498e93f572085
     </DashboardLayout>
   );
 };

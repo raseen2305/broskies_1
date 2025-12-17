@@ -51,104 +51,14 @@ const ScanningProgress: React.FC = () => {
   const [simulatedAccountInfo, setSimulatedAccountInfo] = useState<any>(null);
   const [simulatedRepoProgress, setSimulatedRepoProgress] = useState<any>(null);
   const [, setIsSimulating] = useState(false);
-<<<<<<< HEAD
   const [maxSimulatedProgress, setMaxSimulatedProgress] = useState(0);
-=======
->>>>>>> d5e7869ebe813aaf39e98e4cc56498e93f572085
-
-  // Use enhanced scan progress hook
-  const {
-    isConnected,
-    isPaused,
-    scanDuration,
-    estimatedTimeRemaining,
-    liveFeedItems,
-    accountInfo,
-    repositoryProgress,
-    currentRepository,
-    repositoriesProcessed,
-    totalRepositories,
-    prProgress,
-    issueProgress,
-    analysisMetrics,
-    currentPhase,
-    currentOperation,
-    progressPercentage,
-    startScan,
-    stopScan,
-    togglePause,
-  } = useEnhancedScanProgress({
-    scanId,
-    onComplete: (finalProgress) => {
-      console.log("Scan completed:", finalProgress);
-    },
-    onError: (errorMsg) => {
-      console.error("Scan error:", errorMsg);
-    },
-  });
-
-  useEffect(() => {
-    if (!scanType) {
-      navigate("/developer/auth");
-      return;
-    }
-    startScanning();
-  }, [scanType, githubUrl, username]);
-
-  const addSimulatedFeedItem = (
-    title: string,
-    description: string,
-    type: "info" | "success" = "info"
-  ) => {
-    const newItem = {
-      id: `feed-${Date.now()}-${Math.random()}`,
-      timestamp: new Date(),
-      type,
-      title,
-      description,
-      status: type === "success" ? "completed" : "in_progress",
-    };
-    setSimulatedFeedItems((prev) => [...prev, newItem]);
-  };
-
-<<<<<<< HEAD
-  // Helper function to ensure progress only moves forward
-  const updateSimulatedProgress = (newProgress: number) => {
-    setSimulatedProgress((currentProgress) => {
-      const finalProgress = Math.max(currentProgress, newProgress);
-      setMaxSimulatedProgress(finalProgress);
-      return finalProgress;
-    });
-  };
-
-  const simulateProgress = async (targetUsername: string, userInfo: any) => {
-    setIsSimulating(true);
-    // Reset progress tracking for new scan
-    setMaxSimulatedProgress(0);
-    setSimulatedProgress(0);
-
-    // Phase 1: Connecting (0-10%)
-    setSimulatedPhase("connecting");
-    updateSimulatedProgress(5);
-=======
-  const simulateProgress = async (targetUsername: string, userInfo: any) => {
-    setIsSimulating(true);
-
-    // Phase 1: Connecting (0-10%)
-    setSimulatedPhase("connecting");
-    setSimulatedProgress(5);
->>>>>>> d5e7869ebe813aaf39e98e4cc56498e93f572085
     addSimulatedFeedItem(
       "Connecting to GitHub",
       "Establishing secure connection..."
     );
     await new Promise((resolve) => setTimeout(resolve, 800));
 
-<<<<<<< HEAD
     updateSimulatedProgress(10);
-=======
-    setSimulatedProgress(10);
->>>>>>> d5e7869ebe813aaf39e98e4cc56498e93f572085
     addSimulatedFeedItem(
       "Connection Established",
       "Successfully connected to GitHub API",
@@ -158,11 +68,7 @@ const ScanningProgress: React.FC = () => {
 
     // Phase 2: Fetching Profile (10-20%)
     setSimulatedPhase("fetching_profile");
-<<<<<<< HEAD
     updateSimulatedProgress(12);
-=======
-    setSimulatedProgress(12);
->>>>>>> d5e7869ebe813aaf39e98e4cc56498e93f572085
     addSimulatedFeedItem(
       "Fetching Profile",
       `Loading ${targetUsername}'s profile...`
@@ -182,11 +88,7 @@ const ScanningProgress: React.FC = () => {
       contributionStreak: 0,
     });
 
-<<<<<<< HEAD
     updateSimulatedProgress(20);
-=======
-    setSimulatedProgress(20);
->>>>>>> d5e7869ebe813aaf39e98e4cc56498e93f572085
     addSimulatedFeedItem(
       "Profile Loaded",
       `Found ${userInfo.public_repos} repositories`,
@@ -201,11 +103,7 @@ const ScanningProgress: React.FC = () => {
 
     for (let i = 0; i < reposToSimulate; i++) {
       const progress = 20 + ((i + 1) / reposToSimulate) * 40;
-<<<<<<< HEAD
       updateSimulatedProgress(progress);
-=======
-      setSimulatedProgress(progress);
->>>>>>> d5e7869ebe813aaf39e98e4cc56498e93f572085
       setSimulatedRepoProgress({
         current: i + 1,
         total: repoCount,
@@ -236,22 +134,14 @@ const ScanningProgress: React.FC = () => {
 
     // Phase 4: Analyzing Code (60-80%)
     setSimulatedPhase("analyzing_code");
-<<<<<<< HEAD
     updateSimulatedProgress(65);
-=======
-    setSimulatedProgress(65);
->>>>>>> d5e7869ebe813aaf39e98e4cc56498e93f572085
     addSimulatedFeedItem(
       "Analyzing Code",
       "Scanning files and calculating metrics..."
     );
     await new Promise((resolve) => setTimeout(resolve, 1000));
 
-<<<<<<< HEAD
     updateSimulatedProgress(75);
-=======
-    setSimulatedProgress(75);
->>>>>>> d5e7869ebe813aaf39e98e4cc56498e93f572085
     addSimulatedFeedItem(
       "Code Analysis",
       "Processing language statistics...",
@@ -261,22 +151,14 @@ const ScanningProgress: React.FC = () => {
 
     // Phase 5: Calculating Scores (80-95%)
     setSimulatedPhase("calculating_scores");
-<<<<<<< HEAD
     updateSimulatedProgress(85);
-=======
-    setSimulatedProgress(85);
->>>>>>> d5e7869ebe813aaf39e98e4cc56498e93f572085
     addSimulatedFeedItem(
       "Calculating Scores",
       "Running ACID scoring algorithm..."
     );
     await new Promise((resolve) => setTimeout(resolve, 1000));
 
-<<<<<<< HEAD
     updateSimulatedProgress(92);
-=======
-    setSimulatedProgress(92);
->>>>>>> d5e7869ebe813aaf39e98e4cc56498e93f572085
     addSimulatedFeedItem(
       "Scores Calculated",
       "ACID metrics computed successfully",
@@ -286,22 +168,14 @@ const ScanningProgress: React.FC = () => {
 
     // Phase 6: Generating Insights (95-100%)
     setSimulatedPhase("generating_insights");
-<<<<<<< HEAD
     updateSimulatedProgress(96);
-=======
-    setSimulatedProgress(96);
->>>>>>> d5e7869ebe813aaf39e98e4cc56498e93f572085
     addSimulatedFeedItem(
       "Generating Insights",
       "Creating skill assessment and roadmap..."
     );
     await new Promise((resolve) => setTimeout(resolve, 800));
 
-<<<<<<< HEAD
     updateSimulatedProgress(100);
-=======
-    setSimulatedProgress(100);
->>>>>>> d5e7869ebe813aaf39e98e4cc56498e93f572085
     setSimulatedPhase("completed");
     addSimulatedFeedItem(
       "Scan Complete",

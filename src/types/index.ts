@@ -314,38 +314,7 @@ export interface RankingDetails {
   rank_in_region: number;
   total_users_in_region: number;
   percentile_region: number;
-<<<<<<< HEAD
   overall_score?: number;
-=======
->>>>>>> d5e7869ebe813aaf39e98e4cc56498e93f572085
-}
-
-export interface UniversityRankingDetails {
-  rank_in_university: number;
-  total_users_in_university: number;
-  percentile_university: number;
-<<<<<<< HEAD
-  overall_score?: number;
-}
-
-export interface UserRankings {
-  status?: string; // "available", "pending_profile", "pending_scan", "calculating"
-  message?: string; // Status message
-  has_complete_profile?: boolean;
-  profile_completed?: boolean;
-  regional_percentile_text?: string;  // "Top 93% in IN"
-  university_percentile_text?: string; // "Top 1% in tce"
-  regional_ranking?: RankingDetails | null;
-  university_ranking?: UniversityRankingDetails | null;
-=======
-}
-
-export interface UserRankings {
-  regional_percentile_text: string;  // "Top 93% in IN"
-  university_percentile_text: string; // "Top 1% in tce"
-  regional_ranking: RankingDetails;
-  university_ranking: UniversityRankingDetails;
->>>>>>> d5e7869ebe813aaf39e98e4cc56498e93f572085
 }
 
 export interface CountriesResponse {

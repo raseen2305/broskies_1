@@ -111,3 +111,8 @@ jspm_packages/
 tmp/
 temp/
 .vercel
+
+.env
+.env*
+github_token_audit.md
+venv/

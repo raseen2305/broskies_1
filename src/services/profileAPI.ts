@@ -78,6 +78,7 @@ export const profileAPI = {
       throw handleAPIError(error);
     }
   },
+<<<<<<< HEAD
 
   getDashboardData: async (): Promise<any> => {
     try {
@@ -87,6 +88,8 @@ export const profileAPI = {
       throw handleAPIError(error);
     }
   },
+=======
+>>>>>>> d5e7869ebe813aaf39e98e4cc56498e93f572085
 };
 
 // Ranking API service functions

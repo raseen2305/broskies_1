@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { X, User, Building2, Globe, MapPin, Map, Github } from "lucide-react";
 import { profileAPI } from "../services/profileAPI";
 import { ProfileSetupRequest, UserProfile } from "../types";
+=======
+import React, { useState, useEffect } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+import { X, User, Building2, Globe, MapPin, Map, Github } from 'lucide-react';
+import { profileAPI } from '../services/profileAPI';
+import { ProfileSetupRequest, UserProfile } from '../types';
+>>>>>>> d5e7869ebe813aaf39e98e4cc56498e93f572085
 
 export interface ProfileSetupModalProps {
   isOpen: boolean;
@@ -29,6 +37,7 @@ export interface FormErrors {
   district?: string;
 }
 
+<<<<<<< HEAD
 const ProfileSetupModal: React.FC<ProfileSetupModalProps> = ({
   isOpen,
   onClose,
@@ -42,6 +51,21 @@ const ProfileSetupModal: React.FC<ProfileSetupModalProps> = ({
     state: "",
     district: "",
     description: "",
+=======
+const ProfileSetupModal: React.FC<ProfileSetupModalProps> = ({ 
+  isOpen, 
+  onClose, 
+  onSuccess 
+}) => {
+  const [formData, setFormData] = useState<FormData>({
+    full_name: '',
+    github_username: '',
+    university: '',
+    nationality: '',
+    state: '',
+    district: '',
+    description: '',
+>>>>>>> d5e7869ebe813aaf39e98e4cc56498e93f572085
   });
 
   const [errors, setErrors] = useState<FormErrors>({});
@@ -58,17 +82,24 @@ const ProfileSetupModal: React.FC<ProfileSetupModalProps> = ({
   const [loadingStates, setLoadingStates] = useState(false);
 
   // Autocomplete state
+<<<<<<< HEAD
   const [universitySearch, setUniversitySearch] = useState("");
   const [showUniversitySuggestions, setShowUniversitySuggestions] =
     useState(false);
   const [filteredUniversities, setFilteredUniversities] = useState<string[]>(
     []
   );
+=======
+  const [universitySearch, setUniversitySearch] = useState('');
+  const [showUniversitySuggestions, setShowUniversitySuggestions] = useState(false);
+  const [filteredUniversities, setFilteredUniversities] = useState<string[]>([]);
+>>>>>>> d5e7869ebe813aaf39e98e4cc56498e93f572085
 
   // Load dropdown data when modal opens
   useEffect(() => {
     if (isOpen) {
       setFormData({
+<<<<<<< HEAD
         full_name: "",
         github_username: "",
         university: "",
@@ -76,13 +107,28 @@ const ProfileSetupModal: React.FC<ProfileSetupModalProps> = ({
         state: "",
         district: "",
         description: "",
+=======
+        full_name: '',
+        github_username: '',
+        university: '',
+        nationality: '',
+        state: '',
+        district: '',
+        description: '',
+>>>>>>> d5e7869ebe813aaf39e98e4cc56498e93f572085
       });
       setErrors({});
       setSubmitError(null);
       setSubmitSuccess(false);
+<<<<<<< HEAD
       setUniversitySearch("");
       setShowUniversitySuggestions(false);
 
+=======
+      setUniversitySearch('');
+      setShowUniversitySuggestions(false);
+      
+>>>>>>> d5e7869ebe813aaf39e98e4cc56498e93f572085
       // Load universities and countries
       loadUniversities();
       loadCountries();
@@ -101,10 +147,15 @@ const ProfileSetupModal: React.FC<ProfileSetupModalProps> = ({
   // Filter universities based on search
   useEffect(() => {
     if (universitySearch) {
+<<<<<<< HEAD
       const filtered = universities.filter(
         (uni) =>
           typeof uni === "string" &&
           uni.toLowerCase().includes(universitySearch.toLowerCase())
+=======
+      const filtered = universities.filter(uni =>
+        typeof uni === 'string' && uni.toLowerCase().includes(universitySearch.toLowerCase())
+>>>>>>> d5e7869ebe813aaf39e98e4cc56498e93f572085
       );
       setFilteredUniversities(filtered.slice(0, 10)); // Limit to 10 suggestions
     } else {
@@ -118,7 +169,11 @@ const ProfileSetupModal: React.FC<ProfileSetupModalProps> = ({
       const response = await profileAPI.getUniversities();
       setUniversities(response.universities || []);
     } catch (error) {
+<<<<<<< HEAD
       console.error("Failed to load universities:", error);
+=======
+      console.error('Failed to load universities:', error);
+>>>>>>> d5e7869ebe813aaf39e98e4cc56498e93f572085
     } finally {
       setLoadingUniversities(false);
     }
@@ -130,7 +185,11 @@ const ProfileSetupModal: React.FC<ProfileSetupModalProps> = ({
       const response = await profileAPI.getCountries();
       setCountries(response.countries || []);
     } catch (error) {
+<<<<<<< HEAD
       console.error("Failed to load countries:", error);
+=======
+      console.error('Failed to load countries:', error);
+>>>>>>> d5e7869ebe813aaf39e98e4cc56498e93f572085
     } finally {
       setLoadingCountries(false);
     }
@@ -142,13 +201,18 @@ const ProfileSetupModal: React.FC<ProfileSetupModalProps> = ({
       const response = await profileAPI.getStates(country);
       setStates(response.states || []);
     } catch (error) {
+<<<<<<< HEAD
       console.error("Failed to load states:", error);
+=======
+      console.error('Failed to load states:', error);
+>>>>>>> d5e7869ebe813aaf39e98e4cc56498e93f572085
       setStates([]);
     } finally {
       setLoadingStates(false);
     }
   };
 
+<<<<<<< HEAD
   const validateField = (
     name: keyof FormData,
     value: string
@@ -180,11 +244,41 @@ const ProfileSetupModal: React.FC<ProfileSetupModalProps> = ({
         if (!value.trim()) return "District is required";
         return undefined;
 
+=======
+  const validateField = (name: keyof FormData, value: string): string | undefined => {
+    switch (name) {
+      case 'full_name':
+        if (!value.trim()) return 'Full name is required';
+        if (value.trim().length < 2) return 'Full name must be at least 2 characters';
+        return undefined;
+
+      case 'github_username':
+        if (!value.trim()) return 'GitHub username is required';
+        return undefined;
+      
+      case 'university':
+        if (!value.trim()) return 'University is required';
+        return undefined;
+      
+      case 'nationality':
+        if (!value.trim()) return 'Nationality is required';
+        return undefined;
+      
+      case 'state':
+        if (!value.trim()) return 'State is required';
+        return undefined;
+      
+      case 'district':
+        if (!value.trim()) return 'District is required';
+        return undefined;
+      
+>>>>>>> d5e7869ebe813aaf39e98e4cc56498e93f572085
       default:
         return undefined;
     }
   };
 
+<<<<<<< HEAD
   const handleInputChange = (
     e: React.ChangeEvent<
       HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement
@@ -198,12 +292,24 @@ const ProfileSetupModal: React.FC<ProfileSetupModalProps> = ({
       setErrors((prev) => ({ ...prev, [name]: undefined }));
     }
 
+=======
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
+    const { name, value } = e.target;
+    setFormData(prev => ({ ...prev, [name]: value }));
+    
+    // Clear error for this field when user starts typing
+    if (errors[name as keyof FormErrors]) {
+      setErrors(prev => ({ ...prev, [name]: undefined }));
+    }
+    
+>>>>>>> d5e7869ebe813aaf39e98e4cc56498e93f572085
     // Clear submit error when user makes changes
     if (submitError) {
       setSubmitError(null);
     }
   };
 
+<<<<<<< HEAD
   const handleBlur = (
     e: React.FocusEvent<
       HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement
@@ -213,11 +319,19 @@ const ProfileSetupModal: React.FC<ProfileSetupModalProps> = ({
     const error = validateField(name as keyof FormData, value);
     if (error) {
       setErrors((prev) => ({ ...prev, [name]: error }));
+=======
+  const handleBlur = (e: React.FocusEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
+    const { name, value } = e.target;
+    const error = validateField(name as keyof FormData, value);
+    if (error) {
+      setErrors(prev => ({ ...prev, [name]: error }));
+>>>>>>> d5e7869ebe813aaf39e98e4cc56498e93f572085
     }
   };
 
   const validateForm = (): boolean => {
     const newErrors: FormErrors = {};
+<<<<<<< HEAD
 
     Object.keys(formData).forEach((key) => {
       if (key !== "description") {
@@ -225,6 +339,12 @@ const ProfileSetupModal: React.FC<ProfileSetupModalProps> = ({
           key as keyof FormData,
           formData[key as keyof FormData] || ""
         );
+=======
+    
+    Object.keys(formData).forEach(key => {
+      if (key !== 'description') {
+        const error = validateField(key as keyof FormData, formData[key as keyof FormData] || '');
+>>>>>>> d5e7869ebe813aaf39e98e4cc56498e93f572085
         if (error) {
           newErrors[key as keyof FormErrors] = error;
         }
@@ -237,7 +357,11 @@ const ProfileSetupModal: React.FC<ProfileSetupModalProps> = ({
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> d5e7869ebe813aaf39e98e4cc56498e93f572085
     if (!validateForm()) {
       return;
     }
@@ -257,14 +381,21 @@ const ProfileSetupModal: React.FC<ProfileSetupModalProps> = ({
       };
 
       const response = await profileAPI.setupProfile(profileData);
+<<<<<<< HEAD
 
       setSubmitSuccess(true);
 
+=======
+      
+      setSubmitSuccess(true);
+      
+>>>>>>> d5e7869ebe813aaf39e98e4cc56498e93f572085
       // Call success callback if provided
       if (onSuccess && response.profile) {
         onSuccess(response.profile);
       }
 
+<<<<<<< HEAD
       // Trigger page refresh after profile setup to show rankings
       setTimeout(() => {
         onClose();
@@ -289,6 +420,24 @@ const ProfileSetupModal: React.FC<ProfileSetupModalProps> = ({
         setSubmitError(
           error.message || "Failed to create profile. Please try again."
         );
+=======
+      // Close modal after short delay to show success message
+      setTimeout(() => {
+        onClose();
+      }, 1500);
+    } catch (error: any) {
+      console.error('Profile setup error:', error);
+      
+      // Handle specific error cases
+      if (error.status_code === 409) {
+        setSubmitError('Profile already exists. Please update your profile instead.');
+      } else if (error.status_code === 400) {
+        setSubmitError(error.message || 'Invalid profile data. Please check your inputs.');
+      } else if (error.status_code === 500) {
+        setSubmitError('Server error. Please try again later.');
+      } else {
+        setSubmitError(error.message || 'Failed to create profile. Please try again.');
+>>>>>>> d5e7869ebe813aaf39e98e4cc56498e93f572085
       }
     } finally {
       setIsSubmitting(false);
@@ -317,9 +466,13 @@ const ProfileSetupModal: React.FC<ProfileSetupModalProps> = ({
           {/* Header */}
           <div className="sticky top-0 bg-white border-b border-gray-200 px-6 py-4 flex items-center justify-between">
             <div>
+<<<<<<< HEAD
               <h2 className="text-2xl font-bold text-gray-900">
                 Complete Your Profile
               </h2>
+=======
+              <h2 className="text-2xl font-bold text-gray-900">Complete Your Profile</h2>
+>>>>>>> d5e7869ebe813aaf39e98e4cc56498e93f572085
               <p className="text-sm text-gray-600 mt-1">
                 Set up your profile to see how you rank among peers
               </p>
@@ -338,10 +491,14 @@ const ProfileSetupModal: React.FC<ProfileSetupModalProps> = ({
           <form onSubmit={handleSubmit} className="p-6 space-y-6">
             {/* Full Name */}
             <div>
+<<<<<<< HEAD
               <label
                 htmlFor="full_name"
                 className="block text-sm font-medium text-gray-700 mb-2"
               >
+=======
+              <label htmlFor="full_name" className="block text-sm font-medium text-gray-700 mb-2">
+>>>>>>> d5e7869ebe813aaf39e98e4cc56498e93f572085
                 <div className="flex items-center space-x-2">
                   <User className="h-4 w-4" />
                   <span>Full Name *</span>
@@ -355,9 +512,13 @@ const ProfileSetupModal: React.FC<ProfileSetupModalProps> = ({
                 onChange={handleInputChange}
                 onBlur={handleBlur}
                 disabled={isSubmitting}
+<<<<<<< HEAD
                 className={`input-field ${
                   errors.full_name ? "input-error" : ""
                 }`}
+=======
+                className={`input-field ${errors.full_name ? 'input-error' : ''}`}
+>>>>>>> d5e7869ebe813aaf39e98e4cc56498e93f572085
                 placeholder="Enter your full name"
               />
               {errors.full_name && (
@@ -367,10 +528,14 @@ const ProfileSetupModal: React.FC<ProfileSetupModalProps> = ({
 
             {/* GitHub Username */}
             <div>
+<<<<<<< HEAD
               <label
                 htmlFor="github_username"
                 className="block text-sm font-medium text-gray-700 mb-2"
               >
+=======
+              <label htmlFor="github_username" className="block text-sm font-medium text-gray-700 mb-2">
+>>>>>>> d5e7869ebe813aaf39e98e4cc56498e93f572085
                 <div className="flex items-center space-x-2">
                   <Github className="h-4 w-4" />
                   <span>GitHub Username *</span>
@@ -384,6 +549,7 @@ const ProfileSetupModal: React.FC<ProfileSetupModalProps> = ({
                 onChange={handleInputChange}
                 onBlur={handleBlur}
                 disabled={isSubmitting}
+<<<<<<< HEAD
                 className={`input-field ${
                   errors.github_username ? "input-error" : ""
                 }`}
@@ -393,15 +559,26 @@ const ProfileSetupModal: React.FC<ProfileSetupModalProps> = ({
                 <p className="mt-1 text-sm text-red-600">
                   {errors.github_username}
                 </p>
+=======
+                className={`input-field ${errors.github_username ? 'input-error' : ''}`}
+                placeholder="Enter your GitHub username"
+              />
+              {errors.github_username && (
+                <p className="mt-1 text-sm text-red-600">{errors.github_username}</p>
+>>>>>>> d5e7869ebe813aaf39e98e4cc56498e93f572085
               )}
             </div>
 
             {/* University with Autocomplete */}
             <div className="relative">
+<<<<<<< HEAD
               <label
                 htmlFor="university"
                 className="block text-sm font-medium text-gray-700 mb-2"
               >
+=======
+              <label htmlFor="university" className="block text-sm font-medium text-gray-700 mb-2">
+>>>>>>> d5e7869ebe813aaf39e98e4cc56498e93f572085
                 <div className="flex items-center space-x-2">
                   <Building2 className="h-4 w-4" />
                   <span>University *</span>
@@ -414,6 +591,7 @@ const ProfileSetupModal: React.FC<ProfileSetupModalProps> = ({
                 value={universitySearch || formData.university}
                 onChange={(e) => {
                   setUniversitySearch(e.target.value);
+<<<<<<< HEAD
                   setFormData((prev) => ({
                     ...prev,
                     university: e.target.value,
@@ -421,6 +599,12 @@ const ProfileSetupModal: React.FC<ProfileSetupModalProps> = ({
                   setShowUniversitySuggestions(true);
                   if (errors.university) {
                     setErrors((prev) => ({ ...prev, university: undefined }));
+=======
+                  setFormData(prev => ({ ...prev, university: e.target.value }));
+                  setShowUniversitySuggestions(true);
+                  if (errors.university) {
+                    setErrors(prev => ({ ...prev, university: undefined }));
+>>>>>>> d5e7869ebe813aaf39e98e4cc56498e93f572085
                   }
                 }}
                 onFocus={() => setShowUniversitySuggestions(true)}
@@ -432,6 +616,7 @@ const ProfileSetupModal: React.FC<ProfileSetupModalProps> = ({
                   }, 200);
                 }}
                 disabled={isSubmitting || loadingUniversities}
+<<<<<<< HEAD
                 className={`input-field ${
                   errors.university ? "input-error" : ""
                 }`}
@@ -439,6 +624,13 @@ const ProfileSetupModal: React.FC<ProfileSetupModalProps> = ({
                 autoComplete="off"
               />
 
+=======
+                className={`input-field ${errors.university ? 'input-error' : ''}`}
+                placeholder="Start typing your university name"
+                autoComplete="off"
+              />
+              
+>>>>>>> d5e7869ebe813aaf39e98e4cc56498e93f572085
               {/* Autocomplete Suggestions */}
               {showUniversitySuggestions && filteredUniversities.length > 0 && (
                 <div className="absolute z-10 w-full mt-1 bg-white border border-gray-300 rounded-lg shadow-lg max-h-60 overflow-y-auto">
@@ -447,7 +639,11 @@ const ProfileSetupModal: React.FC<ProfileSetupModalProps> = ({
                       key={index}
                       type="button"
                       onClick={() => {
+<<<<<<< HEAD
                         setFormData((prev) => ({ ...prev, university: uni }));
+=======
+                        setFormData(prev => ({ ...prev, university: uni }));
+>>>>>>> d5e7869ebe813aaf39e98e4cc56498e93f572085
                         setUniversitySearch(uni);
                         setShowUniversitySuggestions(false);
                       }}
@@ -458,11 +654,17 @@ const ProfileSetupModal: React.FC<ProfileSetupModalProps> = ({
                   ))}
                 </div>
               )}
+<<<<<<< HEAD
 
               {loadingUniversities && (
                 <p className="mt-1 text-sm text-gray-500">
                   Loading universities...
                 </p>
+=======
+              
+              {loadingUniversities && (
+                <p className="mt-1 text-sm text-gray-500">Loading universities...</p>
+>>>>>>> d5e7869ebe813aaf39e98e4cc56498e93f572085
               )}
               {errors.university && (
                 <p className="mt-1 text-sm text-red-600">{errors.university}</p>
@@ -471,10 +673,14 @@ const ProfileSetupModal: React.FC<ProfileSetupModalProps> = ({
 
             {/* Nationality Dropdown */}
             <div>
+<<<<<<< HEAD
               <label
                 htmlFor="nationality"
                 className="block text-sm font-medium text-gray-700 mb-2"
               >
+=======
+              <label htmlFor="nationality" className="block text-sm font-medium text-gray-700 mb-2">
+>>>>>>> d5e7869ebe813aaf39e98e4cc56498e93f572085
                 <div className="flex items-center space-x-2">
                   <Globe className="h-4 w-4" />
                   <span>Nationality *</span>
@@ -487,6 +693,7 @@ const ProfileSetupModal: React.FC<ProfileSetupModalProps> = ({
                 onChange={(e) => {
                   handleInputChange(e);
                   // Reset state when country changes
+<<<<<<< HEAD
                   setFormData((prev) => ({ ...prev, state: "", district: "" }));
                 }}
                 onBlur={handleBlur}
@@ -494,6 +701,13 @@ const ProfileSetupModal: React.FC<ProfileSetupModalProps> = ({
                 className={`input-field ${
                   errors.nationality ? "input-error" : ""
                 }`}
+=======
+                  setFormData(prev => ({ ...prev, state: '', district: '' }));
+                }}
+                onBlur={handleBlur}
+                disabled={isSubmitting || loadingCountries}
+                className={`input-field ${errors.nationality ? 'input-error' : ''}`}
+>>>>>>> d5e7869ebe813aaf39e98e4cc56498e93f572085
               >
                 <option value="">Select your country</option>
                 {countries.map((country, index) => (
@@ -503,6 +717,7 @@ const ProfileSetupModal: React.FC<ProfileSetupModalProps> = ({
                 ))}
               </select>
               {loadingCountries && (
+<<<<<<< HEAD
                 <p className="mt-1 text-sm text-gray-500">
                   Loading countries...
                 </p>
@@ -511,15 +726,25 @@ const ProfileSetupModal: React.FC<ProfileSetupModalProps> = ({
                 <p className="mt-1 text-sm text-red-600">
                   {errors.nationality}
                 </p>
+=======
+                <p className="mt-1 text-sm text-gray-500">Loading countries...</p>
+              )}
+              {errors.nationality && (
+                <p className="mt-1 text-sm text-red-600">{errors.nationality}</p>
+>>>>>>> d5e7869ebe813aaf39e98e4cc56498e93f572085
               )}
             </div>
 
             {/* State Cascading Dropdown */}
             <div>
+<<<<<<< HEAD
               <label
                 htmlFor="state"
                 className="block text-sm font-medium text-gray-700 mb-2"
               >
+=======
+              <label htmlFor="state" className="block text-sm font-medium text-gray-700 mb-2">
+>>>>>>> d5e7869ebe813aaf39e98e4cc56498e93f572085
                 <div className="flex items-center space-x-2">
                   <MapPin className="h-4 w-4" />
                   <span>State *</span>
@@ -533,7 +758,11 @@ const ProfileSetupModal: React.FC<ProfileSetupModalProps> = ({
                   onChange={handleInputChange}
                   onBlur={handleBlur}
                   disabled={isSubmitting || loadingStates}
+<<<<<<< HEAD
                   className={`input-field ${errors.state ? "input-error" : ""}`}
+=======
+                  className={`input-field ${errors.state ? 'input-error' : ''}`}
+>>>>>>> d5e7869ebe813aaf39e98e4cc56498e93f572085
                 >
                   <option value="">Select your state</option>
                   {states.map((state, index) => (
@@ -551,12 +780,17 @@ const ProfileSetupModal: React.FC<ProfileSetupModalProps> = ({
                   onChange={handleInputChange}
                   onBlur={handleBlur}
                   disabled={isSubmitting || !formData.nationality}
+<<<<<<< HEAD
                   className={`input-field ${errors.state ? "input-error" : ""}`}
                   placeholder={
                     formData.nationality
                       ? "Enter your state"
                       : "Select country first"
                   }
+=======
+                  className={`input-field ${errors.state ? 'input-error' : ''}`}
+                  placeholder={formData.nationality ? "Enter your state" : "Select country first"}
+>>>>>>> d5e7869ebe813aaf39e98e4cc56498e93f572085
                 />
               )}
               {loadingStates && (
@@ -569,10 +803,14 @@ const ProfileSetupModal: React.FC<ProfileSetupModalProps> = ({
 
             {/* District */}
             <div>
+<<<<<<< HEAD
               <label
                 htmlFor="district"
                 className="block text-sm font-medium text-gray-700 mb-2"
               >
+=======
+              <label htmlFor="district" className="block text-sm font-medium text-gray-700 mb-2">
+>>>>>>> d5e7869ebe813aaf39e98e4cc56498e93f572085
                 <div className="flex items-center space-x-2">
                   <Map className="h-4 w-4" />
                   <span>District *</span>
@@ -586,9 +824,13 @@ const ProfileSetupModal: React.FC<ProfileSetupModalProps> = ({
                 onChange={handleInputChange}
                 onBlur={handleBlur}
                 disabled={isSubmitting}
+<<<<<<< HEAD
                 className={`input-field ${
                   errors.district ? "input-error" : ""
                 }`}
+=======
+                className={`input-field ${errors.district ? 'input-error' : ''}`}
+>>>>>>> d5e7869ebe813aaf39e98e4cc56498e93f572085
                 placeholder="Enter your district"
               />
               {errors.district && (
@@ -598,10 +840,14 @@ const ProfileSetupModal: React.FC<ProfileSetupModalProps> = ({
 
             {/* Description (Optional) */}
             <div>
+<<<<<<< HEAD
               <label
                 htmlFor="description"
                 className="block text-sm font-medium text-gray-700 mb-2"
               >
+=======
+              <label htmlFor="description" className="block text-sm font-medium text-gray-700 mb-2">
+>>>>>>> d5e7869ebe813aaf39e98e4cc56498e93f572085
                 Description (Optional)
               </label>
               <textarea
@@ -626,9 +872,13 @@ const ProfileSetupModal: React.FC<ProfileSetupModalProps> = ({
             {/* Success Message */}
             {submitSuccess && (
               <div className="p-4 bg-green-50 border border-green-200 rounded-lg">
+<<<<<<< HEAD
                 <p className="text-sm text-green-600">
                   Profile created successfully!
                 </p>
+=======
+                <p className="text-sm text-green-600">Profile created successfully!</p>
+>>>>>>> d5e7869ebe813aaf39e98e4cc56498e93f572085
               </div>
             )}
 
@@ -647,7 +897,11 @@ const ProfileSetupModal: React.FC<ProfileSetupModalProps> = ({
                 disabled={isSubmitting}
                 className="btn-primary"
               >
+<<<<<<< HEAD
                 {isSubmitting ? "Creating Profile..." : "Create Profile"}
+=======
+                {isSubmitting ? 'Creating Profile...' : 'Create Profile'}
+>>>>>>> d5e7869ebe813aaf39e98e4cc56498e93f572085
               </button>
             </div>
           </form>

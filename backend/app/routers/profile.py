@@ -338,6 +338,7 @@ async def get_universities():
     return {"universities": get_indian_colleges()}
 
 # Legacy Sync Endpoint (Updated to use correct collection if feasible)
+<<<<<<< HEAD
 @router.get("/dashboard-data")
 async def get_dashboard_data(current_user_token: dict = Depends(get_current_user_token)):
     """
@@ -454,6 +455,8 @@ async def get_dashboard_data(current_user_token: dict = Depends(get_current_user
         logger.error(f"❌ [DASHBOARD_DATA] Traceback: {traceback.format_exc()}")
         raise HTTPException(status_code=500, detail=f"Failed to get dashboard data: {str(e)}")
 
+=======
+>>>>>>> d5e7869ebe813aaf39e98e4cc56498e93f572085
 @router.post("/sync-score")
 async def sync_user_score(current_user_token: dict = Depends(get_current_user_token)):
     """Legacy Sync - Simply confirms data is in internal_users"""

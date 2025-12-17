@@ -217,13 +217,18 @@ async def get_rankings(
                     return {
                         "status": "pending_scan",
                         "message": "Please complete a repository scan to see your rankings.",
+<<<<<<< HEAD
                         "has_complete_profile": False,
+=======
+                        "has_complete_profile": True,
+>>>>>>> d5e7869ebe813aaf39e98e4cc56498e93f572085
                         "profile_completed": True,
                         "regional_ranking": None,
                         "university_ranking": None
                     }
             else:
                 # User has not completed profile setup
+<<<<<<< HEAD
                 return {
                     "status": "pending_profile",
                     "message": "Please complete your profile setup to see rankings.",
@@ -232,6 +237,12 @@ async def get_rankings(
                     "regional_ranking": None,
                     "university_ranking": None
                 }
+=======
+                raise HTTPException(
+                    status_code=status.HTTP_404_NOT_FOUND,
+                    detail="Rankings not available. Please complete your profile setup first."
+                )
+>>>>>>> d5e7869ebe813aaf39e98e4cc56498e93f572085
         
         # Construct response with complete profile data
         response = {
@@ -241,7 +252,10 @@ async def get_rankings(
         }
         
         if regional_ranking:
+<<<<<<< HEAD
              logger.info(f"🔍 [RANKINGS] Regional ranking data for user {user_id}: overall_score={regional_ranking.get('overall_score')}, avg_score={regional_ranking.get('avg_score')}")
+=======
+>>>>>>> d5e7869ebe813aaf39e98e4cc56498e93f572085
              response["regional_percentile_text"] = f"Top {regional_ranking.get('percentile', 0):.1f}% in {regional_ranking.get('district', 'your region')}"
              response["regional_ranking"] = {
                  "rank_in_region": regional_ranking.get("rank"),

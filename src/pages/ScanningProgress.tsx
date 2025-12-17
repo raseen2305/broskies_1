@@ -51,14 +51,75 @@ const ScanningProgress: React.FC = () => {
   const [simulatedAccountInfo, setSimulatedAccountInfo] = useState<any>(null);
   const [simulatedRepoProgress, setSimulatedRepoProgress] = useState<any>(null);
   const [, setIsSimulating] = useState(false);
-  const [maxSimulatedProgress, setMaxSimulatedProgress] = useState(0);
+
+  // Use enhanced scan progress hook
+  const {
+    isConnected,
+    isPaused,
+    scanDuration,
+    estimatedTimeRemaining,
+    liveFeedItems,
+    accountInfo,
+    repositoryProgress,
+    currentRepository,
+    repositoriesProcessed,
+    totalRepositories,
+    prProgress,
+    issueProgress,
+    analysisMetrics,
+    currentPhase,
+    currentOperation,
+    progressPercentage,
+    startScan,
+    stopScan,
+    togglePause,
+  } = useEnhancedScanProgress({
+    scanId,
+    onComplete: (finalProgress) => {
+      console.log("Scan completed:", finalProgress);
+    },
+    onError: (errorMsg) => {
+      console.error("Scan error:", errorMsg);
+    },
+  });
+
+  useEffect(() => {
+    if (!scanType) {
+      navigate("/developer/auth");
+      return;
+    }
+    startScanning();
+  }, [scanType, githubUrl, username]);
+
+  const addSimulatedFeedItem = (
+    title: string,
+    description: string,
+    type: "info" | "success" = "info"
+  ) => {
+    const newItem = {
+      id: `feed-${Date.now()}-${Math.random()}`,
+      timestamp: new Date(),
+      type,
+      title,
+      description,
+      status: type === "success" ? "completed" : "in_progress",
+    };
+    setSimulatedFeedItems((prev) => [...prev, newItem]);
+  };
+
+  const simulateProgress = async (targetUsername: string, userInfo: any) => {
+    setIsSimulating(true);
+
+    // Phase 1: Connecting (0-10%)
+    setSimulatedPhase("connecting");
+    setSimulatedProgress(5);
     addSimulatedFeedItem(
       "Connecting to GitHub",
       "Establishing secure connection..."
     );
     await new Promise((resolve) => setTimeout(resolve, 800));
 
-    updateSimulatedProgress(10);
+    setSimulatedProgress(10);
     addSimulatedFeedItem(
       "Connection Established",
       "Successfully connected to GitHub API",

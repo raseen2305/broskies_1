@@ -1,0 +1,14 @@
+[Unit]
+Description=Hourly ranking update timer
+Requires=ranking-update.service
+
+[Timer]
+# Run every hour
+OnCalendar=hourly
+# Run immediately if missed (e.g., system was down)
+Persistent=true
+# Randomize start time by up to 5 minutes to avoid load spikes
+RandomizedDelaySec=300
+
+[Install]
+WantedBy=timers.target

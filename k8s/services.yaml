@@ -1,0 +1,66 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: github-evaluator-frontend
+  namespace: github-evaluator
+  labels:
+    app: github-evaluator-frontend
+spec:
+  selector:
+    app: github-evaluator-frontend
+  ports:
+  - port: 80
+    targetPort: 80
+    protocol: TCP
+  type: ClusterIP
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: github-evaluator-backend
+  namespace: github-evaluator
+  labels:
+    app: github-evaluator-backend
+spec:
+  selector:
+    app: github-evaluator-backend
+  ports:
+  - port: 8000
+    targetPort: 8000
+    protocol: TCP
+  type: ClusterIP
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: mongodb
+  namespace: github-evaluator
+  labels:
+    app: mongodb
+spec:
+  selector:
+    app: mongodb
+  ports:
+  - port: 27017
+    targetPort: 27017
+    protocol: TCP
+  type: ClusterIP
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: redis
+  namespace: github-evaluator
+  labels:
+    app: redis
+spec:
+  selector:
+    app: redis
+  ports:
+  - port: 6379
+    targetPort: 6379
+    protocol: TCP
+  type: ClusterIP

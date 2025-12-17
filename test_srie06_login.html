@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test Srie06 Login Flow</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+      }
+      .success {
+        color: green;
+      }
+      .error {
+        color: red;
+      }
+      .info {
+        color: blue;
+      }
+      .section {
+        margin: 20px 0;
+        padding: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      button {
+        padding: 10px 15px;
+        margin: 5px;
+        cursor: pointer;
+      }
+      pre {
+        background: #f5f5f5;
+        padding: 10px;
+        border-radius: 3px;
+        overflow-x: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>🧪 Test Srie06 Login Flow</h1>
+    <p>
+      This simulates the complete login flow for user Srie06 and tests dashboard
+      data loading.
+    </p>
+
+    <div class="section">
+      <h2>Step 1: Clear Previous Data</h2>
+      <button onclick="clearAllData()">Clear All localStorage</button>
+      <div id="clearResult"></div>
+    </div>
+
+    <div class="section">
+      <h2>Step 2: Simulate Srie06 Login</h2>
+      <button onclick="simulateSrie06Login()">
+        Simulate Srie06 GitHub Login
+      </button>
+      <div id="loginResult"></div>
+    </div>
+
+    <div class="section">
+      <h2>Step 3: Test Dashboard Data API</h2>
+      <button onclick="testDashboardAPI()">Test Dashboard Data API</button>
+      <div id="apiResult"></div>
+    </div>
+
+    <div class="section">
+      <h2>Step 4: Test Frontend Integration</h2>
+      <p>After successful login simulation, open the React app:</p>
+      <a
+        href="http://localhost:3000/developer/dashboard"
+        target="_blank"
+        style="
+          display: inline-block;
+          padding: 10px 15px;
+          background: #007bff;
+          color: white;
+          text-decoration: none;
+          border-radius: 5px;
+        "
+      >
+        Open Dashboard in React App
+      </a>
+      <p class="info">
+        Check the browser console in the React app for detailed logs.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Current localStorage State</h2>
+      <button onclick="showCurrentState()">Refresh State</button>
+      <pre id="currentState"></pre>
+    </div>
+
+    <script>
+      // Clear all authentication and dashboard data
+      function clearAllData() {
+        const keysToRemove = [
+          "auth_token",
+          "auth_user",
+          "refresh_token",
+          "dashboard_scan_results",
+          "dashboard_scan_timestamp",
+          "hr_access_token",
+          "hr_refresh_token",
+          "token",
+        ];
+
+        keysToRemove.forEach((key) => localStorage.removeItem(key));
+
+        document.getElementById("clearResult").innerHTML = `
+                <div class="success">✅ Cleared all localStorage data</div>
+            `;
+
+        showCurrentState();
+      }
+
+      // Simulate Srie06 login with proper JWT token
+      function simulateSrie06Login() {
+        console.log("🔍 Simulating Srie06 login...");
+
+        // User data that matches the database
+        const srie06User = {
+          id: "693c4c00d4469c49d0a88a5b",
+          githubUsername: "Srie06",
+          email: "srie06@example.com",
+          name: "SREIMATHI MG",
+        };
+
+        // Proper JWT token (24-hour expiry, matches backend secret)
+        const validToken =
+          "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OTNjNGMwMGQ0NDY5YzQ5ZDBhODhhNWIiLCJ1c2VyX2lkIjoiNjkzYzRjMDBkNDQ2OWM0OWQwYTg4YTViIiwiZ2l0aHViX3VzZXJuYW1lIjoiU3JpZTA2IiwicHJlZmVycmVkX3VzZXJuYW1lIjoiU3JpZTA2IiwiZW1haWwiOiJzcmllMDZAZXhhbXBsZS5jb20iLCJleHAiOjE3NjU2OTkyMDAsImlhdCI6MTc2NTYxMjgwMCwidXNlcl90eXBlIjoiZGV2ZWxvcGVyIiwidHlwZSI6ImFjY2VzcyJ9.BNATJ4y3Lw-I4aiD8heszXj-efcOzmjAxpb0MVL4h9U";
+
+        // Store in localStorage (exactly as the React app does)
+        localStorage.setItem("auth_token", validToken);
+        localStorage.setItem("auth_user", JSON.stringify(srie06User));
+
+        document.getElementById("loginResult").innerHTML = `
+                <div class="success">
+                    ✅ Srie06 login simulated successfully!<br>
+                    👤 User: ${srie06User.githubUsername} (${
+          srie06User.name
+        })<br>
+                    🔑 JWT Token: ${validToken.substring(0, 50)}...<br>
+                    💾 Data stored in localStorage
+                </div>
+            `;
+
+        console.log("✅ Srie06 login simulation complete");
+        showCurrentState();
+      }
+
+      // Test the dashboard data API directly
+      async function testDashboardAPI() {
+        const token = localStorage.getItem("auth_token");
+
+        if (!token) {
+          document.getElementById("apiResult").innerHTML = `
+                    <div class="error">❌ No auth token found. Please simulate login first.</div>
+                `;
+          return;
+        }
+
+        console.log(
+          "🧪 Testing dashboard API with token:",
+          token.substring(0, 50) + "..."
+        );
+
+        try {
+          const response = await fetch(
+            "http://localhost:8000/profile/dashboard-data",
+            {
+              method: "GET",
+              headers: {
+                Authorization: `Bearer ${token}`,
+                "Content-Type": "application/json",
+              },
+            }
+          );
+
+          console.log("📡 API Response status:", response.status);
+          const data = await response.json();
+          console.log("📊 API Response data:", data);
+
+          if (response.ok && data.has_data) {
+            document.getElementById("apiResult").innerHTML = `
+                        <div class="success">
+                            ✅ Dashboard API Success!<br><br>
+                            <strong>Key Data Points:</strong><br>
+                            • Has Data: ${data.has_data}<br>
+                            • Overall Score: ${data.overallScore}<br>
+                            • Target Username: ${data.targetUsername}<br>
+                            • Repository Count: ${data.repositoryCount}<br>
+                            • Evaluated Count: ${data.evaluatedCount}<br>
+                            • Analyzed: ${data.analyzed}<br>
+                            • Profile Completed: ${data.profile?.completed}<br>
+                            • Rankings Available: ${
+                              data.rankings?.available
+                            }<br><br>
+                            
+                            <strong>Repositories:</strong> ${
+                              data.repositories?.length || 0
+                            } found<br>
+                            <strong>Languages:</strong> ${
+                              Object.keys(data.languages || {}).length
+                            } detected<br><br>
+                            
+                            <div class="info">
+                                🎯 This data should be passed to setScanResults() in the React app!
+                            </div>
+                        </div>
+                    `;
+          } else if (response.ok && !data.has_data) {
+            document.getElementById("apiResult").innerHTML = `
+                        <div class="error">
+                            ⚠️ API returned no data<br>
+                            Message: ${data.message}<br>
+                            This means the user has no scan data in the database.
+                        </div>
+                    `;
+          } else {
+            document.getElementById("apiResult").innerHTML = `
+                        <div class="error">
+                            ❌ API Error: ${response.status}<br>
+                            ${JSON.stringify(data, null, 2)}
+                        </div>
+                    `;
+          }
+        } catch (error) {
+          console.error("❌ API test failed:", error);
+          document.getElementById("apiResult").innerHTML = `
+                    <div class="error">
+                        ❌ Network Error: ${error.message}<br>
+                        Make sure the backend is running on localhost:8000
+                    </div>
+                `;
+        }
+      }
+
+      // Show current localStorage state
+      function showCurrentState() {
+        const state = {
+          auth_token: localStorage.getItem("auth_token")
+            ? localStorage.getItem("auth_token").substring(0, 50) + "..."
+            : null,
+          auth_user: localStorage.getItem("auth_user")
+            ? JSON.parse(localStorage.getItem("auth_user"))
+            : null,
+          dashboard_scan_results: localStorage.getItem("dashboard_scan_results")
+            ? "Present"
+            : null,
+          dashboard_scan_timestamp: localStorage.getItem(
+            "dashboard_scan_timestamp"
+          ),
+        };
+
+        document.getElementById("currentState").textContent = JSON.stringify(
+          state,
+          null,
+          2
+        );
+      }
+
+      // Initialize
+      showCurrentState();
+
+      // Add instructions
+      console.log(`
+🧪 SRIE06 LOGIN TEST INSTRUCTIONS:
+
+1. Click "Clear All localStorage" to start fresh
+2. Click "Simulate Srie06 GitHub Login" to set up authentication
+3. Click "Test Dashboard Data API" to verify backend response
+4. Click "Open Dashboard in React App" to test frontend integration
+5. Check browser console in React app for detailed logs
+
+Expected Result:
+- User should see their existing data (Overall Score: 72.3, 5 repositories)
+- No "Welcome back" message asking to scan repositories
+- Dashboard should show actual scores and data immediately
+        `);
+    </script>
+  </body>
+</html>

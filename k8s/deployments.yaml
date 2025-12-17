@@ -1,0 +1,218 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: github-evaluator-frontend
+  namespace: github-evaluator
+  labels:
+    app: github-evaluator-frontend
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: github-evaluator-frontend
+  template:
+    metadata:
+      labels:
+        app: github-evaluator-frontend
+    spec:
+      containers:
+      - name: frontend
+        image: your-registry/github-evaluator-frontend:latest
+        ports:
+        - containerPort: 80
+        volumeMounts:
+        - name: nginx-config
+          mountPath: /etc/nginx/nginx.conf
+          subPath: nginx.conf
+        resources:
+          requests:
+            memory: "128Mi"
+            cpu: "100m"
+          limits:
+            memory: "256Mi"
+            cpu: "200m"
+        livenessProbe:
+          httpGet:
+            path: /health
+            port: 80
+          initialDelaySeconds: 30
+          periodSeconds: 10
+        readinessProbe:
+          httpGet:
+            path: /health
+            port: 80
+          initialDelaySeconds: 5
+          periodSeconds: 5
+      volumes:
+      - name: nginx-config
+        configMap:
+          name: nginx-config
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: github-evaluator-backend
+  namespace: github-evaluator
+  labels:
+    app: github-evaluator-backend
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: github-evaluator-backend
+  template:
+    metadata:
+      labels:
+        app: github-evaluator-backend
+    spec:
+      containers:
+      - name: backend
+        image: your-registry/github-evaluator-backend:latest
+        ports:
+        - containerPort: 8000
+        env:
+        - name: DEBUG
+          value: "false"
+        envFrom:
+        - configMapRef:
+            name: github-evaluator-config
+        - secretRef:
+            name: github-evaluator-secrets
+        resources:
+          requests:
+            memory: "512Mi"
+            cpu: "250m"
+          limits:
+            memory: "1Gi"
+            cpu: "500m"
+        livenessProbe:
+          httpGet:
+            path: /api/v1/health
+            port: 8000
+          initialDelaySeconds: 30
+          periodSeconds: 10
+        readinessProbe:
+          httpGet:
+            path: /api/v1/health
+            port: 8000
+          initialDelaySeconds: 5
+          periodSeconds: 5
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: github-evaluator-celery-worker
+  namespace: github-evaluator
+  labels:
+    app: github-evaluator-celery-worker
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: github-evaluator-celery-worker
+  template:
+    metadata:
+      labels:
+        app: github-evaluator-celery-worker
+    spec:
+      containers:
+      - name: celery-worker
+        image: your-registry/github-evaluator-backend:latest
+        command: ["celery", "-A", "app.tasks.celery_app", "worker", "--loglevel=info", "--concurrency=4"]
+        envFrom:
+        - configMapRef:
+            name: github-evaluator-config
+        - secretRef:
+            name: github-evaluator-secrets
+        resources:
+          requests:
+            memory: "512Mi"
+            cpu: "250m"
+          limits:
+            memory: "1Gi"
+            cpu: "500m"
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mongodb
+  namespace: github-evaluator
+  labels:
+    app: mongodb
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mongodb
+  template:
+    metadata:
+      labels:
+        app: mongodb
+    spec:
+      containers:
+      - name: mongodb
+        image: mongo:5.0
+        ports:
+        - containerPort: 27017
+        envFrom:
+        - secretRef:
+            name: mongodb-secrets
+        volumeMounts:
+        - name: mongodb-storage
+          mountPath: /data/db
+        resources:
+          requests:
+            memory: "1Gi"
+            cpu: "500m"
+          limits:
+            memory: "2Gi"
+            cpu: "1000m"
+      volumes:
+      - name: mongodb-storage
+        persistentVolumeClaim:
+          claimName: mongodb-pvc
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: redis
+  namespace: github-evaluator
+  labels:
+    app: redis
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: redis
+  template:
+    metadata:
+      labels:
+        app: redis
+    spec:
+      containers:
+      - name: redis
+        image: redis:6.2-alpine
+        ports:
+        - containerPort: 6379
+        command: ["redis-server", "--requirepass", "$(REDIS_PASSWORD)"]
+        envFrom:
+        - secretRef:
+            name: redis-secrets
+        volumeMounts:
+        - name: redis-storage
+          mountPath: /data
+        resources:
+          requests:
+            memory: "256Mi"
+            cpu: "100m"
+          limits:
+            memory: "512Mi"
+            cpu: "200m"
+      volumes:
+      - name: redis-storage
+        persistentVolumeClaim:
+          claimName: redis-pvc

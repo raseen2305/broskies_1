@@ -235,18 +235,12 @@ export const useEnhancedScanProgress = (options: UseEnhancedScanProgressOptions 
       }
       
       // Ensure progress never decreases - only update if new progress is higher
-<<<<<<< HEAD
       const currentMaxProgress = maxProgressRef.current;
       if (progressEvent.progressPercentage < currentMaxProgress) {
         // Don't allow progress to go backwards
         progressEvent.progressPercentage = currentMaxProgress;
       } else {
         // Update max progress to new higher value
-=======
-      if (progressEvent.progressPercentage < maxProgressRef.current) {
-        progressEvent.progressPercentage = maxProgressRef.current;
-      } else {
->>>>>>> d5e7869ebe813aaf39e98e4cc56498e93f572085
         maxProgressRef.current = progressEvent.progressPercentage;
       }
       
